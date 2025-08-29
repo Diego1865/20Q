@@ -44,12 +44,24 @@
                         }
                     },
                     "no": {
-                        "pregunta": "10.- ¿Es la ballena más grande del mundo?",
+                        "pregunta": "10.- ¿Es el animal más grande del mundo?",
                         "si": {
                             "resultado": "BALLENA AZUL"
                         },
                         "no": {
-                            "resultado": "OTRA BALLENA CON BARBAS (Ballena Jorobada, Ballena Franca)"
+                            "pregunta": "11.- ¿Es de color gris?",
+                            "si": {
+                              "resultado":"BALLENA GRIS"
+                            },
+                            "no":{
+                              "pregunta":"12.- ¿Salta mucho?",
+                              "si":{
+                                "resultado":"BALLENA JOROBADA"
+                              },
+                              "no":{
+                                "resultado":"BALLENA FRANCA"
+                              }
+                            }
                         }
                     }
                 },

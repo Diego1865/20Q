@@ -9,30 +9,144 @@
         "si": {
           "pregunta": "5.- ¿Vive en el agua?",
           "si": {
-            "pregunta": "6.- ¿Respira siempre con branquias y tiene aletas?",
+            "pregunta": "6.- ¿Respira siempre con branquias?",
             "si": {
-              "pregunta": "7.- ¿Su esqueleto es blando (cartílago)?",
+              "pregunta": "7.- ¿Es de gran tamaño?",
               "si": {
-                "resultado": "PECES CARTILAGINOSOS (tiburones, rayas)"
+                "pregunta":"8.- ¿Su cuerpo es alargado?",
+                "si":{
+                  "resultado":"TIBURONES"
+                },
+                "no":{
+                  "resultado":"MANTARRAYAS"
+                }
               },
               "no": {
-                "pregunta": "8.- ¿Vive en ríos o lagos?",
+                "pregunta": "8.- ¿Vive en agua dulce?",
                 "si": {
-                  "resultado": "PECES DE AGUA DULCE (carpa, trucha, tilapia)"
+                  "resultado": "PEZ DE AGUA DULCE"
                 },
                 "no": {
-                  "pregunta": "9.- ¿Nada en mar abierto (alta mar)?",
-                  "si": {
-                    "resultado": "PECES DE MAR ABIERTO (atún, pez espada)"
-                  },
-                  "no": {
-                    "resultado": "PECES DE ARRECIFE O COSTA (pez payaso, pez loro)"
-                  }
+                  "resultado": "PEZ DE AGUA SALDA"
                 }
               }
             },
             "no": {
-              "resultado": "ANFIBIOS ACUÁTICOS (ajolotes, salamandras)"
+              "pregunta":"7.- ¿Es un anfibio?",
+              "si":{
+                "pregunta":"8.- ¿Puede saltar?",
+                "si":{
+                  "pregunta":"9.- ¿Es pequeño?",
+                  "si":{
+                    "resultado":"RANA"
+                  },
+                  "no":{
+                    "resultado":"SAPO"
+                  }
+                },
+                "no":{
+                  "pregunta":"9.- ¿Tiene branquias externas?",
+                  "si":{
+                    "resultado": "AJOLOTE"
+                  },
+                  "no":{
+                    "resultado":"SALAMANDRA"
+                  }
+                }
+              },
+              "no":{
+                "pregunta":"8.- ¿Es un reptil?",
+                "si":{
+                  "pregunta":"9.- ¿Tiene patas?",
+                  "si":{
+                    "pregunta":"10.- ¿Tiene dientes?",
+                    "si":{
+                      "pregunta":"11.- ¿Es de agua dulce?",
+                      "si":{
+                        "resultado":"CAIMAN"
+                      },
+                      "no":{
+                        "resultado":"COCODRILO"
+                      }
+                    },
+                    "no":{
+                      "resultado":"TORTUGA ACUATICA"
+                    }
+                  },
+                  "no":{
+                    "resultado":"SERPIENTE ACUATICA"
+                  }
+                },
+                "no":{
+                  "pregunta":"9.- ¿Tiene patas?",
+                  "si":{
+                    "pregunta":"10.- ¿Tiene plumas?",
+                    "si":{
+                      "pregunta":"11.-¿Puede volar?",
+                      "si":{
+                        "pregunta":"12.- ¿Tiene cuello largo?",
+                        "si":{
+                          "pregunta":"13.-¿Suele decirse que es elegante?",
+                          "si":{
+                            "resultado":"CISNE"
+                          },
+                          "no":{
+                            "resultado":"GANSO"
+                          }
+                        },
+                        "no":{
+                          "resultado":"PATO"
+                        }
+                      },
+                      "no":{
+                        "resultado":"PINGÜINOS"
+                      }
+                    },
+                    "no":{
+                      "pregunta":"10.- ¿Construye presas?",
+                      "si":{
+                        "resultado":"CASTOR"
+                      },
+                      "no":{
+                        "pregunta":"11.- ¿Es muy grande y pesado?",
+                        "si":{
+                          "resultado":"HIPOPÓTAMOS"
+                        },
+                        "no":{
+                          "resultado":"NUTRIA"
+                        }
+                      }
+                    }
+                  },
+                  "no":{
+                    "pregunta":"10.- ¿Es totalmente acuatico?",
+                    "si":{
+                      "pregunta":"11.- ¿Es enorme?",
+                      "si":{
+                        "resultado": "BALLENA"
+                      },
+                      "no":{
+                        "pregunta":"12.- ¿Es blanco y negro?",
+                        "si":{
+                          "resultado":"ORCA"
+                        },
+                        "no":{
+                          "resultado":"DELFIN"
+                        }
+                      }
+                    },
+                    "no":{
+                      "pregunta":"11.- ¿Tiene colmillos?",
+                      "si":{
+                        "resultado":"MORSA"
+                      },
+                      "no":{
+                        "resultado":"FOCA"
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
           "no": {
@@ -42,13 +156,7 @@
               "si": {
                 "pregunta": "8.- ¿No vuela aunque tiene alas?",
                 "si": {
-                  "pregunta": "9.- ¿Vive en el mar y nada erguido?",
-                  "si": {
-                    "resultado": "PINGÜINOS"
-                  },
-                  "no": {
-                    "resultado": "AVES CORREDORAS (avestruz, emú, ñandú)"
-                  }
+                  
                 },
                 "no": {
                   "pregunta": "9.- ¿Caza con garras y pico curvado?",
@@ -56,19 +164,7 @@
                     "resultado": "AVES RAPACES (águilas, halcones, buitres)"
                   },
                   "no": {
-                    "pregunta": "10.- ¿Nada o vive cerca del agua?",
-                    "si": {
-                      "resultado": "AVES ACUÁTICAS (patos, gansos, cisnes)"
-                    },
-                    "no": {
-                      "pregunta": "11.- ¿Es muy pequeño y se alimenta de néctar?",
-                      "si": {
-                        "resultado": "COLIBRÍES"
-                      },
-                      "no": {
-                        "resultado": "AVES CANTORAS (gorriones, mirlos, jilgueros)"
-                      }
-                    }
+                    
                   }
                 }
               },
@@ -137,13 +233,7 @@
                           "resultado": "CAMELLOS Y LLAMAS"
                         },
                         "no": {
-                          "pregunta": "13.- ¿Es muy grande y vive en ríos o lagos?",
-                          "si": {
-                            "resultado": "HIPOPÓTAMOS"
-                          },
-                          "no": {
-                            "resultado": "CERDOS Y JABALÍES"
-                          }
+                          
                         }
                       }
                     }
@@ -202,54 +292,12 @@
                 }
               },
               "no": {
-                "pregunta": "8.- ¿Tiene escamas secas?",
+                "pregunta": "8.- ¿Tiene escamas?",
                 "si": {
-                  "pregunta": "9.- ¿Tiene caparazón duro?",
-                  "si": {
-                    "resultado": "TORTUGAS"
-                  },
-                  "no": {
-                    "pregunta": "10.- ¿No tiene patas visibles?",
-                    "si": {
-                      "pregunta": "11.- ¿Es venenosa?",
-                      "si": {
-                        "resultado": "SERPIENTES VENENOSAS (cobras, víboras)"
-                      },
-                      "no": {
-                        "resultado": "SERPIENTES NO VENENOSAS (boas, pitones, culebras)"
-                      }
-                    },
-                    "no": {
-                      "pregunta": "11.- ¿Hocico ancho y cuerpo con placas?",
-                      "si": {
-                        "resultado": "COCODRILOS Y CAIMANES"
-                      },
-                      "no": {
-                        "resultado": "LAGARTOS (gecos, iguanas, varanos)"
-                      }
-                    }
-                  }
+
                 },
                 "no": {
-                  "pregunta": "9.- ¿Tiene la piel húmeda y vive entre agua y tierra?",
-                  "si": {
-                    "pregunta": "10.- ¿Es saltador con piel lisa?",
-                    "si": {
-                      "resultado": "RANAS"
-                    },
-                    "no": {
-                      "pregunta": "11.- ¿Tiene cola y cuerpo alargado?",
-                      "si": {
-                        "resultado": "SALAMANDRAS Y TRITONES"
-                      },
-                      "no": {
-                        "resultado": "CECILIAS (anfibios sin patas)"
-                      }
-                    }
-                  },
-                  "no": {
-                    "resultado": "OTROS VERTEBRADOS TERRESTRES"
-                  }
+                  
                 }
               }
             }

@@ -7,33 +7,147 @@
     "pregunta": "2.- ¿Pertenece al ámbito interno humano? (emociones, mente, sentidos)",
     "si": {
       "pregunta": "3.- ¿Es una emoción?",
-      "si": { 
+      "si": {
         "pregunta": "4.- ¿Es una emoción positiva?",
-        "si": { "resultado": "EMOCIÓN POSITIVA (Alegría, Amor, Esperanza)" },
-        "no": { "resultado": "EMOCIÓN NEGATIVA (Tristeza, Ira, Miedo)" }
+        "si": {
+          "pregunta": "5.- ¿Está relacionado con el afecto hacia otros?",
+          "si": {
+            "resultado": "AMOR, TERNURA, TERNURA"
+          },
+          "no": {
+            "pregunta": "7.- ¿Está relacionada con la gratitud?",
+            "si": {
+              "resultado": "GRATITUD, RECONOCIMIENTO"
+            },
+            "no": {
+              "resultado": "ADMIRACIÓN, COMPASIÓN"
+            }
+          }
+        },
+        "no": {
+          "pregunta": "5.- ¿Se relaciona con bienestar o logro personal?",
+          "si": {
+            "resultado": "Orgullo, Alegría, Satisfacción"
+          },
+          "no": {
+            "pregunta": "6.- ¿Está relacionada con la curiosidad o el interés por el entorno?",
+            "si": {
+              "resultado": "Curiosidad, Asombro, Entusiasmo"
+            },
+            "no": {
+              "pregunta": "7.- ¿Implica calma, equilibrio o paz interior?",
+              "si": {
+                "resultado": "Tranquilidad, Serenidad, Satisfacción"
+              },
+              "no": {
+                "pregunta": "8.- ¿Se relaciona con la confianza o la autoestima?",
+                "si": {
+                  "resultado": "CONFIANZA, AUTOESTIMA, SEGURIDAD"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Está asociada con un estado mental elevado o inspirado?",
+                  "si": {
+                    "resultado": "INSPIRACIÓN, ELEVACIÓN, ÉXTASIS"
+                  },
+                  "no": {
+                    "resultado": "OTRA EMOCIÓN POSITIVA (Esperanza, Felicidad, Gratitud)"
+                  }
+                }
+              }
+            }
+          }
+        }
       },
       "no": {
         "pregunta": "3.- ¿Es un sentimiento?",
         "si": {
           "pregunta": "4.- ¿Es un sentimiento positivo?",
-          "si": { "resultado": "SENTIMIENTO POSITIVO (Gratitud, Amor, Confianza)" },
-          "no": { "resultado": "SENTIMIENTO NEGATIVO (Inseguridad, Desconfianza, Soledad)" }
+          "si": {
+            "pregunta": "5.- ¿Está relacionado con la confianza o seguridad?",
+            "si": {
+              "resultado": "CONFIANZA, SEGURIDAD, AUTOESTIMA"
+            },
+            "no": {
+              "pregunta": "6.- ¿Está relacionado con la gratitud o el amor?",
+              "si": {
+                "resultado": "GRATITUD, AMOR, CARIÑO"
+              },
+              "no": {
+                "pregunta": "7.- ¿Es una emoción asociada con el bienestar personal?",
+                "si": {
+                  "resultado": "FELICIDAD, SATISFACCIÓN, PLACER"
+                },
+                "no": {
+                  "resultado": "ESPERANZA, OPTIMISMO"
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "5.- ¿Es un sentimiento negativo?",
+            "si": {
+              "pregunta": "6.- ¿Está relacionado con la tristeza?",
+              "si": {
+                "resultado": "MELANCOLÍA, SOLEDAD, DECEPCIÓN"
+              },
+              "no": {
+                "pregunta": "7.- ¿Está relacionado con la ansiedad?",
+                "si": {
+                  "resultado": "PREOCUPACIÓN, INSEGURIDAD, MIEDO, ANGUSTIA"
+                },
+                "no": {
+                  "pregunta": "8.- ¿Está relacionado con la ira?",
+                  "si": {
+                    "resultado": "FRUSTRACIÓN, RENCOR, INDIGNACIÓN"
+                  },
+                  "no": {
+                    "pregunta": "9.- ¿Se relaciona con aspectos cognitivos?",
+                    "si": {
+                      "resultado": "CULPA, REMORDIMIENTO, VERGÜENZA"
+                    },
+                    "no": {
+                      "resultado": "AGOBIO, DESESPERACIÓN "
+                    }
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "6.- ¿Es un sentimiento neutral?",
+              "si": {
+                "resultado": "CONFUSIÓN, NOSTALGIA, SORPRESA"
+              },
+              "no": {
+                "resultado": "SENTIMIENTO AMBIGUO (Indiferencia, Incertidumbre, Aceptación)"
+              }
+            }
+          }
         },
         "no": {
           "pregunta": "4.- ¿Se relaciona con el pensamiento o la mente?",
           "si": {
             "pregunta": "5.- ¿Es un proceso mental o cognitivo?",
-            "si": { "resultado": "PROCESO COGNITIVO (Atención, Memoria, Razonamiento, Lenguaje, Imaginación)" },
-            "no": { "resultado": "RECUERDO / IDEA / PENSAMIENTO" }
+            "si": {
+              "resultado": "PROCESO COGNITIVO (Atención, Memoria, Razonamiento, Lenguaje, Imaginación)"
+            },
+            "no": {
+              "resultado": "RECUERDO / IDEA / PENSAMIENTO"
+            }
           },
           "no": {
             "pregunta": "5.- ¿Involucra algún sentido del cuerpo humano?",
             "si": {
               "pregunta": "6.- ¿Es una experiencia sensorial humana? (combinación de varios sentidos)",
-              "si": { "resultado": "EXPERIENCIA SENSORIAL (Dolor, Placer, Hambre, Sed)" },
-              "no": { "resultado": "SENTIDO DEL CUERPO HUMANO (Vista, Oído, Gusto, Olfato, Tacto)" }
+              "si": {
+                "resultado": "EXPERIENCIA SENSORIAL (Dolor, Placer, Hambre, Sed)"
+              },
+              "no": {
+                "resultado": "SENTIDO DEL CUERPO HUMANO (Vista, Oído, Gusto, Olfato, Tacto)"
+              }
             },
-            "no": { "resultado": "OTRO ASPECTO HUMANO (Conciencia, Intuición)" }
+            "no": {
+              "resultado": "OTRO ASPECTO HUMANO (Conciencia, Intuición)"
+            }
           }
         }
       }
@@ -67,11 +181,17 @@
                 },
                 "no": {
                   "pregunta": "9.- ¿Es un concepto abstracto general?",
-                  "si": { "resultado": "CONCEPTO ABSTRACTO GENERAL (Tiempo, Justicia, Libertad, Belleza)" },
+                  "si": {
+                    "resultado": "CONCEPTO ABSTRACTO GENERAL (Tiempo, Justicia, Libertad, Belleza)"
+                  },
                   "no": {
                     "pregunta": "10.- ¿Es un concepto existencial o metafísico?",
-                    "si": { "resultado": "CONCEPTO EXISTENCIAL (Nada, Vacío, Infinito, Ser, Muerte)" },
-                    "no": { "resultado": "OTRO TIPO DE ABSTRACCIÓN" }
+                    "si": {
+                      "resultado": "CONCEPTO EXISTENCIAL (Nada, Vacío, Infinito, Ser, Muerte)"
+                    },
+                    "no": {
+                      "resultado": "OTRO TIPO DE ABSTRACCIÓN"
+                    }
                   }
                 }
               }

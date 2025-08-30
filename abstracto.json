@@ -4,53 +4,119 @@
     "resultado": "OBJETO"
   },
   "no": {
-    "pregunta": "2.- ¿Pertenece al ámbito interno humano? (emociones, mente, sentidos)",
+    "pregunta": "2.- ¿Pertenece al ámbito humano?",
     "si": {
       "pregunta": "3.- ¿Es una emoción?",
       "si": {
         "pregunta": "4.- ¿Es una emoción positiva?",
         "si": {
-          "pregunta": "5.- ¿Está relacionado con el afecto hacia otros?",
+          "pregunta": "5.- ¿Está relacionado hacia otros?",
           "si": {
-            "resultado": "AMOR, TERNURA, TERNURA"
-          },
-          "no": {
-            "pregunta": "7.- ¿Está relacionada con la gratitud?",
+            "pregunta": "6.- ¿Implica una conexión emocional profunda?",
             "si": {
-              "resultado": "GRATITUD, RECONOCIMIENTO"
+              "resultado": "AMOR, TERNURA, TERNURA"
             },
             "no": {
-              "resultado": "ADMIRACIÓN, COMPASIÓN"
+              "pregunta": "7.- ¿Se basa en el respeto y la valoración y cualidades?",
+              "si": {
+                "resultado": "ADMIRACIÓN, RECONOCIMIENTO"
+              },
+              "no": {
+                "pregunta": "8.- ¿Está relacionado con la empatía hacia el sufrimiento de otros?",
+                "si": {
+                  "resultado": "COMPASIÓN, SOLIDARIDAD"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Implica un sentimiento de unión social o pertenencia?",
+                  "si": {
+                    "resultado": "AFECTO, AMISTAD, CAMARADERÍA"
+                  },
+                  "no": {
+                    "resultado": "APRECIO GENERAL (SIMPATÍA, AGRADO)"
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "6.- ¿Está relacionada con valorar las cosas?",
+            "si": {
+              "resultado": "GRATITUD, VALORACIÓN"
+            },
+            "no": {
+              "pregunta": "7.- ¿Implica interés o deseo por otros?",
+              "si": {
+                "resultado": "ATRACCIÓN, INTERÉS"
+              },
+              "no": {
+                "resultado": "AFINIDAD, RESPETO"
+              }
             }
           }
         },
         "no": {
           "pregunta": "5.- ¿Se relaciona con bienestar o logro personal?",
           "si": {
-            "resultado": "Orgullo, Alegría, Satisfacción"
+            "pregunta": "6.- ¿Es producto de un éxito o meta alcanzada?",
+            "si": {
+              "resultado": "ORGULLO, ALEGRÍA, SATISFACCIÓN"
+            },
+            "no": {
+              "pregunta": "7.- ¿Proviene de la autosuperación o resiliencia?",
+              "si": {
+                "resultado": "FORTALEZA, ESPERANZA, MOTIVACIÓN"
+              },
+              "no": {
+                "resultado": "SATISFACCIÓN"
+              }
+            }
           },
           "no": {
             "pregunta": "6.- ¿Está relacionada con la curiosidad o el interés por el entorno?",
             "si": {
-              "resultado": "Curiosidad, Asombro, Entusiasmo"
+              "pregunta": "7.- ¿Es un descubrimiento o aprendizaje nuevo?",
+              "si": {
+                "resultado": "CURIOSIDAD, ASOMBRO, MARAVILLA"
+              },
+              "no": {
+                "resultado": "ENTUSIASMO, EXPECTATIVA"
+              }
             },
             "no": {
               "pregunta": "7.- ¿Implica calma, equilibrio o paz interior?",
               "si": {
-                "resultado": "Tranquilidad, Serenidad, Satisfacción"
+                "pregunta": "8.- ¿Está relacionada con el bienestar físico y mental?",
+                "si": {
+                  "resultado": "TRANQUILIDAD, RELAJACIÓN, ARMONÍA"
+                },
+                "no": {
+                  "resultado": "SERENIDAD, SATISFACCIÓN"
+                }
               },
               "no": {
                 "pregunta": "8.- ¿Se relaciona con la confianza o la autoestima?",
                 "si": {
-                  "resultado": "CONFIANZA, AUTOESTIMA, SEGURIDAD"
+                  "pregunta": "9.- ¿Es hacia uno mismo?",
+                  "si": {
+                    "resultado": "AUTOESTIMA, AUTOCONFIANZA, SEGURIDAD"
+                  },
+                  "no": {
+                    "resultado": "CONFIANZA EN LOS DEMÁS"
+                  }
                 },
                 "no": {
                   "pregunta": "9.- ¿Está asociada con un estado mental elevado o inspirado?",
                   "si": {
-                    "resultado": "INSPIRACIÓN, ELEVACIÓN, ÉXTASIS"
+                    "pregunta": "10.- ¿Implica creatividad o propósito trascendente?",
+                    "si": {
+                      "resultado": "INSPIRACIÓN, MOTIVACIÓN, PROPÓSITO"
+                    },
+                    "no": {
+                      "resultado": "ELEVACIÓN, ÉXTASIS, ESPIRITUALIDAD"
+                    }
                   },
                   "no": {
-                    "resultado": "OTRA EMOCIÓN POSITIVA (Esperanza, Felicidad, Gratitud)"
+                    "resultado": "OTRA EMOCIÓN POSITIVA"
                   }
                 }
               }
@@ -59,21 +125,21 @@
         }
       },
       "no": {
-        "pregunta": "3.- ¿Es un sentimiento?",
+        "pregunta": "4.- ¿Es un sentimiento?",
         "si": {
-          "pregunta": "4.- ¿Es un sentimiento positivo?",
+          "pregunta": "5.- ¿Es un sentimiento positivo?",
           "si": {
-            "pregunta": "5.- ¿Está relacionado con la confianza o seguridad?",
+            "pregunta": "6.- ¿Está relacionado con la confianza o seguridad?",
             "si": {
               "resultado": "CONFIANZA, SEGURIDAD, AUTOESTIMA"
             },
             "no": {
-              "pregunta": "6.- ¿Está relacionado con la gratitud o el amor?",
+              "pregunta": "7.- ¿Está relacionado con la gratitud o el amor?",
               "si": {
                 "resultado": "GRATITUD, AMOR, CARIÑO"
               },
               "no": {
-                "pregunta": "7.- ¿Es una emoción asociada con el bienestar personal?",
+                "pregunta": "8.- ¿Es una emoción asociada con el bienestar personal?",
                 "si": {
                   "resultado": "FELICIDAD, SATISFACCIÓN, PLACER"
                 },
@@ -101,12 +167,18 @@
                     "resultado": "FRUSTRACIÓN, RENCOR, INDIGNACIÓN"
                   },
                   "no": {
-                    "pregunta": "9.- ¿Se relaciona con aspectos cognitivos?",
+                    "pregunta": "10.- ¿Es un estado de apatía o falta de motivación?",
                     "si": {
-                      "resultado": "CULPA, REMORDIMIENTO, VERGÜENZA"
+                      "resultado": "ABURRIMIENTO, APATÍA, DESINTERÉS"
                     },
                     "no": {
-                      "resultado": "AGOBIO, DESESPERACIÓN "
+                      "pregunta": "9.- ¿Se relaciona con aspectos cognitivos?",
+                      "si": {
+                        "resultado": "CULPA, REMORDIMIENTO, VERGÜENZA"
+                      },
+                      "no": {
+                        "resultado": "AGOBIO, DESESPERACIÓN "
+                      }
                     }
                   }
                 }
@@ -124,29 +196,49 @@
           }
         },
         "no": {
-          "pregunta": "4.- ¿Se relaciona con el pensamiento o la mente?",
+          "pregunta": "4.- ¿Se relaciona principalmente con lo que una persona sabe o piensa?",
           "si": {
-            "pregunta": "5.- ¿Es un proceso mental o cognitivo?",
+            "pregunta": "5.- ¿Es algo que la mente *hace* (una acción) en lugar de algo que *tiene* (un contenido)?",
             "si": {
-              "resultado": "PROCESO COGNITIVO (Atención, Memoria, Razonamiento, Lenguaje, Imaginación)"
-            },
-            "no": {
-              "resultado": "RECUERDO / IDEA / PENSAMIENTO"
-            }
-          },
-          "no": {
-            "pregunta": "5.- ¿Involucra algún sentido del cuerpo humano?",
-            "si": {
-              "pregunta": "6.- ¿Es una experiencia sensorial humana? (combinación de varios sentidos)",
               "si": {
-                "resultado": "EXPERIENCIA SENSORIAL (Dolor, Placer, Hambre, Sed)"
-              },
-              "no": {
-                "resultado": "SENTIDO DEL CUERPO HUMANO (Vista, Oído, Gusto, Olfato, Tacto)"
+                "pregunta": "6.- ¿Implica principalmente razonamiento lógico o más bien imaginación/emoción?",
+                "si": {
+                  "resultado": "RAZONAMIENTO (Analizar, Resolver problemas, Deducir, Planificar)"
+                },
+                "no": {
+                  "pregunta": "7.- ¿Se vincula con experiencias internas sin necesidad de lógica?",
+                  "si": {
+                    "resultado": "IMAGINACIÓN o CREACIÓN (Soñar, Imaginar, Fantasear)"
+                  },
+                  "no": {
+                    "resultado": "PROCESO EMOCIONAL-MENTAL (Reflexionar, Meditar, Recordar con carga emocional)"
+                  }
+                }
               }
             },
             "no": {
-              "resultado": "OTRO ASPECTO HUMANO (Conciencia, Intuición)"
+              "pregunta": "6.- ¿Tiene relación con el pasado, el presente o el futuro?",
+              "si": {
+                "resultado": "RECUERDO (Experiencia pasada, Memoria, Nostalgia)"
+              },
+              "no": {
+                "pregunta": "7.- ¿Es algo que orienta la forma de actuar o interpretar?",
+                "si": {
+                  "resultado": "CREENCIA o IDEA (Opinión, Convicción, Pensamiento filosófico)"
+                },
+                "no": {
+                  "resultado": "INFORMACIÓN/CONOCIMIENTO ESPECÍFICO (Un dato, un secreto, una respuesta aprendida)"
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "5.- ¿Es una capacidad o un estado general de la mente?",
+            "si": {
+              "resultado": "CAPACIDAD o ESTADO MENTAL (Intuición, Conciencia, Subconsciente, Atención)"
+            },
+            "no": {
+              "resultado": "CONCEPTO ABSTRACTO (Tiempo, Justicia, Libertad, Belleza, Número)"
             }
           }
         }

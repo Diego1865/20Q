@@ -380,6 +380,23 @@
         }
       },
       "no": {
+         "pregunta": "3b.- ¿Es un hongo o bacteria?",
+        "si": {
+          "pregunta": "4b.- ¿Es microscópico y unicelular?",
+          "si": {
+            "pregunta": "5b.- ¿Puede causar enfermedades en humanos?",
+            "si": {
+              "resultado": "BACTERIAS PATÓGENAS (E. coli, Salmonella)"
+            },
+            "no": {
+              "resultado": "BACTERIAS BENEFICIOSAS (Lactobacillus, flora intestinal)"
+            }
+          },
+          "no": {
+            "resultado": "HONGOS (champiñones, levadura)"
+          }
+        },
+         "no": {
         "pregunta": "3.- ¿Es una planta?",
         "si": {
           "pregunta": "4.- ¿Es leñosa (árbol o arbusto)?",

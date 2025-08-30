@@ -336,44 +336,71 @@
         "no": {
           "pregunta": "4b.- ¿Tiene caparazón externo o cuerpo segmentado?",
           "si": {
-            "pregunta": "5b.- ¿Tiene 6 patas?",
+           "pregunta": "5b.- ¿Tiene 6 patas?",
+  "si": {
+    "pregunta": "6b.- ¿Pasa por una metamorfosis completa (huevo, larva, pupa)?",
+    "si": {
+      "pregunta": "7b.- ¿Tiene alas con escamas de colores (mariposas y polillas)?",
+      "si": {
+        "pregunta": "8b.- ¿Vuela durante el día y se posa con las alas juntas?",
+        "si": {
+          "resultado": "MARIPOSAS (Papilionoideos)"
+        },
+        "no": {
+          "resultado": "POLILLAS (Heteróceros)"
+        }
+      },
+      "no": {
+        "pregunta": "7c.- ¿Tiene un par de alas duras que protegen las alas de vuelo (escarabajos)?",
+        "si": {
+          "resultado": "ESCARABAJOS Y MARIQUITAS (Coleópteros)"
+        },
+        "no": {
+          "pregunta": "7d.- ¿Tiene un cuerpo peludo y alas membranosas (abejas y avispas)?",
+          "si": {
+            "pregunta": "8c.- ¿Vive en colmenas y produce miel?",
             "si": {
-              "pregunta": "6b.- ¿Pasa por metamorfosis completa?",
-              "si": {
-                "resultado": "INSECTOS HOLOMETÁBOLOS (mariposas, moscas, escarabajos, avispas)"
-              },
-              "no": {
-                "resultado": "INSECTOS HEMIMETÁBOLOS (saltamontes, chinches, libélulas)"
-              }
+              "resultado": "ABEJAS"
             },
             "no": {
-              "pregunta": "6b.- ¿Tiene 8 patas?",
-              "si": {
-                "pregunta": "7b.- ¿Tiene aguijón en la cola?",
-                "si": {
-                  "resultado": "ESCORPIONES"
-                },
-                "no": {
-                  "resultado": "ARAÑAS Y ÁCAROS"
-                }
-              },
-              "no": {
-                "pregunta": "7b.- ¿Tiene muchas patas (cuerpo muy largo)?",
-                "si": {
-                  "pregunta": "8b.- ¿Un par de patas por segmento y es depredador veloz?",
-                  "si": {
-                    "resultado": "CIEMPIÉS"
-                  },
-                  "no": {
-                    "resultado": "MILPIÉS"
-                  }
-                },
-                "no": {
-                  "resultado": "CRUSTÁCEOS (cangrejos, langostas, camarones)"
-                }
-              }
+              "resultado": "AVISPAS Y HORMIGAS"
             }
           },
+          "no": {
+            "resultado": "MOSCAS Y MOSQUITOS (Dípteros)"
+          }
+        }
+      }
+    },
+    "no": {
+      "pregunta": "6c.- ¿Tiene alas largas y membranosas y una vida cerca del agua (libélulas)?",
+      "si": {
+        "resultado": "LIBÉLULAS Y CABALLITOS DEL DIABLO (Odonatos)"
+      },
+      "no": {
+        "pregunta": "6d.- ¿Es saltador con patas traseras fuertes?",
+        "si": {
+          "resultado": "SALTAMONTES, GRILLOS Y LANGOSTAS (Ortópteros)"
+        },
+        "no": {
+          "pregunta": "6e.- ¿Vive en colonias y come madera (termitas)?",
+          "si": {
+            "resultado": "TERMITAS Y CUCARACHAS (Blattodea)"
+          },
+          "no": {
+            "pregunta": "6f.- ¿Es un parásito sin alas?",
+            "si": {
+              "resultado": "PULGAS Y PIOJOS (Siphonaptera y Anoplura)"
+            },
+            "no": {
+              "resultado": "INSECTOS PALO Y MANTIS RELIGIOSAS"
+            }
+          }
+        }
+      }
+    }
+  }
+}
           "no": {
             "pregunta": "5c.- ¿Tiene concha dura?",
             "si": {
@@ -422,6 +449,23 @@
         }
       },
       "no": {
+         "pregunta": "3b.- ¿Es un hongo o bacteria?",
+        "si": {
+          "pregunta": "4b.- ¿Es microscópico y unicelular?",
+          "si": {
+            "pregunta": "5b.- ¿Puede causar enfermedades en humanos?",
+            "si": {
+              "resultado": "BACTERIAS PATÓGENAS (E. coli, Salmonella)"
+            },
+            "no": {
+              "resultado": "BACTERIAS BENEFICIOSAS (Lactobacillus, flora intestinal)"
+            }
+          },
+          "no": {
+            "resultado": "HONGOS (champiñones, levadura)"
+          }
+        },
+         "no": {
         "pregunta": "3.- ¿Es una planta?",
         "si": {
           "pregunta": "4.- ¿Es leñosa (árbol o arbusto)?",

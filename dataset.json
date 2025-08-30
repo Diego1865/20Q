@@ -156,13 +156,7 @@
                         "resultado": "CONEJOS Y LIEBRES"
                       },
                       "no": {
-                        "pregunta": "12.- ¿Vive en árboles o cerca del agua?",
-                        "si": {
-                          "resultado": "ROEDORES GRANDES (ardillas, castores, capibaras)"
-                        },
-                        "no": {
-                          "resultado": "ROEDORES PEQUEÑOS (ratas, ratones, puercoespines)"
-                        }
+                        "resultado": "ROEDORES (ardillas, castores, capibaras, ratas, ratones, puercoespines)"
                       }
                     },
                     "no": {
@@ -173,13 +167,7 @@
                       "no": {
                         "pregunta": "12.- ¿Vive en árboles y come sobre todo hojas?",
                         "si": {
-                          "pregunta": "13.- ¿Es de África o Asia?",
-                          "si": {
-                            "resultado": "MONOS AFRICANOS/ASIÁTICOS QUE COMEN HOJAS (colobos, langures)"
-                          },
-                          "no": {
-                            "resultado": "MONOS DE AMÉRICA QUE COMEN HOJAS (aulladores)"
-                          }
+                          "resultado": "MONOS QUE COMEN HOJAS (colobos, langures, aulladores)"
                         },
                         "no": {
                           "pregunta": "13.- ¿Es un marsupial?",
@@ -346,12 +334,96 @@
       "no": {
         "pregunta": "3.- ¿Es una planta?",
         "si": {
-          "pregunta": "4.- ¿Se usa para ropa?",
+          "pregunta": "4.- ¿Es leñosa (árbol o arbusto)?",
           "si": {
-            "resultado": "PRENDA VEGETAL (algodón, lino)"
+            "pregunta": "5.- ¿Produce frutos comestibles?",
+            "si": {
+              "resultado": "ÁRBOLES FRUTALES"
+            },
+            "no": {
+              "pregunta": "6.- ¿Produce semillas o nueces comestibles?",
+              "si": {
+                "resultado": "ÁRBOLES DE SEMILLAS/NUECES"
+              },
+              "no": {
+                "pregunta": "7.- ¿Se aprovecha principalmente su madera?",
+                "si": {
+                  "resultado": "ÁRBOLES MADERABLES"
+                },
+                "no": {
+                  "pregunta": "8.- ¿Se usa como ornamental o de sombra?",
+                  "si": {
+                    "resultado": "ÁRBOLES/ARBUSTOS ORNAMENTALES"
+                  },
+                  "no": {
+                    "resultado": "OTROS ÁRBOLES Y ARBUSTOS"
+                  }
+                }
+              }
+            }
           },
           "no": {
-            "resultado": "OBJETO VEGETAL (madera, papel)"
+            "pregunta": "5.- ¿Se cultiva como alimento?",
+            "si": {
+              "pregunta": "6.- ¿Se consume principalmente como fruto?",
+              "si": {
+                "resultado": "FRUTAS (manzana, mango, fresa, uva)"
+              },
+              "no": {
+                "pregunta": "7.- ¿Se consume principalmente como raíz o tubérculo?",
+                "si": {
+                  "resultado": "RAÍCES Y TUBÉRCULOS (papa, zanahoria, betabel)"
+                },
+                "no": {
+                  "pregunta": "8.- ¿Se consume principalmente como semilla o grano?",
+                  "si": {
+                    "pregunta": "9.- ¿Es un cereal (gramínea)?",
+                    "si": {
+                      "resultado": "CEREALES (trigo, maíz, arroz, avena)"
+                    },
+                    "no": {
+                      "resultado": "LEGUMBRES Y SEMILLAS (frijol, lenteja, soya, cacahuate)"
+                    }
+                  },
+                  "no": {
+                    "pregunta": "9.- ¿Se consume como hoja o tallo?",
+                    "si": {
+                      "resultado": "VERDURAS DE HOJA/TALLO (lechuga, espinaca, apio)"
+                    },
+                    "no": {
+                      "pregunta": "10.- ¿Se usa como condimento o hierba culinaria?",
+                      "si": {
+                        "resultado": "HIERBAS CULINARIAS (cilantro, perejil, albahaca)"
+                      },
+                      "no": {
+                        "resultado": "OTRAS PLANTAS COMESTIBLES"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "6.- ¿Se cultiva para fibras o ropa?",
+              "si": {
+                "resultado": "PLANTA TEXTIL (algodón, lino, cáñamo)"
+              },
+              "no": {
+                "pregunta": "7.- ¿Se cultiva como adorno?",
+                "si": {
+                  "resultado": "PLANTA ORNAMENTAL (flores, plantas de jardín)"
+                },
+                "no": {
+                  "pregunta": "8.- ¿Se usa como medicinal o aromática?",
+                  "si": {
+                    "resultado": "PLANTA MEDICINAL/AROMÁTICA (menta, albahaca, manzanilla)"
+                  },
+                  "no": {
+                    "resultado": "OTRAS PLANTAS"
+                  }
+                }
+              }
+            }
           }
         },
         "no": {

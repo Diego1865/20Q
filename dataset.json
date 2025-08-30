@@ -154,22 +154,70 @@
             "si": {
               "pregunta": "7.- ¿Tiene plumas?",
               "si": {
-                "pregunta": "8.- ¿No vuela aunque tiene alas?",
-                "si": {
-                  
-                },
-                "no": {
-                  "pregunta": "9.- ¿Caza con garras y pico curvado?",
-                  "si": {
-                    "resultado": "AVES RAPACES (águilas, halcones, buitres)"
+                "pregunta":"8.- ¿Come carne?",
+                "si":{
+                  "pregunta":"9.- ¿Es un ave rapaz nocturna?",
+                  "si":{
+                    "pregunta":"10.-¿Tiene ojos grandes?",
+                    "si":{
+                      "resultado":"BUHO"
+                    },
+                    "no":{
+                      "resultado":"LECHUZA"
+                    }
                   },
-                  "no": {
-                    
+                  "no":{
+                    "pregunta":"10.- ¿Se alimenta principalmente de carroña?",
+                    "si":{
+                      "pregunta":"11.- ¿Se encuentra solo en America?",
+                      "si":{
+                        "resultado":"CONDOR"
+                      },
+                      "no":{
+                        "resultado":"BUITRE"
+                      }
+                    },
+                    "no":{
+                      "pregunta":"11.- ¿Es el mas veloz del mundo?",
+                      "si":{
+                        "resultado":"HALCON"
+                      },
+                      "no":{
+                        "resultado":"AGUILA"
+                      }
+                    }
+                  }
+                },
+                "no":{
+                  "pregunta":"9.- ¿Come principalmente semillas",
+                  "si":{
+                    "pregunta":"10.- ¿Es de un color llamativo?",
+                    "si":{
+                      "pregunta":"11.- ¿Es verde?",
+                      "si":{
+                        "resultado":"PERICO"
+                      },
+                      "no":{
+                        "resultado":"CANARIO"
+                      }
+                    },
+                    "no":{
+                      "resultado":"PALOMA"
+                    }
+                  },
+                  "no":{
+                    "pregunta":"10.- ¿Es omnivoro?",
+                    "si":{
+                      "resultado":"CUERVO"
+                    },
+                    "no":{
+                      "resultado":"COLIBRI"
+                    }
                   }
                 }
               },
               "no": {
-                "resultado": "MURCIÉLAGOS (mamíferos voladores)"
+                "resultado": "MURCIÉLAGOS"
               }
             },
             "no": {
@@ -232,9 +280,7 @@
                         "si": {
                           "resultado": "CAMELLOS Y LLAMAS"
                         },
-                        "no": {
-                          
-                        }
+                        "no": {}
                       }
                     }
                   },
@@ -281,12 +327,8 @@
               },
               "no": {
                 "pregunta": "8.- ¿Tiene escamas?",
-                "si": {
-
-                },
-                "no": {
-                  
-                }
+                "si": {},
+                "no": {}
               }
             }
           }

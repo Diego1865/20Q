@@ -448,23 +448,7 @@
           }
         }
       },
-      "no": {
-         "pregunta": "3b.- ¿Es un hongo o bacteria?",
-        "si": {
-          "pregunta": "4b.- ¿Es microscópico y unicelular?",
-          "si": {
-            "pregunta": "5b.- ¿Puede causar enfermedades en humanos?",
-            "si": {
-              "resultado": "BACTERIAS PATÓGENAS (E. coli, Salmonella)"
-            },
-            "no": {
-              "resultado": "BACTERIAS BENEFICIOSAS (Lactobacillus, flora intestinal)"
-            }
-          },
-          "no": {
-            "resultado": "HONGOS (champiñones, levadura)"
-          }
-        },
+      
          "no": {
         "pregunta": "3.- ¿Es una planta?",
         "si": {
@@ -565,6 +549,143 @@
         }
       }
     },
+    "no": {
+  "pregunta": "3b.- ¿Es un hongo, protista o bacteria?",
+  "si": {
+    "pregunta": "4b.- ¿Es un hongo (Reino Fungi)?",
+    "si": {
+      "pregunta": "5b.- ¿Es visible a simple vista y grande?",
+      "si": {
+        "pregunta": "6b.- ¿Tiene forma de sombrilla o hongo clásico?",
+        "si": {
+          "resultado": "SETAS (champiñones, porcini)"
+        },
+        "no": {
+          "pregunta": "7b.- ¿Crece bajo la tierra?",
+          "si": {
+            "resultado": "TRUFAS"
+          },
+          "no": {
+            "pregunta": "8b.- ¿Es parásito de plantas o animales?",
+            "si": {
+              "resultado": "HONGOS PARÁSITOS (caries de madera, roya)"
+            },
+            "no": {
+              "resultado": "OTROS HONGOS GRANDES"
+            }
+          }
+        }
+      },
+      "no": {
+        "pregunta": "5c.- ¿Es microscópico?",
+        "si": {
+          "pregunta": "6c.- ¿Se utiliza para la fermentación de alimentos?",
+          "si": {
+            "resultado": "LEVADURAS (fermentación de pan, cerveza, vino)"
+          },
+          "no": {
+            "pregunta": "7c.- ¿Es un moho que crece en alimentos?",
+            "si": {
+              "resultado": "MOHOS (penicilina, moho del pan)"
+            },
+            "no": {
+              "resultado": "HONGOS PATÓGENOS"
+            }
+          }
+        },
+        "no": {
+          "resultado": "PRODUCTO DE HONGO (queso con moho, micorrizas)"
+        }
+      }
+    },
+    "no": {
+      "pregunta": "4c.- ¿Es un microorganismo (protista o bacteria)?",
+      "si": {
+        "pregunta": "5d.- ¿Tiene un núcleo celular definido (eucariota)?",
+        "si": {
+          "pregunta": "6d.- ¿Es unicelular y se mueve con pseudópodos?",
+          "si": {
+            "resultado": "AMEBAS (Protistas)"
+          },
+          "no": {
+            "pregunta": "7d.- ¿Realiza fotosíntesis como las plantas?",
+            "si": {
+              "resultado": "ALGAS (Protistas)"
+            },
+            "no": {
+              "pregunta": "8d.- ¿Se mueve con flagelos o cilios?",
+              "si": {
+                "resultado": "CILIADOS Y FLAGELADOS (Protistas)"
+              },
+              "no": {
+                "resultado": "PROTOZOOS PARÁSITOS (Protistas)"
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "5e.- ¿Es unicelular y no tiene un núcleo definido (procariota)?",
+          "si": {
+            "pregunta": "6e.- ¿Vive en ambientes extremos (sal, calor)?",
+            "si": {
+              "resultado": "ARQUEAS (Reino Monera)"
+            },
+            "no": {
+              "pregunta": "7e.- ¿Realiza fotosíntesis con clorofila?",
+              "si": {
+                "resultado": "CIANOBACTERIAS (Reino Monera)"
+              },
+              "no": {
+                "pregunta": "8e.- ¿Vive en nuestro cuerpo o en el suelo?",
+                "si": {
+                  "resultado": "BACTERIAS COMUNES (Reino Monera)"
+                },
+                "no": {
+                  "resultado": "BACTERIAS PATÓGENAS (Reino Monera)"
+                }
+              }
+            }
+          },
+          "no": {
+            "resultado": "VIRUS"
+          }
+        }
+      },
+      "no": {
+        "pregunta": "4d.- ¿Es un producto derivado de un ser vivo?",
+        "si": {
+          "pregunta": "5f.- ¿Proviene de un animal?",
+          "si": {
+            "resultado": "PRODUCTO ANIMAL (cuero, lana, leche, huevos)"
+          },
+          "no": {
+            "pregunta": "6f.- ¿Proviene de una planta?",
+            "si": {
+              "pregunta": "7f.- ¿Es una bebida alcohólica?",
+              "si": {
+                "pregunta": "8f.- ¿Proviene de la fermentación de frutas?",
+                "si": {
+                  "resultado": "VINO"
+                },
+                "no": {
+                  "pregunta": "9f.- ¿Proviene de la fermentación de granos o cereales?",
+                  "si": {
+                    "resultado": "CERVEZA O WHISKY"
+                  },
+                  "no": {
+                    "resultado": "OTROS PRODUCTOS FERMENTADOS"
+                  }
+                }
+              },
+              "no": {
+                "resultado": "PRODUCTO VEGETAL (aceite, harina, papel)"
+              }
+            },
+            "no": {
+              "resultado": "OTRO PRODUCTO NATURAL"
+            }
+          }
+        },
     "no": {
       "pregunta": "3.- ¿Es un objeto creado por humanos?",
       "si": {

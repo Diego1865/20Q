@@ -584,7 +584,117 @@
   "no": {
     "pregunta": "2.- ¿Es una emoción o sentimiento?",
     "si": {
-      "resultado": "EMOCIÓN O SENTIMIENTO"
+      
+  "pregunta": "¿Es una emoción positiva?",
+  "si": {
+    "pregunta": "¿Surge de lograr algo o tener éxito?",
+    "si": {
+      "pregunta": "¿Se siente al recibir algo deseado?",
+      "si": {
+        "pregunta": "¿Es una emoción muy intensa?",
+        "si": {
+          "pregunta": "¿Se manifiesta con energía y actividad?",
+          "si": {
+            "pregunta": "¿Estimula la creatividad?",
+            "si": {
+              "pregunta": "¿Facilita socializar?",
+              "si": {
+                "pregunta": "¿Se relaciona con la diversión?",
+                "si": {
+                  "pregunta": "¿Dura poco tiempo?",
+                  "si": {
+                    "pregunta": "¿Provoca risa?",
+                    "si": {
+                      "resultado": "ALEGRÍA (Felicidad, júbilo, euforia, regocijo)"
+                    },
+                    "no": {
+                      "resultado": "ENTUSIASMO (Excitación, motivación, ánimo)"
+                    }
+                  },
+                  "no": {
+                    "resultado": "SATISFACCIÓN (Contento, bienestar, plenitud)"
+                  }
+                },
+                "no": {
+                  "resultado": "GRATITUD (Agradecimiento, reconocimiento)"
+                }
+              },
+              "no": {
+                "resultado": "INSPIRACIÓN (Creatividad, estímulo, iluminación)"
+              }
+            },
+            "no": {
+              "resultado": "ORGULLO (Autoestima, dignidad, logro personal)"
+            }
+          },
+          "no": {
+            "resultado": "AMOR (Afecto, cariño, ternura, devoción)"
+          }
+        },
+        "no": {
+          "resultado": "ESPERANZA (Optimismo, fe, expectativa positiva)"
+        }
+      },
+      "no": {
+        "resultado": "CURIOSIDAD (Interés, inquietud, descubrimiento)"
+      }
+    },
+    "no": {
+      "pregunta": "¿Se relaciona con la tranquilidad?",
+      "si": {
+        "resultado": "PAZ (Calma, serenidad, armonía, quietud)"
+      },
+      "no": {
+        "resultado": "NOSTALGIA (Añoranza, melancolía, recuerdo dulce)"
+      }
+    }
+  },
+  "no": {
+    "pregunta": "¿Se relaciona con el miedo?",
+    "si": {
+      "pregunta": "¿Es por peligro inmediato?",
+      "si": {
+        "resultado": "MIEDO (Temor, pánico, horror, fobia)"
+      },
+      "no": {
+        "resultado": "ANSIEDAD (Inquietud, preocupación, nerviosismo)"
+      }
+    },
+    "no": {
+      "pregunta": "¿Se relaciona con la tristeza?",
+      "si": {
+        "pregunta": "¿Es por una pérdida?",
+        "si": {
+          "resultado": "TRISTEZA (Pena, dolor, aflicción, desconsuelo)"
+        },
+        "no": {
+          "resultado": "SOLEDAD (Aislamiento, vacío, desconexión)"
+        }
+      },
+      "no": {
+        "pregunta": "¿Se relaciona con el enojo?",
+        "si": {
+          "pregunta": "¿Es hacia alguien específico?",
+          "si": {
+            "resultado": "IRA (Enojo, furia, rabia, indignación)"
+          },
+          "no": {
+            "resultado": "FRUSTRACIÓN (Descontento, fastidio, impotencia)"
+          }
+        },
+        "no": {
+          "pregunta": "¿Es por culpa o remordimiento?",
+          "si": {
+            "resultado": "CULPA (Remordimiento, arrepentimiento, autorreproche)"
+          },
+          "no": {
+            "resultado": "ENVIDIA (Celos, resentimiento, deseo de lo ajeno)"
+          }
+        }
+      }
+    }
+  }
+}
     },
     "no": {
       "resultado": "CONCEPTO ABSTRACTO (idea, ciencia, evento)"

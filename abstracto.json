@@ -1,0 +1,84 @@
+{
+  "pregunta": "1.- ¿Es un objeto/entidad tangible?",
+  "si": {
+    "resultado": "OBJETO"
+  },
+  "no": {
+    "pregunta": "2.- ¿Pertenece al ámbito interno humano? (emociones, mente, sentidos)",
+    "si": {
+      "pregunta": "3.- ¿Es una emoción?",
+      "si": { 
+        "pregunta": "4.- ¿Es una emoción positiva?",
+        "si": { "resultado": "EMOCIÓN POSITIVA (Alegría, Amor, Esperanza)" },
+        "no": { "resultado": "EMOCIÓN NEGATIVA (Tristeza, Ira, Miedo)" }
+      },
+      "no": {
+        "pregunta": "3.- ¿Es un sentimiento?",
+        "si": {
+          "pregunta": "4.- ¿Es un sentimiento positivo?",
+          "si": { "resultado": "SENTIMIENTO POSITIVO (Gratitud, Amor, Confianza)" },
+          "no": { "resultado": "SENTIMIENTO NEGATIVO (Inseguridad, Desconfianza, Soledad)" }
+        },
+        "no": {
+          "pregunta": "4.- ¿Se relaciona con el pensamiento o la mente?",
+          "si": {
+            "pregunta": "5.- ¿Es un proceso mental o cognitivo?",
+            "si": { "resultado": "PROCESO COGNITIVO (Atención, Memoria, Razonamiento, Lenguaje, Imaginación)" },
+            "no": { "resultado": "RECUERDO / IDEA / PENSAMIENTO" }
+          },
+          "no": {
+            "pregunta": "5.- ¿Involucra algún sentido del cuerpo humano?",
+            "si": {
+              "pregunta": "6.- ¿Es una experiencia sensorial humana? (combinación de varios sentidos)",
+              "si": { "resultado": "EXPERIENCIA SENSORIAL (Dolor, Placer, Hambre, Sed)" },
+              "no": { "resultado": "SENTIDO DEL CUERPO HUMANO (Vista, Oído, Gusto, Olfato, Tacto)" }
+            },
+            "no": { "resultado": "OTRO ASPECTO HUMANO (Conciencia, Intuición)" }
+          }
+        }
+      }
+    },
+    "no": {
+      "pregunta": "3.- ¿Es un concepto abstracto externo al ser humano?",
+      "si": {
+        "pregunta": "4.- ¿Corresponde a valores o principios éticos?",
+        "si": {
+          "resultado": "VALORES Y PRINCIPIOS ÉTICOS (Ética, Justicia, Responsabilidad, Lealtad, Honestidad, Respeto, Compasión)"
+        },
+        "no": {
+          "pregunta": "5.- ¿Está relacionado con estados del ser o conciencia espiritual?",
+          "si": {
+            "resultado": "ESTADOS DEL SER / CONCIENCIA ESPIRITUAL (Trascendencia, Paz interior, Iluminación, Fe, Dualidad, Karma, Destino)"
+          },
+          "no": {
+            "pregunta": "6.- ¿Es un concepto científico abstracto?",
+            "si": {
+              "resultado": "CONCEPTO CIENTÍFICO ABSTRACTO (Energía, Entropía, Gravedad, Fuerza, Evolución, Información, Materia/Antimateria)"
+            },
+            "no": {
+              "pregunta": "7.- ¿Se relaciona con la percepción estética o creatividad?",
+              "si": {
+                "resultado": "ESTÉTICA Y CREATIVIDAD (Belleza, Armonía, Estilo, Creatividad, Inspiración, Originalidad)"
+              },
+              "no": {
+                "pregunta": "8.- ¿Es un constructo social o cultural?",
+                "si": {
+                  "resultado": "CONSTRUCTO SOCIAL Y CULTURAL (Identidad, Cultura, Tradición, Sociedad, Historia, Lenguaje)"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Es un concepto abstracto general?",
+                  "si": { "resultado": "CONCEPTO ABSTRACTO GENERAL (Tiempo, Justicia, Libertad, Belleza)" },
+                  "no": {
+                    "pregunta": "10.- ¿Es un concepto existencial o metafísico?",
+                    "si": { "resultado": "CONCEPTO EXISTENCIAL (Nada, Vacío, Infinito, Ser, Muerte)" },
+                    "no": { "resultado": "OTRO TIPO DE ABSTRACCIÓN" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

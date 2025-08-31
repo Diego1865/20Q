@@ -1,1 +1,884 @@
+{
+  "pregunta": "1.- ¿Es un objeto/entidad tangible?",
+  "si": {
+    "pregunta": "2.- ¿Es o fue un ser vivo?",
+    "si": {
+      "pregunta": "3.- ¿Es un animal?",
+      "si": {
+        "pregunta": "4.- ¿Tiene huesos (vertebrado)?",
+        "si": {
+          "pregunta": "5.- ¿Vive en el agua?",
+          "si": {
+            "pregunta": "6.- ¿Respira siempre con branquias?",
+            "si": {
+              "pregunta": "7.- ¿Es de gran tamaño?",
+              "si": {
+                "pregunta": "8.- ¿Su cuerpo es alargado?",
+                "si": { "resultado": "TIBURONES" },
+                "no": { "resultado": "MANTARRAYAS" }
+              },
+              "no": {
+                "pregunta": "8.- ¿Vive en agua dulce?",
+                "si": { "resultado": "PEZ DE AGUA DULCE" },
+                "no": { "resultado": "PEZ DE AGUA SALDA" }
+              }
+            },
+            "no": {
+              "pregunta": "7.- ¿Es un anfibio?",
+              "si": {
+                "pregunta": "8.- ¿Puede saltar?",
+                "si": {
+                  "pregunta": "9.- ¿Es pequeño?",
+                  "si": { "resultado": "RANA" },
+                  "no": { "resultado": "SAPO" }
+                },
+                "no": {
+                  "pregunta": "9.- ¿Tiene branquias externas?",
+                  "si": { "resultado": "AJOLOTE" },
+                  "no": { "resultado": "SALAMANDRA" }
+                }
+              },
+              "no": {
+                "pregunta": "8.- ¿Es un reptil?",
+                "si": {
+                  "pregunta": "9.- ¿Tiene patas?",
+                  "si": {
+                    "pregunta": "10.- ¿Tiene dientes?",
+                    "si": {
+                      "pregunta": "11.- ¿Es de agua dulce?",
+                      "si": { "resultado": "CAIMAN" },
+                      "no": { "resultado": "COCODRILO" }
+                    },
+                    "no": { "resultado": "TORTUGA ACUATICA" }
+                  },
+                  "no": { "resultado": "SERPIENTE ACUATICA" }
+                },
+                "no": {
+                  "pregunta": "9.- ¿Tiene patas?",
+                  "si": {
+                    "pregunta": "10.- ¿Tiene plumas?",
+                    "si": {
+                      "pregunta": "11.-¿Puede volar?",
+                      "si": {
+                        "pregunta": "12.- ¿Tiene cuello largo?",
+                        "si": {
+                          "pregunta": "13.-¿Suele decirse que es elegante?",
+                          "si": { "resultado": "CISNE" },
+                          "no": { "resultado": "GANSO" }
+                        },
+                        "no": { "resultado": "PATO" }
+                      },
+                      "no": { "resultado": "PINGÜINOS" }
+                    },
+                    "no": {
+                      "pregunta": "10.- ¿Construye presas?",
+                      "si": { "resultado": "CASTOR" },
+                      "no": {
+                        "pregunta": "11.- ¿Es muy grande y pesado?",
+                        "si": { "resultado": "HIPOPÓTAMOS" },
+                        "no": { "resultado": "NUTRIA" }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Es totalmente acuatico?",
+                    "si": {
+                      "pregunta": "11.- ¿Es enorme?",
+                      "si": { "resultado": "BALLENA" },
+                      "no": {
+                        "pregunta": "12.- ¿Es blanco y negro?",
+                        "si": { "resultado": "ORCA" },
+                        "no": { "resultado": "DELFIN" }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Tiene colmillos?",
+                      "si": { "resultado": "MORSA" },
+                      "no": { "resultado": "FOCA" }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "6.- ¿Puede volar?",
+            "si": {
+              "pregunta": "7.- ¿Tiene plumas?",
+              "si": {
+                "pregunta": "8.- ¿Come carne?",
+                "si": {
+                  "pregunta": "9.- ¿Es un ave rapaz nocturna?",
+                  "si": {
+                    "pregunta": "10.-¿Tiene ojos grandes?",
+                    "si": { "resultado": "BUHO" },
+                    "no": { "resultado": "LECHUZA" }
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Se alimenta principalmente de carroña?",
+                    "si": {
+                      "pregunta": "11.- ¿Se encuentra solo en America?",
+                      "si": { "resultado": "CONDOR" },
+                      "no": { "resultado": "BUITRE" }
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Es el mas veloz del mundo?",
+                      "si": { "resultado": "HALCON" },
+                      "no": { "resultado": "AGUILA" }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "9.- ¿Come principalmente semillas",
+                  "si": {
+                    "pregunta": "10.- ¿Es de un color llamativo?",
+                    "si": {
+                      "pregunta": "11.- ¿Es verde?",
+                      "si": { "resultado": "PERICO" },
+                      "no": { "resultado": "CANARIO" }
+                    },
+                    "no": { "resultado": "PALOMA" }
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Es omnivoro?",
+                    "si": { "resultado": "CUERVO" },
+                    "no": { "resultado": "COLIBRI" }
+                  }
+                }
+              },
+              "no": { "resultado": "MURCIÉLAGOS" }
+            },
+            "no": {
+              "pregunta": "7.- ¿Tiene pelo?",
+              "si": {
+                "pregunta": "8.- ¿Come sobre todo carne?",
+                "si": {
+                  "pregunta": "9.- ¿Tiene garras retráctiles?",
+                  "si": { "resultado": "FELINOS (gatos, leones, tigres, pumas)" },
+                  "no": {
+                    "pregunta": "10.- ¿Tiene hocico largo como un perro?",
+                    "si": { "resultado": "CANINOS (lobos, perros, zorros)" },
+                    "no": {
+                      "pregunta": "11.- ¿Es grande, peludo y también come plantas?",
+                      "si": { "resultado": "OSOS (osos pardos, polares, pandas)" },
+                      "no": {
+                        "pregunta": "12.- ¿Tiene cuerpo alargado y es muy ágil?",
+                        "si": { "resultado": "MUSTÉLIDOS (nutrias, comadrejas, tejones)" },
+                        "no": { "resultado": "OTROS CARNÍVOROS (hienas, mangostas)" }
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "9.- ¿Tiene pezuñas?",
+                  "si": {
+                    "pregunta": "10.- ¿Tiene un número impar de dedos (1 o 3)?",
+                    "si": {
+                      "pregunta": "11.- ¿Solo tiene 1 dedo (casco único)?",
+                      "si": { "resultado": "CABALLOS Y CEBRAS" },
+                      "no": { "resultado": "TAPIRES Y RINOCERONTES" }
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Tiene varios estómagos y mastica el bolo (rumia)?",
+                      "si": {
+                        "pregunta": "12.- ¿Sus cuernos no se caen nunca?",
+                        "si": { "resultado": "VACAS, CABRAS, OVEJAS, ANTÍLOPES" },
+                        "no": { "resultado": "VENADOS Y ALCE (cuernos que se caen cada año)" }
+                      },
+                      "no": {
+                        "pregunta": "12.- ¿Tiene joroba?",
+                        "si": { "resultado": "CAMELLOS Y LLAMAS" },
+                        "no": {}
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Sus dientes delanteros crecen toda la vida?",
+                    "si": {
+                      "pregunta": "11.- ¿Tiene un par extra de dientes delanteros?",
+                      "si": { "resultado": "CONEJOS Y LIEBRES" },
+                      "no": { "resultado": "ROEDORES (ardillas, castores, capibaras, ratas, ratones, puercoespines)" }
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Tiene trompa?",
+                      "si": { "resultado": "ELEFANTES" },
+                      "no": {
+                        "pregunta": "12.- ¿Vive en árboles y come sobre todo hojas?",
+                        "si": { "resultado": "MONOS QUE COMEN HOJAS (colobos, langures, aulladores)" },
+                        "no": {
+                          "pregunta": "13.- ¿Es un marsupial?",
+                          "si": { "resultado": "MARSUPIALES HERBÍVOROS (canguros, wombats)" },
+                          "no": {
+                            "pregunta": "14.- ¿Come de todo (frutas, insectos, plantas)?",
+                            "si": { "resultado": "PRIMATES OMNÍVOROS (chimpancés, capuchinos)" },
+                            "no": { "resultado": "OTROS MAMÍFEROS NO CARNÍVOROS (perezosos, marsupiales varios)" }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "8.- ¿Tiene escamas?",
+                  "si": {},
+                  "no": {}
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "4b.- ¿Tiene caparazón externo o cuerpo segmentado?",
+          "si": {
+            "pregunta": "5b.- ¿Tiene 6 patas?",
+            "si": {
+              "pregunta": "6b.- ¿Pasa por una metamorfosis completa (huevo, larva, pupa)?",
+              "si": {
+                "pregunta": "7b.- ¿Tiene alas con escamas de colores (mariposas y polillas)?",
+                "si": {
+                  "pregunta": "8b.- ¿Vuela durante el día y se posa con las alas juntas?",
+                  "si": { "resultado": "MARIPOSAS (Papilionoideos)" },
+                  "no": { "resultado": "POLILLAS (Heteróceros)" }
+                },
+                "no": {
+                  "pregunta": "7c.- ¿Tiene un par de alas duras que protegen las alas de vuelo (escarabajos)?",
+                  "si": { "resultado": "ESCARABAJOS Y MARIQUITAS (Coleópteros)" },
+                  "no": {
+                    "pregunta": "7d.- ¿Tiene un cuerpo peludo y alas membranosas (abejas y avispas)?",
+                    "si": {
+                      "pregunta": "8c.- ¿Vive en colmenas y produce miel?",
+                      "si": { "resultado": "ABEJAS" },
+                      "no": { "resultado": "AVISPAS Y HORMIGAS" }
+                    },
+                    "no": { "resultado": "MOSCAS Y MOSQUITOS (Dípteros)" }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6c.- ¿Tiene alas largas y membranosas y una vida cerca del agua (libélulas)?",
+                "si": { "resultado": "LIBÉLULAS Y CABALLITOS DEL DIABLO (Odonatos)" },
+                "no": {
+                  "pregunta": "6d.- ¿Es saltador con patas traseras fuertes?",
+                  "si": { "resultado": "SALTAMONTES, GRILLOS Y LANGOSTAS (Ortópteros)" },
+                  "no": {
+                    "pregunta": "6e.- ¿Vive en colonias y come madera (termitas)?",
+                    "si": { "resultado": "TERMITAS Y CUCARACHAS (Blattodea)" },
+                    "no": {
+                      "pregunta": "6f.- ¿Es un parásito sin alas?",
+                      "si": { "resultado": "PULGAS Y PIOJOS (Siphonaptera y Anoplura)" },
+                      "no": { "resultado": "INSECTOS PALO Y MANTIS RELIGIOSAS" }
+                    }
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "5c.- ¿Tiene concha dura?",
+              "si": {
+                "pregunta": "6c.- ¿Es en espiral?",
+                "si": { "resultado": "CARACOLES Y BABOSAS" },
+                "no": {
+                  "pregunta": "7c.- ¿Tiene dos valvas?",
+                  "si": { "resultado": "ALMEJAS Y MEJILLONES" },
+                  "no": { "resultado": "PULPOS Y CALAMARES" }
+                }
+              },
+              "no": {
+                "pregunta": "6c.- ¿Es blando y segmentado?",
+                "si": {
+                  "pregunta": "7c.- ¿Chupa sangre?",
+                  "si": { "resultado": "SANGUIJUELAS" },
+                  "no": { "resultado": "LOMBRICES" }
+                },
+                "no": {
+                  "pregunta": "7c.- ¿Tiene cuerpo en forma de estrella o espinas?",
+                  "si": { "resultado": "ESTRELLAS Y ERIZOS DE MAR" },
+                  "no": {
+                    "pregunta": "8c.- ¿Tiene tentáculos con veneno?",
+                    "si": { "resultado": "MEDUSAS, CORALES, ANÉMONAS" },
+                    "no": { "resultado": "ESPONJAS U OTROS INVERTEBRADOS" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "3.- ¿Es una planta?",
+          "si": {
+            "pregunta": "4.- ¿Es leñosa (árbol o arbusto)?",
+            "si": {
+              "pregunta": "5.- ¿Produce frutos comestibles?",
+              "si": { "resultado": "ÁRBOLES FRUTALES" },
+              "no": {
+                "pregunta": "6.- ¿Produce semillas o nueces comestibles?",
+                "si": { "resultado": "ÁRBOLES DE SEMILLAS/NUECES" },
+                "no": {
+                  "pregunta": "7.- ¿Se aprovecha principalmente su madera?",
+                  "si": { "resultado": "ÁRBOLES MADERABLES" },
+                  "no": {
+                    "pregunta": "8.- ¿Se usa como ornamental o de sombra?",
+                    "si": { "resultado": "ÁRBOLES/ARBUSTOS ORNAMENTALES" },
+                    "no": { "resultado": "OTROS ÁRBOLES Y ARBUSTOS" }
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "5.- ¿Se cultiva como alimento?",
+              "si": {
+                "pregunta": "6.- ¿Se consume principalmente como fruto?",
+                "si": { "resultado": "FRUTAS (manzana, mango, fresa, uva)" },
+                "no": {
+                  "pregunta": "7.- ¿Se consume principalmente como raíz o tubérculo?",
+                  "si": { "resultado": "RAÍCES Y TUBÉRCULOS (papa, zanahoria, betabel)" },
+                  "no": {
+                    "pregunta": "8.- ¿Se consume principalmente como semilla o grano?",
+                    "si": {
+                      "pregunta": "9.- ¿Es un cereal (gramínea)?",
+                      "si": { "resultado": "CEREALES (trigo, maíz, arroz, avena)" },
+                      "no": { "resultado": "LEGUMBRES Y SEMILLAS (frijol, lenteja, soya, cacahuate)" }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Se consume como hoja o tallo?",
+                      "si": { "resultado": "VERDURAS DE HOJA/TALLO (lechuga, espinaca, apio)" },
+                      "no": {
+                        "pregunta": "10.- ¿Se usa como condimento o hierba culinaria?",
+                        "si": { "resultado": "HIERBAS CULINARIAS (cilantro, perejil, albahaca)" },
+                        "no": { "resultado": "OTRAS PLANTAS COMESTIBLES" }
+                      }
+                    }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6.- ¿Se cultiva para fibras o ropa?",
+                "si": { "resultado": "PLANTA TEXTIL (algodón, lino, cáñamo)" },
+                "no": {
+                  "pregunta": "7.- ¿Se cultiva como adorno?",
+                  "si": { "resultado": "PLANTA ORNAMENTAL (flores, plantas de jardín)" },
+                  "no": {
+                    "pregunta": "8.- ¿Se usa como medicinal o aromática?",
+                    "si": { "resultado": "PLANTA MEDICINAL/AROMÁTICA (menta, albahaca, manzanilla)" },
+                    "no": { "resultado": "OTRAS PLANTAS" }
+                  }
+                }
+              }
+            }
+          },
+          "no": { "resultado": "PRODUCTO ANIMAL (cuero, lana)" }
+        }
+      }
+    },
+    "no": {
+      "pregunta": "3b.- ¿Es un hongo, protista o bacteria?",
+      "si": {
+        "pregunta": "4b.- ¿Es un hongo (Reino Fungi)?",
+        "si": {
+          "pregunta": "5b.- ¿Es visible a simple vista y grande?",
+          "si": {
+            "pregunta": "6b.- ¿Tiene forma de sombrilla o hongo clásico?",
+            "si": { "resultado": "SETAS (champiñones, porcini)" },
+            "no": {
+              "pregunta": "7b.- ¿Crece bajo la tierra?",
+              "si": { "resultado": "TRUFAS" },
+              "no": {
+                "pregunta": "8b.- ¿Es parásito de plantas o animales?",
+                "si": { "resultado": "HONGOS PARÁSITOS (caries de madera, roya)" },
+                "no": { "resultado": "OTROS HONGOS GRANDES" }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "5c.- ¿Es microscópico?",
+            "si": {
+              "pregunta": "6c.- ¿Se utiliza para la fermentación de alimentos?",
+              "si": { "resultado": "LEVADURAS (fermentación de pan, cerveza, vino)" },
+              "no": {
+                "pregunta": "7c.- ¿Es un moho que crece en alimentos?",
+                "si": { "resultado": "MOHOS (penicilina, moho del pan)" },
+                "no": { "resultado": "HONGOS PATÓGENOS" }
+              }
+            },
+            "no": { "resultado": "PRODUCTO DE HONGO (queso con moho, micorrizas)" }
+          }
+        },
+        "no": {
+          "pregunta": "4c.- ¿Es un microorganismo (protista o bacteria)?",
+          "si": {
+            "pregunta": "5d.- ¿Tiene un núcleo celular definido (eucariota)?",
+            "si": {
+              "pregunta": "6d.- ¿Es unicelular y se mueve con pseudópodos?",
+              "si": { "resultado": "AMEBAS (Protistas)" },
+              "no": {
+                "pregunta": "7d.- ¿Realiza fotosíntesis como las plantas?",
+                "si": { "resultado": "ALGAS (Protistas)" },
+                "no": {
+                  "pregunta": "8d.- ¿Se mueve con flagelos o cilios?",
+                  "si": { "resultado": "CILIADOS Y FLAGELADOS (Protistas)" },
+                  "no": { "resultado": "PROTOZOOS PARÁSITOS (Protistas)" }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "5e.- ¿Es unicelular y no tiene un núcleo definido (procariota)?",
+              "si": {
+                "pregunta": "6e.- ¿Vive en ambientes extremos (sal, calor)?",
+                "si": { "resultado": "ARQUEAS (Reino Monera)" },
+                "no": {
+                  "pregunta": "7e.- ¿Realiza fotosíntesis con clorofila?",
+                  "si": { "resultado": "CIANOBACTERIAS (Reino Monera)" },
+                  "no": {
+                    "pregunta": "8e.- ¿Vive en nuestro cuerpo o en el suelo?",
+                    "si": { "resultado": "BACTERIAS COMUNES (Reino Monera)" },
+                    "no": { "resultado": "BACTERIAS PATÓGENAS (Reino Monera)" }
+                  }
+                }
+              },
+              "no": { "resultado": "VIRUS" }
+            }
+          },
+          "no": {
+            "pregunta": "4d.- ¿Es un producto derivado de un ser vivo?",
+            "si": {
+              "pregunta": "5f.- ¿Proviene de un animal?",
+              "si": { "resultado": "PRODUCTO ANIMAL (cuero, lana, leche, huevos)" },
+              "no": {
+                "pregunta": "6f.- ¿Proviene de una planta?",
+                "si": {
+                  "pregunta": "7f.- ¿Es una bebida alcohólica?",
+                  "si": {
+                    "pregunta": "8f.- ¿Proviene de la fermentación de frutas?",
+                    "si": { "resultado": "VINO" },
+                    "no": {
+                      "pregunta": "9f.- ¿Proviene de la fermentación de granos o cereales?",
+                      "si": { "resultado": "CERVEZA O WHISKY" },
+                      "no": { "resultado": "OTROS PRODUCTOS FERMENTADOS" }
+                    }
+                  },
+                  "no": { "resultado": "PRODUCTO VEGETAL (aceite, harina, papel)" }
+                },
+                "no": { "resultado": "OTRO PRODUCTO NATURAL" }
+              }
+            },
+            "no": {
+              "pregunta": "3.- ¿Es un objeto creado por humanos?",
+              "si": {
+                "pregunta": "4.- ¿Funciona con electricidad?",
+                "si": {
+                  "pregunta": "5.- ¿Es un dispositivo electrónico?",
+                  "si": {
+                    "pregunta": "6.- ¿Es para comunicación?",
+                    "si": {
+                      "pregunta": "7.- ¿Es portátil?",
+                      "si": { "resultado": "TELÉFONO MÓVIL" },
+                      "no": { "resultado": "TELÉFONO FIJO" }
+                    },
+                    "no": {
+                      "pregunta": "7.- ¿Es para entretenimiento?",
+                      "si": { "resultado": "TELEVISOR" },
+                      "no": { "resultado": "COMPUTADORA" }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "5.- ¿Es un vehículo?",
+                    "si": {
+                      "pregunta": "6.- ¿Es terrestre?",
+                      "si": { "resultado": "AUTOMÓVIL" },
+                      "no": { "resultado": "BARCO O AVIÓN" }
+                    },
+                    "no": {
+                      "pregunta": "5.- ¿Es una herramienta especializada?",
+                      "si": { "resultado": "HERRAMIENTA INDUSTRIAL" },
+                      "no": { "resultado": "INSTRUMENTO MÉDICO" }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "4.- ¿Es un objeto de uso cotidiano?",
+                  "si": {
+                    "pregunta": "5.- ¿Se usa en la cocina?",
+                    "si": {
+                      "pregunta": "6.- ¿Es para preparar alimentos?",
+                      "si": {
+                        "pregunta": "7.- ¿Funciona con electricidad?",
+                        "si": {
+                          "pregunta": "8.- ¿Es para cocinar?",
+                          "si": {
+                            "pregunta": "9.- ¿Tiene una superficie plana caliente?",
+                            "si": {
+                              "pregunta": "10.- ¿Se usa para freír?",
+                              "si": {
+                                "pregunta": "11.- ¿Tiene un recipiente profundo?",
+                                "si": {
+                                  "pregunta": "12.- ¿Tiene tapa?",
+                                  "si": {
+                                    "pregunta": "13.- ¿Tiene varios modos de cocción?",
+                                    "si": {
+                                      "pregunta": "14.- ¿Puede programarse?",
+                                      "si": {
+                                        "pregunta": "15.- ¿Tiene pantalla digital?",
+                                        "si": {
+                                          "pregunta": "16.- ¿Es de acero inoxidable?",
+                                          "si": {
+                                            "pregunta": "17.- ¿Tiene canasta para freír?",
+                                            "si": {
+                                              "pregunta": "18.- ¿Es de marca conocida?",
+                                              "si": {
+                                                "pregunta": "19.- ¿Cuesta más de $100?",
+                                                "si": { "resultado": "FREIDORA DE AIRE (Airfryer)" },
+                                                "no": { "resultado": "ARROZERA ELÉCTRICA" }
+                                              },
+                                              "no": { "resultado": "MULTICUCSINILLA (Olla programable)" }
+                                            },
+                                            "no": { "resultado": "HORNO TOSTADOR ELÉCTRICO" }
+                                          },
+                                          "no": { "resultado": "WAFFLERA ELÉCTRICA" }
+                                        },
+                                        "no": { "resultado": "CAFETERA ELÉCTRICA" }
+                                      },
+                                      "no": { "resultado": "EXPRIMIDOR ELÉCTRICO" }
+                                    },
+                                    "no": { "resultado": "BATIDORA DE MANO" }
+                                  },
+                                  "no": { "resultado": "SARTÉN ELÉCTRICO" }
+                                },
+                                "no": { "resultado": "PLANCHA DE COCINA" }
+                              },
+                              "no": { "resultado": "TOSTADORA" }
+                            },
+                            "no": { "resultado": "MICROONDAS" }
+                          },
+                          "no": {
+                            "pregunta": "8.- ¿Es para conservar alimentos?",
+                            "si": { "resultado": "REFRIGERADOR" },
+                            "no": { "resultado": "LICUADORA" }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "7.- ¿Es de metal?",
+                          "si": {
+                            "pregunta": "8.- ¿Tiene filo?",
+                            "si": { "resultado": "CUCHILLO DE COCINA" },
+                            "no": { "resultado": "OLLA O CAZUELA" }
+                          },
+                          "no": {
+                            "pregunta": "8.- ¿Es de madera?",
+                            "si": { "resultado": "TABLA DE CORTAR" },
+                            "no": { "resultado": "CUCHARA DE MADERA" }
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "6.- ¿Es para comer o beber?",
+                        "si": {
+                          "pregunta": "7.- ¿Es para líquidos?",
+                          "si": { "resultado": "VASO O TAZA" },
+                          "no": { "resultado": "PLATO" }
+                        },
+                        "no": { "resultado": "SERVILLETA O MANTEL" }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "5.- ¿Se usa para limpiar?",
+                      "si": {
+                        "pregunta": "6.- ¿Es eléctrico?",
+                        "si": { "resultado": "ASPIRADORA" },
+                        "no": { "resultado": "ESCOBA O TRAPEADOR" }
+                      },
+                      "no": {
+                        "pregunta": "5.- ¿Es mueble?",
+                        "si": {
+                          "pregunta": "6.- ¿Es para sentarse?",
+                          "si": { "resultado": "SILLA" },
+                          "no": { "resultado": "MESA" }
+                        },
+                        "no": {
+                          "pregunta": "5.- ¿Es herramienta?",
+                          "si": {
+                            "pregunta": "6.- ¿Es para reparaciones?",
+                            "si": { "resultado": "DESTORNILLADOR" },
+                            "no": { "resultado": "MARTILLO" }
+                          },
+                          "no": { "resultado": "OBJETO DECORATIVO" }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "4.- ¿Es un dispositivo electrónico?",
+                    "si": {
+                      "pregunta": "5.- ¿Es para comunicación?",
+                      "si": {
+                        "pregunta": "6.- ¿Es portátil?",
+                        "si": { "resultado": "TELÉFONO MÓVIL" },
+                        "no": { "resultado": "TELÉFONO FIJO" }
+                      },
+                      "no": {
+                        "pregunta": "5.- ¿Es para entretenimiento?",
+                        "si": { "resultado": "TELEVISOR" },
+                        "no": { "resultado": "COMPUTADORA" }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "4.- ¿Es un vehículo?",
+                      "si": {
+                        "pregunta": "5.- ¿Es terrestre?",
+                        "si": { "resultado": "AUTOMÓVIL" },
+                        "no": { "resultado": "BARCO O AVIÓN" }
+                      },
+                      "no": {
+                        "pregunta": "4.- ¿Es una herramienta especializada?",
+                        "si": { "resultado": "HERRAMIENTA INDUSTRIAL" },
+                        "no": { "resultado": "INSTRUMENTO MÉDICO" }
+                      }
+                    }
+                  }
+                }
+              },
+              "no": { "resultado": "OBJETO NATURAL NO CLASIFICADO" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "no": {
+    "pregunta": "2b.- ¿Es un fenómeno o entidad natural (física, no abstracta)?",
+    "si": {
+      "pregunta": "3b.- ¿Este fenómeno ocurre principalmente en la Tierra?",
+      "si": {
+        "pregunta": "4b.- ¿Está relacionado con el clima o la atmósfera?",
+        "si": {
+          "pregunta": "5b.- ¿Involucra electricidad (rayos)?",
+          "si": { "resultado": "RAYO / RELÁMPAGO" },
+          "no": {
+            "pregunta": "6b.- ¿Involucra viento fuerte?",
+            "si": {
+              "pregunta": "7b.- ¿Es un vortex que toca el suelo?",
+              "si": { "resultado": "TORNADO" },
+              "no": {
+                "pregunta": "8b.- ¿Ocurre sobre el océano?",
+                "si": { "resultado": "HURACÁN / CICLÓN" },
+                "no": { "resultado": "VENTISCA / TORMENTA DE VIENTO" }
+              }
+            },
+            "no": {
+              "pregunta": "7b.- ¿Involucra agua cayendo del cielo?",
+              "si": { "resultado": "LLUVIA / AGUACERO" },
+              "no": {
+                "pregunta": "8b.- ¿Involucra cristales de hielo?",
+                "si": {
+                  "pregunta": "9b.- ¿Son copos?",
+                  "si": { "resultado": "NIEVE" },
+                  "no": { "resultado": "GRANIZO" }
+                },
+                "no": {
+                  "pregunta": "9b.- ¿Se ve un arco de colores?",
+                  "si": { "resultado": "ARCOÍRIS" },
+                  "no": {
+                    "pregunta": "10b.- ¿Son luces coloridas en el cielo nocturno?",
+                    "si": { "resultado": "AURORA BOREAL/AUSTRAL" },
+                    "no": { "resultado": "NIEBLA / BRUMA" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "5b.- ¿Está relacionado con la geología o la tierra?",
+          "si": {
+            "pregunta": "6b.- ¿Es la emisión de material de un montaña?",
+            "si": { "resultado": "ERUPCIÓN VOLCÁNICA / VOLCÁN" },
+            "no": {
+              "pregunta": "7b.- ¿Es un temblor del suelo?",
+              "si": { "resultado": "TERREMOTO / SISMO" },
+              "no": {
+                "pregunta": "8b.- ¿Es una cascada de agua?",
+                "si": { "resultado": "CASCADA / CATARATA" },
+                "no": {
+                  "pregunta": "9b.- ¿Es un río de hielo?",
+                  "si": { "resultado": "GLACIAR" },
+                  "no": { "resultado": "MONTAÑA / CORDILLERA" }
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "6b.- ¿Está relacionado con el fuego?",
+            "si": { "resultado": "INCENDIO FORESTAL" },
+            "no": {
+              "pregunta": "7b.- ¿Es un sonido?",
+              "si": {
+                "pregunta": "8b.- ¿Es causado por un eco en las montañas?",
+                "si": { "resultado": "ECO" },
+                "no": { "resultado": "TRUENO" }
+              },
+              "no": { "resultado": "OLAS DEL MAR / MAREA" }
+            }
+          }
+        }
+      },
+      "no": {
+        "pregunta": "4c.- ¿Es un objeto celeste (astro)?",
+        "si": {
+          "pregunta": "5c.- ¿Brilla con luz propia?",
+          "si": {
+            "pregunta": "6c.- ¿Es un sistema de miles de millones de estrellas?",
+            "si": { "resultado": "GALAXIA" },
+            "no": {
+              "pregunta": "7c.- ¿Es una explosión estelar?",
+              "si": { "resultado": "SUPERNOVA" },
+              "no": {
+                "pregunta": "8c.- ¿Es el astro central de nuestro sistema?",
+                "si": { "resultado": "SOL" },
+                "no": { "resultado": "ESTRELLA (en general)" }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "6c.- ¿Orbita alrededor de una estrella?",
+            "si": {
+              "pregunta": "7c.- ¿Orbita alrededor del Sol?",
+              "si": {
+                "pregunta": "8c.- ¿Es rocoso y tiene anillos?",
+                "si": { "resultado": "SATURNO" },
+                "no": {
+                  "pregunta": "9c.- ¿Tiene una coloración roja característica?",
+                  "si": { "resultado": "MARTE" },
+                  "no": {
+                    "pregunta": "10c.- ¿Es el planeta más grande?",
+                    "si": { "resultado": "JÚPITER" },
+                    "no": { "resultado": "PLANETA (Tierra, Venus, Mercurio, Neptuno, Urano)" }
+                  }
+                }
+              },
+              "no": { "resultado": "EXOPLANETA" }
+            },
+            "no": {
+              "pregunta": "7c.- ¿Orbita alrededor de un planeta?",
+              "si": {
+                "pregunta": "8c.- ¿Es el satélite natural de la Tierra?",
+                "si": { "resultado": "LUNA" },
+                "no": { "resultado": "SATÉLITE NATURAL (Ej: Europa, Titán, Ganímedes)" }
+              },
+              "no": {
+                "pregunta": "8c.- ¿Es un cuerpo de hielo y roca que desarrolla una cola?",
+                "si": { "resultado": "COMETA" },
+                "no": {
+                  "pregunta": "9c.- ¿Es un pequeño cuerpo rocoso o metálico?",
+                  "si": {
+                    "pregunta": "10c.- ¿Entra en la atmósfera terrestre y se vuelve incandescente?",
+                    "si": { "resultado": "METEORO (Estrella Fugaz)" },
+                    "no": { "resultado": "ASTEROIDE" }
+                  },
+                  "no": {
+                    "pregunta": "10c.- ¿Su gravedad es tan fuerte que ni la luz puede escapar?",
+                    "si": { "resultado": "AGUJERO NEGRO" },
+                    "no": { "resultado": "NEBULOSA" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "5c.- ¿Es un evento astronómico?",
+          "si": {
+            "pregunta": "6c.- ¿Implica el paso de un cuerpo frente a otro?",
+            "si": { "resultado": "ECLIPSE" },
+            "no": {
+              "pregunta": "7c.- ¿Es una lluvia de meteoros?",
+              "si": { "resultado": "LLUVIA DE ESTRELLAS" },
+              "no": { "resultado": "ALINEACIÓN PLANETARIA" }
+            }
+          },
+          "no": {
+            "resultado": "VACÍO INTERESTELAR / ESPACIO"
+          }
+        }
+      }
+    },
+    "no": {
+      "pregunta": "2.- ¿Es una emoción o sentimiento?",
+      "si": {
+        "pregunta": "¿Es una emoción positiva?",
+        "si": {
+          "pregunta": "¿Surge de lograr algo o tener éxito?",
+          "si": {
+            "pregunta": "¿Se siente al recibir algo deseado?",
+            "si": {
+              "pregunta": "¿Es una emoción muy intensa?",
+              "si": {
+                "pregunta": "¿Se manifiesta con energía y actividad?",
+                "si": {
+                  "pregunta": "¿Estimula la creatividad?",
+                  "si": {
+                    "pregunta": "¿Facilita socializar?",
+                    "si": {
+                      "pregunta": "¿Se relaciona con la diversión?",
+                      "si": {
+                        "pregunta": "¿Dura poco tiempo?",
+                        "si": {
+                          "pregunta": "¿Provoca risa?",
+                          "si": { "resultado": "ALEGRÍA (Felicidad, júbilo, euforia, regocijo)" },
+                          "no": { "resultado": "ENTUSIASMO (Excitación, motivación, ánimo)" }
+                        },
+                        "no": { "resultado": "SATISFACCIÓN (Contento, bienestar, plenitud)" }
+                      },
+                      "no": { "resultado": "GRATITUD (Agradecimiento, reconocimiento)" }
+                    },
+                    "no": { "resultado": "INSPIRACIÓN (Creatividad, estímulo, iluminación)" }
+                  },
+                  "no": { "resultado": "ORGULLO (Autoestima, dignidad, logro personal)" }
+                },
+                "no": { "resultado": "AMOR (Afecto, cariño, ternura, devoción)" }
+              },
+              "no": { "resultado": "ESPERANZA (Optimismo, fe, expectativa positiva)" }
+            },
+            "no": { "resultado": "CURIOSIDAD (Interés, inquietud, descubrimiento)" }
+          },
+          "no": {
+            "pregunta": "¿Se relaciona con la tranquilidad?",
+            "si": { "resultado": "PAZ (Calma, serenidad, armonía, quietud)" },
+            "no": { "resultado": "NOSTALGIA (Añoranza, melancolía, recuerdo dulce)" }
+          }
+        },
+        "no": {
+          "pregunta": "¿Se relaciona con el miedo?",
+          "si": {
+            "pregunta": "¿Es por peligro inmediato?",
+            "si": { "resultado": "MIEDO (Temor, pánico, horror, fobia)" },
+            "no": { "resultado": "ANSIEDAD (Inquietud, preocupación, nerviosismo)" }
+          },
+          "no": {
+            "pregunta": "¿Se relaciona con la tristeza?",
+            "si": {
+              "pregunta": "¿Es por una pérdida?",
+              "si": { "resultado": "TRISTEZA (Pena, dolor, aflicción, desconsuelo)" },
+              "no": { "resultado": "SOLEDAD (Aislamiento, vacío, desconexión)" }
+            },
+            "no": {
+              "pregunta": "¿Se relaciona con el enojo?",
+              "si": {
+                "pregunta": "¿Es hacia alguien específico?",
+                "si": { "resultado": "IRA (Enojo, furia, rabia, indignación)" },
+                "no": { "resultado": "FRUSTRACIÓN (Descontento, fastidio, impotencia)" }
+              },
+              "no": {
+                "pregunta": "¿Es por culpa o remordimiento?",
+                "si": { "resultado": "CULPA (Remordimiento, arrepentimiento, autorreproche)" },
+                "no": { "resultado": "ENVIDIA (Celos, resentimiento, deseo de lo ajeno)" }
+              }
+            }
+          }
+        }
+      },
+      "no": {
+        "resultado": "CONCEPTO ABSTRACTO (idea, ciencia, evento)"
+      }
+    }
+  }
+}
 

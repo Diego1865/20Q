@@ -1137,9 +1137,357 @@
           }
         },
         "no": {
-          "pregunta": "5.- ¿Está relacionado con estados del ser o conciencia espiritual?",
+          "pregunta": "5.- ¿Está relacionado con religión, fe o creencias espirituales?",
           "si": {
-            "resultado": "ESTADOS DEL SER / CONCIENCIA ESPIRITUAL (Trascendencia, Paz interior, Iluminación, Fe, Dualidad, Karma, Destino)"
+            "pregunta": "6. ¿Se refiere a una entidad o fuerza superior divina?",
+            "si": {
+              "pregunta": "7.- ¿Se trata de una divinidad personal (con voluntad propia) o de una fuerza/ley impersonal?",
+              "si": {
+                "pregunta": "8.- ¿Es una única divinidad suprema?",
+                "si": {
+                  "pregunta": "9.- ¿Pertenece a una religión monoteísta actual?",
+                  "si": {
+                    "pregunta": "10.- ¿Es la religión cristiana?",
+                    "si": {
+                      "resultado": "CRISTIANISMO, Dios (Padre, Hijo, Espíritu Santo)"
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Es la religión islámica?",
+                      "si": {
+                        "resultado": "ISLAM, Alá"
+                      },
+                      "no": {
+                        "pregunta": "12.- ¿Es la religión judía?",
+                        "si": {
+                          "resultado": "JUDAÍSMO, Yahvé"
+                        },
+                        "no": {
+                          "resultado": "OTRA RELIGIÓN MONOTEÍSTA (Zoroastrismo, Ahura Mazda)"
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "resultado": "DIOS ÚNICO"
+                  }
+                },
+                "no": {
+                  "pregunta": "9. ¿Pertenece a una mitología politeísta antigua?",
+                  "si": {
+                    "pregunta": "10. ¿Es esta deidad un dios principal o gobernante del panteón?",
+                    "si": {
+                      "pregunta": "11. ¿Su dominio principal es el cielo, los rayos o la justicia?",
+                      "si": {
+                        "pregunta": "12. ¿Lleva un rayo como arma principal?",
+                        "si": {
+                          "resultado": "ZEUS (Griega) / JÚPITER (Romana) / INDRA (Védica) / PERÚN (Eslava)"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Es un dios creador asociado al sol?",
+                          "si": {
+                            "resultado": "RA (Egipcia) / SHAMASH (Mesopotámica)"
+                          },
+                          "no": {
+                            "resultado": "OTRO DIOS DEL CIELO (Anu - mesopotámico)"
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Está asociado principalmente con la guerra y la sabiduría?",
+                        "si": {
+                          "pregunta": "13. ¿Tiene una lanza mágica y cuervos como mensajeros?",
+                          "si": {
+                            "resultado": "ODÍN (Nórdica)"
+                          },
+                          "no": {
+                            "resultado": "OTRO DIOS DE LA GUERRA/SABIDURÍA (Athena - griega)"
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Es un dios de la muerte y el inframundo?",
+                          "si": {
+                            "resultado": "HADES (Griega) / OSIRIS (Egipcia) / HEL (Nórdica)"
+                          },
+                          "no": {
+                            "resultado": "OTRO DIOS GOBERNANTE"
+                          }
+                        }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Es un dios de la naturaleza, la fertilidad o la agricultura?",
+                      "si": {
+                        "pregunta": "12. ¿Está asociado a un ciclo de muerte y renacimiento?",
+                        "si": {
+                          "resultado": "OSIRIS, DIONISIO"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Tiene forma parcial o total de animal?",
+                          "si": {
+                            "resultado": "ANUBIS, HORUS"
+                          },
+                          "no": {
+                            "resultado": "OTRO DIOS DE LA FERTILIDAD"
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Es un dios de la artesanía, el fuego o los engaños?",
+                        "si": {
+                          "pregunta": "13. ¿Es un herrero cojo y maestro artesano?",
+                          "si": {
+                            "resultado": "HEFESTO, VULCANO"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Es un tramposo y cambiaforma problemático?",
+                            "si": {
+                              "resultado": "LOKI, PROMETEO"
+                            },
+                            "no": {
+                              "resultado": "OTRO DIOS ARTESANO"
+                            }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Es una deidad de una cultura mesoamericana o andina?",
+                          "si": {
+                            "pregunta": "14. ¿Es una serpiente emplumada, dios del viento y la sabiduría?",
+                            "si": {
+                              "resultado": "QUETZALCÓATL, KUKULKÁN, GUCUMATZ"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Es un dios de la guerra y el sol?",
+                              "si": {
+                                "pregunta": "16. ¿Está asociado con el colibrí y requiere sacrificios humanos para dar fuerza al sol?",
+                                "si": {
+                                  "resultado": "HUITZILOPOCHTLI"
+                                },
+                                "no": {
+                                  "pregunta": "17. ¿Es un dios jaguar de la noche, el destino y la magia negra?",
+                                  "si": {
+                                    "resultado": "TEZCATLIPOCA"
+                                  },
+                                  "no": {
+                                    "resultado": "OTRO DIOS DE LA GUERRA"
+                                  }
+                                }
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Es un dios de la lluvia, los rayos y la fertilidad?",
+                                "si": {
+                                  "pregunta": "17. ¿Lleva un hacha de rayo y vasijas de agua que derrama?",
+                                  "si": {
+                                    "resultado": "TLÁLOC, CHAC, COSIJO"
+                                  },
+                                  "no": {
+                                    "pregunta": "18. ¿Es el dios creador supremo de los incas, asociado con el sol?",
+                                    "si": {
+                                      "resultado": "INTI"
+                                    },
+                                    "no": {
+                                      "resultado": "OTRO DIOS DE LA LLUVIA"
+                                    }
+                                  }
+                                },
+                                "no": {
+                                  "pregunta": "17. ¿Es una diosa madre, de la tierra, la fertilidad y la muerte?",
+                                  "si": {
+                                    "pregunta": "18. ¿Se representa con una falda de serpientes y partes expuestas como senos flácidos?",
+                                    "si": {
+                                      "resultado": "COATLICUE"
+                                    },
+                                    "no": {
+                                      "resultado": "PACHAMAMA"
+                                    }
+                                  },
+                                  "no": {
+                                    "pregunta": "18. ¿Es un dios del fuego y el tiempo?",
+                                    "si": {
+                                      "resultado": "HUEHUETÉOTL"
+                                    },
+                                    "no": {
+                                      "resultado": "OTRA DEIDAD AMERICANA (Viracocha - Inca, creador; Chaac - Maya)"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "no": {
+                            "resultado": "OTRA DEIDAD SECUNDARIA ESPECÍFICA"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "resultado": "POLITEÍSMO GENERAL"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "8.- ¿Se trata de una fuerza, principio o ley impersonal?",
+                "si": {
+                  "pregunta": "9.- ¿Proviene de filosofías/religiones de la India?",
+                  "si": {
+                    "pregunta": "10.- ¿Es el Karma?",
+                    "si": {
+                      "resultado": "KARMA (Ley de causa y efecto, Hinduismo/Budismo)"
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Es el Dharma?",
+                      "si": {
+                        "resultado": "DHARMA (Deber cósmico, orden moral)"
+                      },
+                      "no": {
+                        "resultado": "OTRO PRINCIPIO INDIO (Samsara, Moksha)"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Proviene de la tradición china?",
+                    "si": {
+                      "pregunta": "11.- ¿Es el Tao?",
+                      "si": {
+                        "resultado": "TAO (Camino universal, equilibrio, taoísmo)"
+                      },
+                      "no": {
+                        "resultado": "OTRA FUERZA CHINA (Chi, energía vital)"
+                      }
+                    },
+                    "no": {
+                      "resultado": "PRINCIPIO IMPERSONAL GENERAL (Destino, Fortuna, Energía cósmica)"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "9. ¿Implica una búsqueda de conexión o significado que va más allá de lo material?",
+                  "si": {
+                    "pregunta": "10. ¿Esta búsqueda se centra en una entidad divina o seres sobrenaturales a los que se adora?",
+                    "si": {
+                      "resultado": "RELIGIÓN (Teísmo, Adoración, Devoción a una deidad)"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Se enfoca principalmente en la transformación interna y la autoconciencia?",
+                      "si": {
+                        "pregunta": "12. ¿Utiliza técnicas de atención plena y observación de los propios pensamientos?",
+                        "si": {
+                          "resultado": "MEDITACIÓN, MINDFULNESS"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Busca disolver el ego y experimentar la unidad con todo?",
+                          "si": {
+                            "resultado": "ILUMINACIÓN, NIRVANA, ÉXTASIS ESPIRITUAL"
+                          },
+                          "no": {
+                            "resultado": "CRECIMIENTO PERSONAL, AUTOCONOCIMIENTO"
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Se basa en la creencia de una energía o fuerza vital impersonal que impregna el universo?",
+                        "si": {
+                          "resultado": "ENERGÍA ESPIRITUAL, VIBRACIÓN (Prana, Chi, Maná, Ley de la Atracción)"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Está relacionado con el contacto con espíritus de la naturaleza o ancestros?",
+                          "si": {
+                            "resultado": "ANIMISMO, ESPIRITUALIDAD ANCESTRAL"
+                          },
+                          "no": {
+                            "resultado": "ESPIRITUALIDAD PERSONAL (Búsqueda de propósito, paz interior)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRO TIPO DE CONCEPTO"
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "7. ¿Se relaciona con la esencia inmaterial de una persona?",
+              "si": {
+                "pregunta": "8. ¿Se refiere al principio vital que da vida al cuerpo?",
+                "si": {
+                  "resultado": "ALMA (Ánima, principio vital y consciente)"
+                },
+                "no": {
+                  "pregunta": "9. ¿Se refiere a una esencia individual que trasciende la muerte?",
+                  "si": {
+                    "resultado": "ESPÍRITU (Parte inmaterial que perdura tras la muerte)"
+                  },
+                  "no": {
+                    "resultado": "ESENCIA VITAL (Concepto filosófico general)"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "8. ¿Se trata de un concepto de moralidad o comportamiento espiritual?",
+                "si": {
+                  "pregunta": "9. ¿Se enfoca en una acción incorrecta o una transgresión?",
+                  "si": {
+                    "pregunta": "10. ¿Es una transgresión contra una ley divina?",
+                    "si": {
+                      "resultado": "PECADO (Religiones abrahámicas)"
+                    },
+                    "no": {
+                      "resultado": "TRANSGRESIÓN ESPIRITUAL"
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Se enfoca en una cualidad positiva o acción loable espiritualmente?",
+                    "si": {
+                      "resultado": "VIRTUD ESPIRITUAL o DEVOCIÓN (Piedad, Santidad, Renuncia, Caridad)"
+                    },
+                    "no": {
+                      "resultado": "PRECEPTO MORAL (Regla de conducta)"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "9. ¿Implica una conexión o unión con lo divino o el universo?",
+                  "si": {
+                    "pregunta": "10. ¿Es un estado de liberación final del sufrimiento?",
+                    "si": {
+                      "resultado": "NIRVANA, MOKSHA"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Es una experiencia de unión extática con la divinidad?",
+                      "si": {
+                        "resultado": "ÉXTASIS MÍSTICO, UNIÓN MÍSTICA"
+                      },
+                      "no": {
+                        "resultado": "TRASCENDENCIA (Concepto general de ir más allá)"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Es una práctica o ritual específico?",
+                    "si": {
+                      "pregunta": "11. ¿Implica comunicación o petición a una deidad?",
+                      "si": {
+                        "resultado": "ORACIÓN, ROGATIVA, SUPLICA"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Implica acciones simbólicas para lograr un efecto espiritual?",
+                        "si": {
+                          "resultado": "RITUAL, SACRIFICIO, OFRENDA"
+                        },
+                        "no": {
+                          "resultado": "PRÁCTICA CONTEMPLATIVA (Meditación, Cántico)"
+                        }
+                      }
+                    },
+                    "no": {
+                      "resultado": "OTRO CONCEPTO RELIGIOSO/ESPIRITUAL (Ej: Profecía, Milagro, Aura, Tabú)"
+                    }
+                  }
+                }
+              }
+            }
           },
           "no": {
             "pregunta": "6.- ¿Es un concepto científico abstracto?",

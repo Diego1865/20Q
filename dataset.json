@@ -352,7 +352,13 @@
                             "resultado":"ALCE"
                           },
                           "no":{
-                            "resultado":"VENADO"
+                            "pregunta":"14.- ¿Es rosado?",
+                            "si":{
+                              "resultado":"CERDO"
+                            },
+                            "no":{
+                              "resultado":"VENADO"
+                            }
                           }
                         }
                       }

@@ -13,12 +13,12 @@
             "si": {
               "pregunta": "7.- ¿Es de gran tamaño?",
               "si": {
-                "pregunta":"8.- ¿Su cuerpo es alargado?",
-                "si":{
-                  "resultado":"TIBURONES"
+                "pregunta": "8.- ¿Su cuerpo es alargado?",
+                "si": {
+                  "resultado": "TIBURONES"
                 },
-                "no":{
-                  "resultado":"MANTARRAYAS"
+                "no": {
+                  "resultado": "MANTARRAYAS"
                 }
               },
               "no": {
@@ -32,116 +32,116 @@
               }
             },
             "no": {
-              "pregunta":"7.- ¿Es un anfibio?",
-              "si":{
-                "pregunta":"8.- ¿Puede saltar?",
-                "si":{
-                  "pregunta":"9.- ¿Es pequeño?",
-                  "si":{
-                    "resultado":"RANA"
+              "pregunta": "7.- ¿Es un anfibio?",
+              "si": {
+                "pregunta": "8.- ¿Puede saltar?",
+                "si": {
+                  "pregunta": "9.- ¿Es pequeño?",
+                  "si": {
+                    "resultado": "RANA"
                   },
-                  "no":{
-                    "resultado":"SAPO"
+                  "no": {
+                    "resultado": "SAPO"
                   }
                 },
-                "no":{
-                  "pregunta":"9.- ¿Tiene branquias externas?",
-                  "si":{
+                "no": {
+                  "pregunta": "9.- ¿Tiene branquias externas?",
+                  "si": {
                     "resultado": "AJOLOTE"
                   },
-                  "no":{
-                    "resultado":"SALAMANDRA"
+                  "no": {
+                    "resultado": "SALAMANDRA"
                   }
                 }
               },
-              "no":{
-                "pregunta":"8.- ¿Es un reptil?",
-                "si":{
-                  "pregunta":"9.- ¿Tiene patas?",
-                  "si":{
-                    "pregunta":"10.- ¿Tiene dientes?",
-                    "si":{
-                      "pregunta":"11.- ¿Es de agua dulce?",
-                      "si":{
-                        "resultado":"CAIMAN"
+              "no": {
+                "pregunta": "8.- ¿Es un reptil?",
+                "si": {
+                  "pregunta": "9.- ¿Tiene patas?",
+                  "si": {
+                    "pregunta": "10.- ¿Tiene dientes?",
+                    "si": {
+                      "pregunta": "11.- ¿Es de agua dulce?",
+                      "si": {
+                        "resultado": "CAIMAN"
                       },
-                      "no":{
-                        "resultado":"COCODRILO"
+                      "no": {
+                        "resultado": "COCODRILO"
                       }
                     },
-                    "no":{
-                      "resultado":"TORTUGA ACUATICA"
+                    "no": {
+                      "resultado": "TORTUGA ACUATICA"
                     }
                   },
-                  "no":{
-                    "resultado":"SERPIENTE ACUATICA"
+                  "no": {
+                    "resultado": "SERPIENTE ACUATICA"
                   }
                 },
-                "no":{
-                  "pregunta":"9.- ¿Tiene patas?",
-                  "si":{
-                    "pregunta":"10.- ¿Tiene plumas?",
-                    "si":{
-                      "pregunta":"11.-¿Puede volar?",
-                      "si":{
-                        "pregunta":"12.- ¿Tiene cuello largo?",
-                        "si":{
-                          "pregunta":"13.-¿Suele decirse que es elegante?",
-                          "si":{
-                            "resultado":"CISNE"
+                "no": {
+                  "pregunta": "9.- ¿Tiene patas?",
+                  "si": {
+                    "pregunta": "10.- ¿Tiene plumas?",
+                    "si": {
+                      "pregunta": "11.-¿Puede volar?",
+                      "si": {
+                        "pregunta": "12.- ¿Tiene cuello largo?",
+                        "si": {
+                          "pregunta": "13.-¿Suele decirse que es elegante?",
+                          "si": {
+                            "resultado": "CISNE"
                           },
-                          "no":{
-                            "resultado":"GANSO"
+                          "no": {
+                            "resultado": "GANSO"
                           }
                         },
-                        "no":{
-                          "resultado":"PATO"
+                        "no": {
+                          "resultado": "PATO"
                         }
                       },
-                      "no":{
-                        "resultado":"PINGÜINOS"
+                      "no": {
+                        "resultado": "PINGÜINOS"
                       }
                     },
-                    "no":{
-                      "pregunta":"10.- ¿Construye presas?",
-                      "si":{
-                        "resultado":"CASTOR"
+                    "no": {
+                      "pregunta": "10.- ¿Construye presas?",
+                      "si": {
+                        "resultado": "CASTOR"
                       },
-                      "no":{
-                        "pregunta":"11.- ¿Es muy grande y pesado?",
-                        "si":{
-                          "resultado":"HIPOPÓTAMOS"
+                      "no": {
+                        "pregunta": "11.- ¿Es muy grande y pesado?",
+                        "si": {
+                          "resultado": "HIPOPÓTAMOS"
                         },
-                        "no":{
-                          "resultado":"NUTRIA"
+                        "no": {
+                          "resultado": "NUTRIA"
                         }
                       }
                     }
                   },
-                  "no":{
-                    "pregunta":"10.- ¿Es totalmente acuatico?",
-                    "si":{
-                      "pregunta":"11.- ¿Es enorme?",
-                      "si":{
+                  "no": {
+                    "pregunta": "10.- ¿Es totalmente acuatico?",
+                    "si": {
+                      "pregunta": "11.- ¿Es enorme?",
+                      "si": {
                         "resultado": "BALLENA"
                       },
-                      "no":{
-                        "pregunta":"12.- ¿Es blanco y negro?",
-                        "si":{
-                          "resultado":"ORCA"
+                      "no": {
+                        "pregunta": "12.- ¿Es blanco y negro?",
+                        "si": {
+                          "resultado": "ORCA"
                         },
-                        "no":{
-                          "resultado":"DELFIN"
+                        "no": {
+                          "resultado": "DELFIN"
                         }
                       }
                     },
-                    "no":{
-                      "pregunta":"11.- ¿Tiene colmillos?",
-                      "si":{
-                        "resultado":"MORSA"
+                    "no": {
+                      "pregunta": "11.- ¿Tiene colmillos?",
+                      "si": {
+                        "resultado": "MORSA"
                       },
-                      "no":{
-                        "resultado":"FOCA"
+                      "no": {
+                        "resultado": "FOCA"
                       }
                     }
                   }
@@ -154,64 +154,64 @@
             "si": {
               "pregunta": "7.- ¿Tiene plumas?",
               "si": {
-                "pregunta":"8.- ¿Come carne?",
-                "si":{
-                  "pregunta":"9.- ¿Es un ave rapaz nocturna?",
-                  "si":{
-                    "pregunta":"10.-¿Tiene ojos grandes?",
-                    "si":{
-                      "resultado":"BUHO"
+                "pregunta": "8.- ¿Come carne?",
+                "si": {
+                  "pregunta": "9.- ¿Es un ave rapaz nocturna?",
+                  "si": {
+                    "pregunta": "10.-¿Tiene ojos grandes?",
+                    "si": {
+                      "resultado": "BUHO"
                     },
-                    "no":{
-                      "resultado":"LECHUZA"
+                    "no": {
+                      "resultado": "LECHUZA"
                     }
                   },
-                  "no":{
-                    "pregunta":"10.- ¿Se alimenta principalmente de carroña?",
-                    "si":{
-                      "pregunta":"11.- ¿Se encuentra solo en America?",
-                      "si":{
-                        "resultado":"CONDOR"
+                  "no": {
+                    "pregunta": "10.- ¿Se alimenta principalmente de carroña?",
+                    "si": {
+                      "pregunta": "11.- ¿Se encuentra solo en America?",
+                      "si": {
+                        "resultado": "CONDOR"
                       },
-                      "no":{
-                        "resultado":"BUITRE"
+                      "no": {
+                        "resultado": "BUITRE"
                       }
                     },
-                    "no":{
-                      "pregunta":"11.- ¿Es el mas veloz del mundo?",
-                      "si":{
-                        "resultado":"HALCON"
+                    "no": {
+                      "pregunta": "11.- ¿Es el mas veloz del mundo?",
+                      "si": {
+                        "resultado": "HALCON"
                       },
-                      "no":{
-                        "resultado":"AGUILA"
+                      "no": {
+                        "resultado": "AGUILA"
                       }
                     }
                   }
                 },
-                "no":{
-                  "pregunta":"9.- ¿Come principalmente semillas",
-                  "si":{
-                    "pregunta":"10.- ¿Es de un color llamativo?",
-                    "si":{
-                      "pregunta":"11.- ¿Es verde?",
-                      "si":{
-                        "resultado":"PERICO"
+                "no": {
+                  "pregunta": "9.- ¿Come principalmente semillas",
+                  "si": {
+                    "pregunta": "10.- ¿Es de un color llamativo?",
+                    "si": {
+                      "pregunta": "11.- ¿Es verde?",
+                      "si": {
+                        "resultado": "PERICO"
                       },
-                      "no":{
-                        "resultado":"CANARIO"
+                      "no": {
+                        "resultado": "CANARIO"
                       }
                     },
-                    "no":{
-                      "resultado":"PALOMA"
+                    "no": {
+                      "resultado": "PALOMA"
                     }
                   },
-                  "no":{
-                    "pregunta":"10.- ¿Es omnivoro?",
-                    "si":{
-                      "resultado":"CUERVO"
+                  "no": {
+                    "pregunta": "10.- ¿Es omnivoro?",
+                    "si": {
+                      "resultado": "CUERVO"
                     },
-                    "no":{
-                      "resultado":"COLIBRI"
+                    "no": {
+                      "resultado": "COLIBRI"
                     }
                   }
                 }
@@ -280,7 +280,9 @@
                         "si": {
                           "resultado": "CAMELLOS Y LLAMAS"
                         },
-                        "no": {}
+                        "no": {
+                          "resultado": "OTROS MAMÍFEROS CON PEZUÑAS"
+                        }
                       }
                     }
                   },
@@ -336,71 +338,116 @@
         "no": {
           "pregunta": "4b.- ¿Tiene caparazón externo o cuerpo segmentado?",
           "si": {
-           "pregunta": "5b.- ¿Tiene 6 patas?",
-  "si": {
-    "pregunta": "6b.- ¿Pasa por una metamorfosis completa (huevo, larva, pupa)?",
-    "si": {
-      "pregunta": "7b.- ¿Tiene alas con escamas de colores (mariposas y polillas)?",
-      "si": {
-        "pregunta": "8b.- ¿Vuela durante el día y se posa con las alas juntas?",
-        "si": {
-          "resultado": "MARIPOSAS (Papilionoideos)"
-        },
-        "no": {
-          "resultado": "POLILLAS (Heteróceros)"
-        }
-      },
-      "no": {
-        "pregunta": "7c.- ¿Tiene un par de alas duras que protegen las alas de vuelo (escarabajos)?",
-        "si": {
-          "resultado": "ESCARABAJOS Y MARIQUITAS (Coleópteros)"
-        },
-        "no": {
-          "pregunta": "7d.- ¿Tiene un cuerpo peludo y alas membranosas (abejas y avispas)?",
-          "si": {
-            "pregunta": "8c.- ¿Vive en colmenas y produce miel?",
+            "pregunta": "5b.- ¿Tiene 6 patas?",
             "si": {
-              "resultado": "ABEJAS"
+              "pregunta": "6b.- ¿Pasa por una metamorfosis completa (huevo, larva, pupa)?",
+              "si": {
+                "pregunta": "7b.- ¿Tiene alas con escamas de colores (mariposas y polillas)?",
+                "si": {
+                  "pregunta": "8b.- ¿Vuela durante el día y se posa con las alas juntas?",
+                  "si": {
+                    "resultado": "MARIPOSAS (Papilionoideos)"
+                  },
+                  "no": {
+                    "resultado": "POLILLAS (Heteróceros)"
+                  }
+                },
+                "no": {
+                  "pregunta": "7c.- ¿Tiene un par de alas duras que protegen las alas de vuelo (escarabajos)?",
+                  "si": {
+                    "resultado": "ESCARABAJOS Y MARIQUITAS (Coleópteros)"
+                  },
+                  "no": {
+                    "pregunta": "7d.- ¿Tiene un cuerpo peludo y alas membranosas (abejas y avispas)?",
+                    "si": {
+                      "pregunta": "8c.- ¿Vive en colmenas y produce miel?",
+                      "si": {
+                        "resultado": "ABEJAS"
+                      },
+                      "no": {
+                        "resultado": "AVISPAS Y HORMIGAS"
+                      }
+                    },
+                    "no": {
+                      "resultado": "MOSCAS Y MOSQUITOS (Dípteros)"
+                    }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6c.- ¿Tiene alas largas y membranosas y una vida cerca del agua (libélulas)?",
+                "si": {
+                  "resultado": "LIBÉLULAS Y CABALLITOS DEL DIABLO (Odonatos)"
+                },
+                "no": {
+                  "pregunta": "6d.- ¿Es saltador con patas traseras fuertes?",
+                  "si": {
+                    "resultado": "SALTAMONTES, GRILLOS Y LANGOSTAS (Ortópteros)"
+                  },
+                  "no": {
+                    "pregunta": "6e.- ¿Vive en colonias y come madera (termitas)?",
+                    "si": {
+                      "resultado": "TERMITAS Y CUCARACHAS (Blattodea)"
+                    },
+                    "no": {
+                      "pregunta": "6f.- ¿Es un parásito sin alas?",
+                      "si": {
+                        "resultado": "PULGAS Y PIOJOS (Siphonaptera y Anoplura)"
+                      },
+                      "no": {
+                        "resultado": "INSECTOS PALO Y MANTIS RELIGIOSAS"
+                      }
+                    }
+                  }
+                }
+              }
             },
             "no": {
-              "resultado": "AVISPAS Y HORMIGAS"
+              "pregunta": "5c.- ¿Tiene concha dura?",
+              "si": {
+                "pregunta": "6c.- ¿Es en espiral?",
+                "si": {
+                  "resultado": "CARACOLES Y BABOSAS"
+                },
+                "no": {
+                  "pregunta": "7c.- ¿Tiene dos valvas?",
+                  "si": {
+                    "resultado": "ALMEJAS Y MEJILLONES"
+                  },
+                  "no": {
+                    "resultado": "PULPOS Y CALAMARES"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6c.- ¿Es blando y segmentado?",
+                "si": {
+                  "pregunta": "7c.- ¿Chupa sangre?",
+                  "si": {
+                    "resultado": "SANGUIJUELAS"
+                  },
+                  "no": {
+                    "resultado": "LOMBRICES"
+                  }
+                },
+                "no": {
+                  "pregunta": "7c.- ¿Tiene cuerpo en forma de estrella o espinas?",
+                  "si": {
+                    "resultado": "ESTRELLAS Y ERIZOS DE MAR"
+                  },
+                  "no": {
+                    "pregunta": "8c.- ¿Tiene tentáculos con veneno?",
+                    "si": {
+                      "resultado": "MEDUSAS, CORALES, ANÉMONAS"
+                    },
+                    "no": {
+                      "resultado": "ESPONJAS U OTROS INVERTEBRADOS"
+                    }
+                  }
+                }
+              }
             }
           },
-          "no": {
-            "resultado": "MOSCAS Y MOSQUITOS (Dípteros)"
-          }
-        }
-      }
-    },
-    "no": {
-      "pregunta": "6c.- ¿Tiene alas largas y membranosas y una vida cerca del agua (libélulas)?",
-      "si": {
-        "resultado": "LIBÉLULAS Y CABALLITOS DEL DIABLO (Odonatos)"
-      },
-      "no": {
-        "pregunta": "6d.- ¿Es saltador con patas traseras fuertes?",
-        "si": {
-          "resultado": "SALTAMONTES, GRILLOS Y LANGOSTAS (Ortópteros)"
-        },
-        "no": {
-          "pregunta": "6e.- ¿Vive en colonias y come madera (termitas)?",
-          "si": {
-            "resultado": "TERMITAS Y CUCARACHAS (Blattodea)"
-          },
-          "no": {
-            "pregunta": "6f.- ¿Es un parásito sin alas?",
-            "si": {
-              "resultado": "PULGAS Y PIOJOS (Siphonaptera y Anoplura)"
-            },
-            "no": {
-              "resultado": "INSECTOS PALO Y MANTIS RELIGIOSAS"
-            }
-          }
-        }
-      }
-    }
-  }
-}
           "no": {
             "pregunta": "5c.- ¿Tiene concha dura?",
             "si": {
@@ -448,8 +495,7 @@
           }
         }
       },
-      
-         "no": {
+      "no": {
         "pregunta": "3.- ¿Es una planta?",
         "si": {
           "pregunta": "4.- ¿Es leñosa (árbol o arbusto)?",
@@ -545,280 +591,279 @@
           }
         },
         "no": {
-          "resultado": "PRODUCTO ANIMAL (cuero, lana)"
-        }
-      }
-    },
-    "no": {
-  "pregunta": "3b.- ¿Es un hongo, protista o bacteria?",
-  "si": {
-    "pregunta": "4b.- ¿Es un hongo (Reino Fungi)?",
-    "si": {
-      "pregunta": "5b.- ¿Es visible a simple vista y grande?",
-      "si": {
-        "pregunta": "6b.- ¿Tiene forma de sombrilla o hongo clásico?",
-        "si": {
-          "resultado": "SETAS (champiñones, porcini)"
-        },
-        "no": {
-          "pregunta": "7b.- ¿Crece bajo la tierra?",
+          "pregunta": "3b.- ¿Es un hongo, protista o bacteria?",
           "si": {
-            "resultado": "TRUFAS"
-          },
-          "no": {
-            "pregunta": "8b.- ¿Es parásito de plantas o animales?",
+            "pregunta": "4b.- ¿Es un hongo (Reino Fungi)?",
             "si": {
-              "resultado": "HONGOS PARÁSITOS (caries de madera, roya)"
-            },
-            "no": {
-              "resultado": "OTROS HONGOS GRANDES"
-            }
-          }
-        }
-      },
-      "no": {
-        "pregunta": "5c.- ¿Es microscópico?",
-        "si": {
-          "pregunta": "6c.- ¿Se utiliza para la fermentación de alimentos?",
-          "si": {
-            "resultado": "LEVADURAS (fermentación de pan, cerveza, vino)"
-          },
-          "no": {
-            "pregunta": "7c.- ¿Es un moho que crece en alimentos?",
-            "si": {
-              "resultado": "MOHOS (penicilina, moho del pan)"
-            },
-            "no": {
-              "resultado": "HONGOS PATÓGENOS"
-            }
-          }
-        },
-        "no": {
-          "resultado": "PRODUCTO DE HONGO (queso con moho, micorrizas)"
-        }
-      }
-    },
-    "no": {
-      "pregunta": "4c.- ¿Es un microorganismo (protista o bacteria)?",
-      "si": {
-        "pregunta": "5d.- ¿Tiene un núcleo celular definido (eucariota)?",
-        "si": {
-          "pregunta": "6d.- ¿Es unicelular y se mueve con pseudópodos?",
-          "si": {
-            "resultado": "AMEBAS (Protistas)"
-          },
-          "no": {
-            "pregunta": "7d.- ¿Realiza fotosíntesis como las plantas?",
-            "si": {
-              "resultado": "ALGAS (Protistas)"
-            },
-            "no": {
-              "pregunta": "8d.- ¿Se mueve con flagelos o cilios?",
+              "pregunta": "5b.- ¿Es visible a simple vista y grande?",
               "si": {
-                "resultado": "CILIADOS Y FLAGELADOS (Protistas)"
-              },
-              "no": {
-                "resultado": "PROTOZOOS PARÁSITOS (Protistas)"
-              }
-            }
-          }
-        },
-        "no": {
-          "pregunta": "5e.- ¿Es unicelular y no tiene un núcleo definido (procariota)?",
-          "si": {
-            "pregunta": "6e.- ¿Vive en ambientes extremos (sal, calor)?",
-            "si": {
-              "resultado": "ARQUEAS (Reino Monera)"
-            },
-            "no": {
-              "pregunta": "7e.- ¿Realiza fotosíntesis con clorofila?",
-              "si": {
-                "resultado": "CIANOBACTERIAS (Reino Monera)"
-              },
-              "no": {
-                "pregunta": "8e.- ¿Vive en nuestro cuerpo o en el suelo?",
+                "pregunta": "6b.- ¿Tiene forma de sombrilla o hongo clásico?",
                 "si": {
-                  "resultado": "BACTERIAS COMUNES (Reino Monera)"
+                  "resultado": "SETAS (champiñones, porcini)"
                 },
                 "no": {
-                  "resultado": "BACTERIAS PATÓGENAS (Reino Monera)"
-                }
-              }
-            }
-          },
-          "no": {
-            "resultado": "VIRUS"
-          }
-        }
-      },
-      "no": {
-        "pregunta": "4d.- ¿Es un producto derivado de un ser vivo?",
-        "si": {
-          "pregunta": "5f.- ¿Proviene de un animal?",
-          "si": {
-            "resultado": "PRODUCTO ANIMAL (cuero, lana, leche, huevos)"
-          },
-          "no": {
-            "pregunta": "6f.- ¿Proviene de una planta?",
-            "si": {
-              "pregunta": "7f.- ¿Es una bebida alcohólica?",
-              "si": {
-                "pregunta": "8f.- ¿Proviene de la fermentación de frutas?",
-                "si": {
-                  "resultado": "VINO"
-                },
-                "no": {
-                  "pregunta": "9f.- ¿Proviene de la fermentación de granos o cereales?",
+                  "pregunta": "7b.- ¿Crece bajo la tierra?",
                   "si": {
-                    "resultado": "CERVEZA O WHISKY"
+                    "resultado": "TRUFAS"
                   },
                   "no": {
-                    "resultado": "OTROS PRODUCTOS FERMENTADOS"
+                    "pregunta": "8b.- ¿Es parásito de plantas o animales?",
+                    "si": {
+                      "resultado": "HONGOS PARÁSITOS (caries de madera, roya)"
+                    },
+                    "no": {
+                      "resultado": "OTROS HONGOS GRANDES"
+                    }
                   }
                 }
               },
               "no": {
-                "resultado": "PRODUCTO VEGETAL (aceite, harina, papel)"
+                "pregunta": "5c.- ¿Es microscópico?",
+                "si": {
+                  "pregunta": "6c.- ¿Se utiliza para la fermentación de alimentos?",
+                  "si": {
+                    "resultado": "LEVADURAS (fermentación de pan, cerveza, vino)"
+                  },
+                  "no": {
+                    "pregunta": "7c.- ¿Es un moho que crece en alimentos?",
+                    "si": {
+                      "resultado": "MOHOS (penicilina, moho del pan)"
+                    },
+                    "no": {
+                      "resultado": "HONGOS PATÓGENOS"
+                    }
+                  }
+                },
+                "no": {
+                  "resultado": "PRODUCTO DE HONGO (queso con moho, micorrizas)"
+                }
               }
             },
             "no": {
-              "resultado": "OTRO PRODUCTO NATURAL"
-            }
-          }
-        },
-    "no": {
-      "pregunta": "3.- ¿Es un objeto creado por humanos?",
-      "si": {
-        "pregunta": "4.- ¿Funciona con electricidad?",
-        "si": {
-          "resultado": "APARATO ELECTRÓNICO"
-        },
-        "no": {
-          "resultado": "HERRAMIENTA U OBJETO HECHO A MANO"
-        }
-      },
-      "no": {
-        "resultado": "OBJETO NATURAL (roca, río, montaña)"
-      }
-    }
-  },
-  "no": {
-    "pregunta": "2.- ¿Es una emoción o sentimiento?",
-    "si": {
-      
-  "pregunta": "¿Es una emoción positiva?",
-  "si": {
-    "pregunta": "¿Surge de lograr algo o tener éxito?",
-    "si": {
-      "pregunta": "¿Se siente al recibir algo deseado?",
-      "si": {
-        "pregunta": "¿Es una emoción muy intensa?",
-        "si": {
-          "pregunta": "¿Se manifiesta con energía y actividad?",
-          "si": {
-            "pregunta": "¿Estimula la creatividad?",
-            "si": {
-              "pregunta": "¿Facilita socializar?",
+              "pregunta": "4c.- ¿Es un microorganismo (protista o bacteria)?",
               "si": {
-                "pregunta": "¿Se relaciona con la diversión?",
+                "pregunta": "5d.- ¿Tiene un núcleo celular definido (eucariota)?",
                 "si": {
-                  "pregunta": "¿Dura poco tiempo?",
+                  "pregunta": "6d.- ¿Es unicelular y se mueve con pseudópodos?",
                   "si": {
-                    "pregunta": "¿Provoca risa?",
+                    "resultado": "AMEBAS (Protistas)"
+                  },
+                  "no": {
+                    "pregunta": "7d.- ¿Realiza fotosíntesis como las plantas?",
                     "si": {
-                      "resultado": "ALEGRÍA (Felicidad, júbilo, euforia, regocijo)"
+                      "resultado": "ALGAS (Protistas)"
                     },
                     "no": {
-                      "resultado": "ENTUSIASMO (Excitación, motivación, ánimo)"
+                      "pregunta": "8d.- ¿Se mueve con flagelos o cilios?",
+                      "si": {
+                        "resultado": "CILIADOS Y FLAGELADOS (Protistas)"
+                      },
+                      "no": {
+                        "resultado": "PROTOZOOS PARÁSITOS (Protistas)"
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "5e.- ¿Es unicelular y no tiene un núcleo definido (procariota)?",
+                  "si": {
+                    "pregunta": "6e.- ¿Vive en ambientes extremos (sal, calor)?",
+                    "si": {
+                      "resultado": "ARQUEAS (Reino Monera)"
+                    },
+                    "no": {
+                      "pregunta": "7e.- ¿Realiza fotosíntesis con clorofila?",
+                      "si": {
+                        "resultado": "CIANOBACTERIAS (Reino Monera)"
+                      },
+                      "no": {
+                        "pregunta": "8e.- ¿Vive en nuestro cuerpo o en el suelo?",
+                        "si": {
+                          "resultado": "BACTERIAS COMUNES (Reino Monera)"
+                        },
+                        "no": {
+                          "resultado": "BACTERIAS PATÓGENAS (Reino Monera)"
+                        }
+                      }
                     }
                   },
                   "no": {
-                    "resultado": "SATISFACCIÓN (Contento, bienestar, plenitud)"
+                    "resultado": "VIRUS"
                   }
-                },
-                "no": {
-                  "resultado": "GRATITUD (Agradecimiento, reconocimiento)"
                 }
               },
               "no": {
-                "resultado": "INSPIRACIÓN (Creatividad, estímulo, iluminación)"
+                "pregunta": "4d.- ¿Es un producto derivado de un ser vivo?",
+                "si": {
+                  "pregunta": "5f.- ¿Proviene de un animal?",
+                  "si": {
+                    "resultado": "PRODUCTO ANIMAL (cuero, lana, leche, huevos)"
+                  },
+                  "no": {
+                    "pregunta": "6f.- ¿Proviene de una planta?",
+                    "si": {
+                      "pregunta": "7f.- ¿Es una bebida alcohólica?",
+                      "si": {
+                        "pregunta": "8f.- ¿Proviene de la fermentación de frutas?",
+                        "si": {
+                          "resultado": "VINO"
+                        },
+                        "no": {
+                          "pregunta": "9f.- ¿Proviene de la fermentación de granos o cereales?",
+                          "si": {
+                            "resultado": "CERVEZA O WHISKY"
+                          },
+                          "no": {
+                            "resultado": "OTROS PRODUCTOS FERMENTADOS"
+                          }
+                        }
+                      },
+                      "no": {
+                        "resultado": "PRODUCTO VEGETAL (aceite, harina, papel)"
+                      }
+                    },
+                    "no": {
+                      "resultado": "OTRO PRODUCTO NATURAL"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "3.- ¿Es un objeto creado por humanos?",
+                  "si": {
+                    "pregunta": "4.- ¿Funciona con electricidad?",
+                    "si": {
+                      "resultado": "APARATO ELECTRÓNICO"
+                    },
+                    "no": {
+                      "resultado": "HERRAMIENTA U OBJETO HECHO A MANO"
+                    }
+                  },
+                  "no": {
+                    "resultado": "OBJETO NATURAL (roca, río, montaña)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "pregunta": "2.- ¿Es una emoción o sentimiento?",
+      "si": {
+        "pregunta": "¿Es una emoción positiva?",
+        "si": {
+          "pregunta": "¿Surge de lograr algo o tener éxito?",
+          "si": {
+            "pregunta": "¿Se siente al recibir algo deseado?",
+            "si": {
+              "pregunta": "¿Es una emoción muy intensa?",
+              "si": {
+                "pregunta": "¿Se manifiesta con energía y actividad?",
+                "si": {
+                  "pregunta": "¿Estimula la creatividad?",
+                  "si": {
+                    "pregunta": "¿Facilita socializar?",
+                    "si": {
+                      "pregunta": "¿Se relaciona con la diversión?",
+                      "si": {
+                        "pregunta": "¿Dura poco tiempo?",
+                        "si": {
+                          "pregunta": "¿Provoca risa?",
+                          "si": {
+                            "resultado": "ALEGRÍA (Felicidad, júbilo, euforia, regocijo)"
+                          },
+                          "no": {
+                            "resultado": "ENTUSIASMO (Excitación, motivación, ánimo)"
+                          }
+                        },
+                        "no": {
+                          "resultado": "SATISFACCIÓN (Contento, bienestar, plenitud)"
+                        }
+                      },
+                      "no": {
+                        "resultado": "GRATITUD (Agradecimiento, reconocimiento)"
+                      }
+                    },
+                    "no": {
+                      "resultado": "INSPIRACIÓN (Creatividad, estímulo, iluminación)"
+                    }
+                  },
+                  "no": {
+                    "resultado": "ORGULLO (Autoestima, dignidad, logro personal)"
+                  }
+                },
+                "no": {
+                  "resultado": "AMOR (Afecto, cariño, ternura, devoción)"
+                }
+              },
+              "no": {
+                "resultado": "ESPERANZA (Optimismo, fe, expectativa positiva)"
               }
             },
             "no": {
-              "resultado": "ORGULLO (Autoestima, dignidad, logro personal)"
+              "resultado": "CURIOSIDAD (Interés, inquietud, descubrimiento)"
             }
           },
           "no": {
-            "resultado": "AMOR (Afecto, cariño, ternura, devoción)"
+            "pregunta": "¿Se relaciona con la tranquilidad?",
+            "si": {
+              "resultado": "PAZ (Calma, serenidad, armonía, quietud)"
+            },
+            "no": {
+              "resultado": "NOSTALGIA (Añoranza, melancolía, recuerdo dulce)"
+            }
           }
         },
         "no": {
-          "resultado": "ESPERANZA (Optimismo, fe, expectativa positiva)"
-        }
-      },
-      "no": {
-        "resultado": "CURIOSIDAD (Interés, inquietud, descubrimiento)"
-      }
-    },
-    "no": {
-      "pregunta": "¿Se relaciona con la tranquilidad?",
-      "si": {
-        "resultado": "PAZ (Calma, serenidad, armonía, quietud)"
-      },
-      "no": {
-        "resultado": "NOSTALGIA (Añoranza, melancolía, recuerdo dulce)"
-      }
-    }
-  },
-  "no": {
-    "pregunta": "¿Se relaciona con el miedo?",
-    "si": {
-      "pregunta": "¿Es por peligro inmediato?",
-      "si": {
-        "resultado": "MIEDO (Temor, pánico, horror, fobia)"
-      },
-      "no": {
-        "resultado": "ANSIEDAD (Inquietud, preocupación, nerviosismo)"
-      }
-    },
-    "no": {
-      "pregunta": "¿Se relaciona con la tristeza?",
-      "si": {
-        "pregunta": "¿Es por una pérdida?",
-        "si": {
-          "resultado": "TRISTEZA (Pena, dolor, aflicción, desconsuelo)"
-        },
-        "no": {
-          "resultado": "SOLEDAD (Aislamiento, vacío, desconexión)"
-        }
-      },
-      "no": {
-        "pregunta": "¿Se relaciona con el enojo?",
-        "si": {
-          "pregunta": "¿Es hacia alguien específico?",
+          "pregunta": "¿Se relaciona con el miedo?",
           "si": {
-            "resultado": "IRA (Enojo, furia, rabia, indignación)"
+            "pregunta": "¿Es por peligro inmediato?",
+            "si": {
+              "resultado": "MIEDO (Temor, pánico, horror, fobia)"
+            },
+            "no": {
+              "resultado": "ANSIEDAD (Inquietud, preocupación, nerviosismo)"
+            }
           },
           "no": {
-            "resultado": "FRUSTRACIÓN (Descontento, fastidio, impotencia)"
-          }
-        },
-        "no": {
-          "pregunta": "¿Es por culpa o remordimiento?",
-          "si": {
-            "resultado": "CULPA (Remordimiento, arrepentimiento, autorreproche)"
-          },
-          "no": {
-            "resultado": "ENVIDIA (Celos, resentimiento, deseo de lo ajeno)"
+            "pregunta": "¿Se relaciona con la tristeza?",
+            "si": {
+              "pregunta": "¿Es por una pérdida?",
+              "si": {
+                "resultado": "TRISTEZA (Pena, dolor, aflicción, desconsuelo)"
+              },
+              "no": {
+                "resultado": "SOLEDAD (Aislamiento, vacío, desconexión)"
+              }
+            },
+            "no": {
+              "pregunta": "¿Se relaciona con el enojo?",
+              "si": {
+                "pregunta": "¿Es hacia alguien específico?",
+                "si": {
+                  "resultado": "IRA (Enojo, furia, rabia, indignación)"
+                },
+                "no": {
+                  "resultado": "FRUSTRACIÓN (Descontento, fastidio, impotencia)"
+                }
+              },
+              "no": {
+                "pregunta": "¿Es por culpa o remordimiento?",
+                "si": {
+                  "resultado": "CULPA (Remordimiento, arrepentimiento, autorreproche)"
+                },
+                "no": {
+                  "resultado": "ENVIDIA (Celos, resentimiento, deseo de lo ajeno)"
+                }
+              }
+            }
           }
         }
+      },
+      "no": {
+        "resultado": "CONCEPTO ABSTRACTO (idea, ciencia, evento)"
       }
-    }
-  }
-}
-    },
-    "no": {
-      "resultado": "CONCEPTO ABSTRACTO (idea, ciencia, evento)"
     }
   }
 }

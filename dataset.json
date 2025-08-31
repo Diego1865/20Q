@@ -223,65 +223,137 @@
             "no": {
               "pregunta": "7.- ¿Tiene pelo?",
               "si": {
-                "pregunta": "8.- ¿Come sobre todo carne?",
+                "pregunta": "8.- ¿Come carne?",
                 "si": {
-                  "pregunta": "9.- ¿Tiene garras retráctiles?",
+                  "pregunta": "9.- ¿Tiene garras?",
                   "si": {
-                    "resultado": "FELINOS (gatos, leones, tigres, pumas)"
-                  },
-                  "no": {
-                    "pregunta": "10.- ¿Tiene hocico largo como un perro?",
-                    "si": {
-                      "resultado": "CANINOS (lobos, perros, zorros)"
+                    "pregunta":"10.- ¿Es felino?",
+                    "si":{
+                      "pregunta":"11.- ¿Es grande?",
+                      "si":{
+                        "pregunta":"12.- ¿Tiene melena?",
+                        "si":{
+                          "resultado":"LEON"
+                        },
+                        "no":{
+                          "pregunta":"13.- ¿Es naranja con rayas negras?",
+                          "si":{
+                            "resultado":"TIGRE"
+                          },
+                          "no":{
+                            "pregunta":"14.- ¿Es muy agil?",
+                            "si":{
+                              "resultado":"LEOPARDO"
+                            },
+                            "no":{
+                              "resultado":"JAGUAR"
+                            }
+                          }
+                        }
+                      },
+                      "no":{
+                        "resultado":"GATO DOMESTICO"
+                      }
                     },
-                    "no": {
-                      "pregunta": "11.- ¿Es grande, peludo y también come plantas?",
+                    "no":{
+                      "pregunta": "11.- ¿Es canino?",
                       "si": {
-                        "resultado": "OSOS (osos pardos, polares, pandas)"
+                        "pregunta":"12.- ¿Es domestico?",
+                        "si":{
+                          "resultado":"PERRO DOMESTICO"
+                        },
+                        "no":{
+                          "pregunta":"13.- ¿Es solitario?",
+                          "si":{
+                            "pregunta":"14.- ¿Es pequeño y naranja?",
+                            "si":{
+                              "resultado":"ZORRO"
+                            },
+                            "no":{
+                              "resultado":"COYOTE"
+                            }
+                          },
+                          "no":{
+                            "resultado":"LOBO"
+                          }
+                        }
                       },
                       "no": {
-                        "pregunta": "12.- ¿Tiene cuerpo alargado y es muy ágil?",
+                        "pregunta": "12.- ¿Es grande, peludo y también come plantas?",
                         "si": {
-                          "resultado": "MUSTÉLIDOS (nutrias, comadrejas, tejones)"
+                          "resultado": "OSO"
                         },
                         "no": {
-                          "resultado": "OTROS CARNÍVOROS (hienas, mangostas)"
+                          "pregunta": "13.- ¿Tiene cuerpo alargado y es muy ágil?",
+                          "si": {
+                            "resultado": "TEJON"
+                          },
+                          "no": {
+                            "resultado": "HIENA"
+                          }
                         }
                       }
                     }
+                  },
+                  "no": {
+                    "resultado":"TOPO"
                   }
                 },
                 "no": {
                   "pregunta": "9.- ¿Tiene pezuñas?",
                   "si": {
-                    "pregunta": "10.- ¿Tiene un número impar de dedos (1 o 3)?",
-                    "si": {
-                      "pregunta": "11.- ¿Solo tiene 1 dedo (casco único)?",
-                      "si": {
-                        "resultado": "CABALLOS Y CEBRAS"
-                      },
-                      "no": {
-                        "resultado": "TAPIRES Y RINOCERONTES"
-                      }
-                    },
-                    "no": {
-                      "pregunta": "11.- ¿Tiene varios estómagos y mastica el bolo (rumia)?",
-                      "si": {
-                        "pregunta": "12.- ¿Sus cuernos no se caen nunca?",
-                        "si": {
-                          "resultado": "VACAS, CABRAS, OVEJAS, ANTÍLOPES"
+                    "pregunta":"10.- ¿Es un bovino?",
+                    "si":{
+                      "pregunta":"11.- ¿Es de la granja?",
+                      "si":{
+                        "pregunta":"12.- ¿Usualmente tiene manchas blancas con negro?",
+                        "si":{
+                          "resultado":"VACA"
                         },
-                        "no": {
-                          "resultado": "VENADOS Y ALCE (cuernos que se caen cada año)"
+                        "no":{
+                          "resultado":"CABRA"
                         }
                       },
-                      "no": {
-                        "pregunta": "12.- ¿Tiene joroba?",
-                        "si": {
-                          "resultado": "CAMELLOS Y LLAMAS"
+                      "no":{
+                        "pregunta":"12.- ¿Es nativo de Africa?",
+                        "si":{
+                          "resultado":"BUFALO"
                         },
-                        "no": {
-                          "resultado": "OTROS MAMÍFEROS CON PEZUÑAS"
+                        "no":{
+                          "resultado":"BISONTE"
+                        }
+                      }
+                    },
+                    "no":{
+                      "pregunta":"11.- ¿Es un equino?",
+                      "si":{
+                        "pregunta":"12.- ¿Tiene orejas largas?",
+                        "si":{
+                          "resultado":"BURRO"
+                        },
+                        "no":{
+                          "pregunta":"13.- ¿Tiene rayas blancas y negras?",
+                          "si":{
+                            "resultado":"CEBRA"
+                          },
+                          "no":{
+                            "resultado":"CABALLO"
+                          }
+                        }
+                      },
+                      "no":{
+                        "pregunta":"12.- ¿Tiene cuello largo?",
+                        "si":{
+                          "resultado":"JIRAFA"
+                        },
+                        "no":{
+                          "pregunta":"13.- ¿Es enorme?",
+                          "si":{
+                            "resultado":"ALCE"
+                          },
+                          "no":{
+                            "resultado":"VENADO"
+                          }
                         }
                       }
                     }
@@ -291,10 +363,34 @@
                     "si": {
                       "pregunta": "11.- ¿Tiene un par extra de dientes delanteros?",
                       "si": {
-                        "resultado": "CONEJOS Y LIEBRES"
+                        "pregunta":"12.- ¿Vive en madrigueras?",
+                        "si":{
+                          "resultado":"CONEJO"
+                        },
+                        "no":{
+                          "resultado":"LIEBRE"
+                        }
                       },
                       "no": {
-                        "resultado": "ROEDORES (ardillas, castores, capibaras, ratas, ratones, puercoespines)"
+                        "pregunta":"12.- ¿Vive en los arboles?",
+                        "si":{
+                          "resultado":"ARDILLA"
+                        },
+                        "no":{
+                          "pregunta":"12.- ¿Es traficado?",
+                          "si":{
+                            "resultado":"CAPIBARA"
+                          },
+                          "no":{
+                            "pregunta":"13.- ¿Es pequeño?",
+                            "si":{
+                              "resultado":"RATON"
+                            },
+                            "no":{
+                              "resultado":"RATA"
+                            }
+                          }
+                        }
                       }
                     },
                     "no": {
@@ -305,21 +401,21 @@
                       "no": {
                         "pregunta": "12.- ¿Vive en árboles y come sobre todo hojas?",
                         "si": {
-                          "resultado": "MONOS QUE COMEN HOJAS (colobos, langures, aulladores)"
+                          "pregunta":"13.- ¿Es lento",
+                          "si":{
+                            "resultado":"PEREZOSO"
+                          },
+                          "no":{
+                            "resultado":"MONO"
+                          }
                         },
                         "no": {
                           "pregunta": "13.- ¿Es un marsupial?",
                           "si": {
-                            "resultado": "MARSUPIALES HERBÍVOROS (canguros, wombats)"
+                            "resultado": "CANGURO"
                           },
                           "no": {
-                            "pregunta": "14.- ¿Come de todo (frutas, insectos, plantas)?",
-                            "si": {
-                              "resultado": "PRIMATES OMNÍVOROS (chimpancés, capuchinos)"
-                            },
-                            "no": {
-                              "resultado": "OTROS MAMÍFEROS NO CARNÍVOROS (perezosos, marsupiales varios)"
-                            }
+                            "resultado":"CHIMPANCE"
                           }
                         }
                       }
@@ -329,8 +425,18 @@
               },
               "no": {
                 "pregunta": "8.- ¿Tiene escamas?",
-                "si": {},
-                "no": {}
+                "si": {
+                  "pregunta":"9.- ¿Tiene patas?",
+                  "si":{
+                    "resultado":"LAGARTO"
+                  },
+                  "no":{
+                    "resultado":"SERPIENTE TERRESTRE"
+                  }
+                },
+                "no": {
+                  "resultado":"AVESTRUZ"
+                }
               }
             }
           }

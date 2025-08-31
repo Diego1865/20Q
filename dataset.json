@@ -1010,7 +1010,131 @@
       "si": {
         "pregunta": "4.- ¿Corresponde a valores o principios éticos?",
         "si": {
-          "resultado": "VALORES Y PRINCIPIOS ÉTICOS (Ética, Justicia, Responsabilidad, Lealtad, Honestidad, Respeto, Compasión)"
+          "pregunta": "5.- ¿Determinan cómo se deben de comportar las personas?",
+          "si": {
+            "pregunta": "6.- ¿Este principio se aplica principalmente en nuestras relaciones con otras personas?",
+            "si": {
+              "pregunta": "7.- ¿Se refieren a la integridad personal?",
+              "si": {
+                "pregunta": "8.- ¿Consiste en decir siempre la verdad?",
+                "si": {
+                  "resultado": "HONESTIDAD, TRANSPARENCIA"
+                },
+                "no": {
+                  "pregunta": "9. ¿Está más relacionado con la equidad y el trato merecido?",
+                  "si": {
+                    "resultado": "JUSTICIA"
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Consiste en preocuparse por el bienestar ajeno?",
+                    "si": {
+                      "resultado": "SOLIDARIDAD o EMPATÍA"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Implica reconocer comprender y aceptar las opiniones, sentimientos, etc de otras personas. ?",
+                      "si": {
+                        "resultado": "RESPETO"
+                      },
+                      "no": {
+                        "pregunta": "12.- ¿Consiste en actuar sin beneficiar a una persona?",
+                        "si": {
+                          "resultado": "IMPARCIALIDAD"
+                        },
+                        "no": {
+                          "resultado": "EQUIDAD"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "8.- ¿Consiste en cumplir con nuestros propios deberes y metas?",
+                "si": {
+                  "pregunta": "9.- ¿Consiste en hacerse cargo de las consecuencias de las acciones?",
+                  "si": {
+                    "resultado": "RESPONSABILIDAD"
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Consiste en actuar de forma correcta?",
+                    "si": {
+                      "resultado": "INTEGRIDAD"
+                    },
+                    "no": {
+                      "resultado": "OTRO VALOR"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "9.- ¿Consiste en compartir y ayudar sin recibir algo a cambio?",
+                  "si": {
+                    "resultado": "GENEROSIDAD"
+                  },
+                  "no": {
+                    "resultado": "OTRO VALOR"
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "7. ¿Se dirige principalmente hacia uno mismo?",
+              "si": {
+                "pregunta": "8.- ¿Se centra en acciones, capacidades y logros específicos de uno mismo?",
+                "si": {
+                  "pregunta": "9.- ¿Se centra en mantener y mejorar tu bienestar físico y mental?",
+                  "si": {
+                    "resultado": "AUTOCUIDADO"
+                  },
+                  "no": {
+                    "resultado": "AUTOACEPTACIÓN"
+                  }
+                },
+                "no": {}
+              },
+              "no": {
+                "pregunta": "8.- ¿Se refiere a la capadidad de seguir un conjunto de reglas o principios?",
+                "si": {
+                  "resultado": "DISCIPLINA"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Implica la persistencia en el esfuerzo a lo largo del tiempo?",
+                  "si": {
+                    "resultado": "CONSTANCIA"
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Se refiere a la capacidad de mantener la motivación y energía en las actividades?",
+                    "si": {
+                      "resultado": "DEDICACIÓN"
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Consiste en la capacidad de soportar dificultades o adversidades sin rendirse?",
+                      "si": {
+                        "resultado": "RESILIENCIA"
+                      },
+                      "no": {
+                        "resultado": "ESFUERZO PUNTUAL"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "6.- ¿Son cualidades internas de la persona relacionadas con su carácter?",
+            "si": {
+              "pregunta": "7.- ¿Se relaciona con la adquisición y el uso del conocimiento?",
+              "si": {
+                "resultado": "CURIOSIDAD, SABIDURÍA, CREATIVIDAD"
+              },
+              "no": {
+                "resultado": "VALENTÍA, PACIENCIA"
+              }
+            },
+            "no": {
+              "resultado": "OTRO TIPO DE PRINCIPIOS ABSTRACTOS"
+            }
+          }
         },
         "no": {
           "pregunta": "5.- ¿Está relacionado con estados del ser o conciencia espiritual?",

@@ -27,7 +27,7 @@
                   "resultado": "PEZ DE AGUA DULCE"
                 },
                 "no": {
-                  "resultado": "PEZ DE AGUA SALDA"
+                  "resultado": "PEZ DE AGUA SALADA"
                 }
               }
             },
@@ -841,7 +841,7 @@
                                             "si": {
                                             "pregunta": "10.- ¿Proviene de hojas?",
                                             "si": { "resultado": "TÉ" },
-                                            "no": { "resultado": "CAFÉ / CÁCACO" }
+                                            "no": { "resultado": "CAFÉ / CACAO" }
                                             },
                                             "no": { "resultado": "JUGO NATURAL" }
                                         }
@@ -1640,7 +1640,7 @@
                 "no": {}
               },
               "no": {
-                "pregunta": "8.- ¿Se refiere a la capadidad de seguir un conjunto de reglas o principios?",
+                "pregunta": "8.- ¿Se refiere a la capacidad de seguir un conjunto de reglas o principios?",
                 "si": {
                   "resultado": "DISCIPLINA"
                 },

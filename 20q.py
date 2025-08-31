@@ -4,13 +4,13 @@ import json
 with open("dataset.json", "r", encoding="utf-8") as archivo:
     arbol=json.load(archivo)
 
-#Funcion de jugar
+
 def jugar (nodo):
-     # Resultado
     if "resultado" in nodo:
         print(f"Resultado: {nodo['resultado']}")
         return
-     # Pregunta
+    
+    # Pregunta
     respuesta = input(f"{nodo['pregunta']} (s/n): ").lower()
     if respuesta.startswith("s"):
         jugar(nodo["si"])

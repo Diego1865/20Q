@@ -1035,57 +1035,9 @@
             "no": {
               "pregunta": "8.- ¿Se usa con fines medicinales o aromáticos?",
               "si": {
-<<<<<<< HEAD
-                "pregunta": "6.- ¿Se usa para construcción o reparación?",
-                "si": {
-                  "pregunta": "7.- ¿Se utiliza para golpear?",
-                  "si": {
-                    "resultado": "MARTILLO"
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Sirve para apretar o soltar?",
-                    "si": {
-                      "resultado": "DESTORNILLADOR / LLAVE INGLESA"
-                    },
-                    "no": {
-                      "resultado": "OTRA HERRAMIENTA DE MANO"
-                    }
-                  }
-                },
-                "no": {
-                  "pregunta": "7.- ¿Se usa en la cocina?",
-                  "si": {
-                    "pregunta": "8.- ¿Sirve para cortar?",
-                    "si": {
-                      "resultado": "CUCHILLO"
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Sirve para contener líquidos?",
-                      "si": {
-                        "resultado": "VASO / TAZA"
-                      },
-                      "no": {
-                        "no": {
-                          "pregunta": "10.- ¿Sirve para tomar la comida?",
-                          "si": {
-                            "resultado": "TENEDOR / CUCHARA"
-                          },
-                          "no": {
-                            "resultado": "PLATO / TAZON"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "no": {
-                    "resultado": "OTRO UTENSILIO"
-                  }
-                }
-=======
                 "pregunta": "9.- ¿Es especia culinaria?",
                 "si": { "resultado": "CANELA / CLAVO / PIMIENTA / JENGIBRE" },
                 "no": { "resultado": "HIERBAS MEDICINALES Y AROMÁTICAS (menta, manzanilla, albahaca)" }
->>>>>>> 69c0719 (mejoras tangible)
               },
               "no": { "resultado": "OTRO PRODUCTO VEGETAL" }
             }
@@ -1366,8 +1318,6 @@
 
 
   },
-
-
 
 
 

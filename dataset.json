@@ -3167,29 +3167,383 @@
               }
             },
             "no": {
-              "pregunta": "7.- ¿Se relaciona con la percepción estética o creatividad?",
+              "pregunta": "7. ¿Se relaciona con la percepción estética o creatividad?",
               "si": {
-                "resultado": "ESTÉTICA Y CREATIVIDAD (Belleza, Armonía, Estilo, Creatividad, Inspiración, Originalidad)"
-              },
-              "no": {
-                "pregunta": "8.- ¿Es un constructo social o cultural?",
+                "pregunta": "8. ¿Se refiere a la apreciación de cualidades sensoriales?",
                 "si": {
-                  "resultado": "CONSTRUCTO SOCIAL Y CULTURAL (Identidad, Cultura, Tradición, Sociedad, Historia, Lenguaje)"
-                },
-                "no": {
-                  "pregunta": "9.- ¿Es un concepto abstracto general?",
+                  "pregunta": "9. ¿Se relaciona principalmente con la percepción visual?",
                   "si": {
-                    "resultado": "CONCEPTO ABSTRACTO GENERAL (Tiempo, Justicia, Libertad, Belleza)"
-                  },
-                  "no": {
-                    "pregunta": "10.- ¿Es un concepto existencial o metafísico?",
+                    "pregunta": "10. ¿Se refiere a una cualidad de perfección formal, equilibrio y orden?",
                     "si": {
-                      "resultado": "CONCEPTO EXISTENCIAL (Nada, Vacío, Infinito, Ser, Muerte)"
+                      "resultado": "BELLEZA, ARMONÍA"
                     },
                     "no": {
-                      "resultado": "OTRO TIPO DE ABSTRACCIÓN"
+                      "pregunta": "11. ¿Implica una cualidad vasta, poderosa o abrumadora que genera asombro?",
+                      "si": {
+                        "resultado": "SOBREACOGEDOR"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Se refiere a la clasificación de obras o artistas basada en características formales comunes?",
+                        "si": {
+                          "pregunta": "13. ¿El concepto pertenece a una época histórica específica?",
+                          "si": {
+                            "pregunta": "14. ¿Corresponde al arte de la antigüedad o medieval?",
+                            "si": {
+                              "resultado": "ESTILO ARTÍSTICO CLÁSICO/ANTIGUO (Egipcio, Griego, Romano, Bizantino, Románico, Gótico)"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Corresponde al arte entre los siglos XV y XVIII?",
+                              "si": {
+                                "resultado": "ESTILO ARTÍSTICO RENACENTISTA/BARROCO (Renacimiento, Manierismo, Barroco, Rococó)"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Corresponde al arte de los siglos XIX y primera mitad del XX?",
+                                "si": {
+                                  "resultado": "ESTILO ARTÍSTICO MODERNO (Neoclasicismo, Romanticismo, Realismo, Impresionismo, Expresionismo, Cubismo, Surrealismo, Futurismo, Dadaísmo)"
+                                },
+                                "no": {
+                                  "resultado": "ESTILO ARTÍSTICO CONTEMPORÁNEO (Pop Art, Minimalismo, Conceptualismo, Arte Digital, Street Art, Arte Performativo)"
+                                }
+                              }
+                            }
+                          },
+                          "no": {
+                            "resultado": "ESTILO ARTÍSTICO GENERAL (Clasicismo, Vanguardias, Posmodernismo)"
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿El concepto se refiere a una escuela de pensamiento con base filosófica o ideológica sobre el arte?",
+                          "si": {
+                            "pregunta": "14. ¿Se originó antes del siglo XX?",
+                            "si": {
+                              "resultado": "CORRIENTE ESTÉTICA O ARTÍSTICA ANTIGUA (Idealismo, Mímesis, Simbolismo)"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Se originó en la modernidad (siglos XIX-XX)?",
+                              "si": {
+                                "resultado": "CORRIENTES MODERNAS (Romanticismo, Realismo, Naturalismo, Vanguardismo, Modernismo, Expresionismo)"
+                              },
+                              "no": {
+                                "resultado": "CORRIENTES CONTEMPORÁNEAS (Posmodernismo, Arte Conceptual, Hiperrealismo, Transhumanismo Artístico)"
+                              }
+                            }
+                          },
+                          "no": {
+                            "resultado": "APRECIACIÓN ESTÉTICA GENERAL"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Se relaciona principalmente con la percepción auditiva?",
+                    "si": {
+                      "pregunta": "11. ¿Se refiere a los elementos constitutivos o la teoría de la música?",
+                      "si": {
+                        "pregunta": "12. ¿Es un elemento estructural básico?",
+                        "si": {
+                          "pregunta": "13. ¿Se refiere a la sucesión de sonidos con diferente altura?",
+                          "si": {
+                            "resultado": "MELODÍA"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Se refiere a la combinación de sonidos que suenan simultáneamente?",
+                            "si": {
+                              "resultado": "ARMONÍA"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Se refiere al patrón de sonidos en el tiempo?",
+                              "si": {
+                                "resultado": "RITMO, COMPÁS"
+                              },
+                              "no": {
+                                "resultado": "OTRO ELEMENTO MUSICAL (Timbre, Dinámica, Textura)"
+                              }
+                            }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Se refiere a un sistema de organización sonora?",
+                          "si": {
+                            "resultado": "ESCALA, TONALIDAD, SISTEMA MUSICAL"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Se refiere a la calidad o color del sonido?",
+                            "si": {
+                              "resultado": "TIMBRE, COLOR TONAL"
+                            },
+                            "no": {
+                              "resultado": "TEORÍA MUSICAL (Notación, Solfeo, Contrapunto)"
+                            }
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Se refiere a un género, estilo o forma musical?",
+                        "si": {
+                          "pregunta": "13. ¿Es un género de tradición clásica o académica?",
+                          "si": {
+                            "pregunta": "14. ¿A qué período pertenece principalmente?",
+                            "si": {
+                              "pregunta": "15. ¿Corresponde al período barroco, clásico o romántico?",
+                              "si": {
+                                "resultado": "MÚSICA CLÁSICA (Barroco, Clasicismo, Romanticismo)"
+                              },
+                              "no": {
+                                "resultado": "MÚSICA CONTEMPORÁNEA, CLÁSICA MODERNA (Siglo XX en adelante)"
+                              }
+                            },
+                            "no": {
+                              "resultado": "MÚSICA ANTIGUA, MEDIEVAL, RENACENTISTA"
+                            }
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Es un género de música popular o tradicional?",
+                            "si": {
+                              "pregunta": "15. ¿Se originó en el siglo XX o XXI?",
+                              "si": {
+                                "resultado": "GÉNEROS DE MÚSICA POPULAR MODERNA (Rock, Pop, Jazz, Hip-Hop, Electrónica, Blues, Salsa, etc.)"
+                              },
+                              "no": {
+                                "resultado": "MÚSICA TRADICIONAL, FOLCLÓRICA, ÉTNICA"
+                              }
+                            },
+                            "no": {
+                              "resultado": "FORMA MUSICAL (Sinfonía, Sonata, Concierto, Ópera, Cantata)"
+                            }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Se refiere a la práctica de crear o interpretar música?",
+                          "si": {
+                            "resultado": "INTERPRETACIÓN, COMPOSICIÓN, IMPROVISACIÓN"
+                          },
+                          "no": {
+                            "resultado": "PERCEPCIÓN AUDITIVA, ESTÉTICA MUSICAL"
+                          }
+                        }
+                      }
+                    },
+                    "no": {
+                      "resultado": "ESTÉTICA SENSORIAL (Tacto, Olfato, Gusto, Sinestesia)"
                     }
                   }
+                },
+                "no": {
+                  "pregunta": "9. ¿Se refiere al proceso o capacidad de creación?",
+                  "si": {
+                    "pregunta": "10. ¿Implica la generación de ideas o soluciones nuevas?",
+                    "si": {
+                      "resultado": "CREATIVIDAD, INNOVACIÓN"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Implica un estado de conexión, fluidez y concentración intensa?",
+                      "si": {
+                        "resultado": "INSPIRACIÓN, ÉXTASIS CREATIVO, FLUIR (Flow)"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Implica la cualidad de ser único, novedoso y no derivativo?",
+                        "si": {
+                          "resultado": "ORIGINALIDAD"
+                        },
+                        "no": {
+                          "resultado": "PROCESO CREATIVO (Brainstorming, Diseño, Bocetación)"
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Se refiere a la reflexión, teoría o filosofía sobre el arte y la belleza?",
+                    "si": {
+                      "resultado": "TEORÍA ESTÉTICA (Mímesis, Expresionismo, Formalismo, Juicio estético)"
+                    },
+                    "no": {
+                      "resultado": "ESTÉTICA FILOSÓFICA (Experiencia estética, Cánones de belleza)"
+                    }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "8. ¿Es un constructo o concepto social, cultural o abstracto?",
+                "si": {
+                  "pregunta": "9. ¿Es un concepto principalmente social o cultural?",
+                  "si": {
+                    "pregunta": "10. ¿Se refiere a la identidad de un grupo o individuo?",
+                    "si": {
+                      "pregunta": "11. ¿Se basa en características compartidas por un grupo?",
+                      "si": {
+                        "resultado": "IDENTIDAD COLECTIVA (Identidad nacional, cultural, étnica)"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Se refiere a la auto-percepción y singularidad de una persona?",
+                        "si": {
+                          "resultado": "IDENTIDAD PERSONAL"
+                        },
+                        "no": {
+                          "resultado": "CONCIENCIA SOCIAL O INDIVIDUAL"
+                        }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Se refiere a sistemas de organización o estructura social?",
+                      "si": {
+                        "pregunta": "12. ¿Organiza el poder, la autoridad y la toma de decisiones?",
+                        "si": {
+                          "resultado": "SISTEMA POLÍTICO (Gobierno, Estado, Democracia, Autoritarismo)"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Organiza la producción, distribución y consumo de bienes?",
+                          "si": {
+                            "resultado": "SISTEMA ECONÓMICO (Capitalismo, Socialismo, Comunismo)"
+                          },
+                          "no": {
+                            "resultado": "ESTRATIFICACIÓN SOCIAL (Clases sociales, Castas, Estamentos)"
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Se refiere a la transmisión de conocimientos, creencias o prácticas?",
+                        "si": {
+                          "pregunta": "13. ¿Se transmite de generación en generación de forma informal?",
+                          "si": {
+                            "resultado": "TRADICIÓN, COSTUMBRE, FOLCLORE"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Se codifica y transmite a través de instituciones formales?",
+                            "si": {
+                              "resultado": "EDUCACIÓN"
+                            },
+                            "no": {
+                              "resultado": "CONOCIMIENTO TRADICIONAL O LOCAL"
+                            }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Es un sistema de comunicación simbólica?",
+                          "si": {
+                            "pregunta": "14. ¿Utiliza signos y estructuras verbales?",
+                            "si": {
+                              "resultado": "LENGUAJE, LENGUA, HABLA"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Utiliza signos no verbales (gestos, imágenes, sonidos)?",
+                              "si": {
+                                "resultado": "COMUNICACIÓN NO VERBAL (Gestual, Simbólica, Visual)"
+                              },
+                              "no": {
+                                "resultado": "SISTEMA SEMIÓTICO (Signo, Significado, Significantie)"
+                              }
+                            }
+                          },
+                          "no": {
+                            "resultado": "OTRO CONSTRUCTO SOCIAL (Norma, Rol social, Institución, Valor)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Es un concepto abstracto, existencial o metafísico?",
+                    "si": {
+                      "pregunta": "11. ¿Se refiere a la naturaleza de la existencia o la realidad?",
+                      "si": {
+                        "pregunta": "12. ¿Es la base o el fundamento de toda existencia?",
+                        "si": {
+                          "resultado": "EL SER, ENTE, EXISTENCIA"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Se refiere a la ausencia total de existencia, ser o realidad? (Concepto metafísico)",
+                          "si": {
+                            "resultado": "LA NADA (Nada absoluta, no-existencia)"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Se refiere a una sensación de falta de propósito, significado o vacío en la vida humana?",
+                            "si": {
+                              "resultado": "VACÍO EXISTENCIAL"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Se refiere a un espacio desprovisto de materia o contenido?",
+                              "si": {
+                                "resultado": "VACÍO"
+                              },
+                              "no": {
+                                "pregunta": "15. ¿Se refiere a los límites o el fin de la existencia?",
+                                "si": {
+                                  "resultado": "LA MUERTE, FINITUD"
+                                },
+                                "no": {
+                                  "resultado": "EXISTENCIALISMO, ESENCIA"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Se refiere a conceptos de totalidad, magnitud o escala?",
+                        "si": {
+                          "pregunta": "13. ¿Es ilimitado, inagotable y sin fronteras?",
+                          "si": {
+                            "resultado": "INFINITO"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Abarca todo lo que existe, la realidad completa?",
+                            "si": {
+                              "resultado": "EL TODO, UNIVERSO"
+                            },
+                            "no": {
+                              "resultado": "ABSOLUTO, DIVINIDAD"
+                            }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Se refiere al propósito, dirección o agencia en la existencia?",
+                          "si": {
+                            "pregunta": "14. ¿Implica un plan o curso de eventos predeterminado?",
+                            "si": {
+                              "resultado": "DESTINO"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Implica la capacidad de elección y autodeterminación?",
+                              "si": {
+                                "resultado": "LIBERTAD"
+                              },
+                              "no": {
+                                "resultado": "SENTIDO DE LA VIDA, PROPÓSITO EXISTENCIAL"
+                              }
+                            }
+                          },
+                          "no": {
+                            "resultado": "OTRO CONCEPTO METAFÍSICO (Eternidad, Alma, Espíritu, Transcendencia)"
+                          }
+                        }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Es un concepto abstracto fundamental?",
+                      "si": {
+                        "pregunta": "12. ¿Se refiere a una dimensión irreversible de sucesos?",
+                        "si": {
+                          "resultado": "TIEMPO"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Se refiere a una dimensión extensa que ocupa la materia?",
+                          "si": {
+                            "resultado": "ESPACIO"
+                          },
+                          "no": {
+                            "resultado": "DIMENSIÓN ABSTRACTA (Cantidad, Calidad, Relación)"
+                          }
+                        }
+                      },
+                      "no": {
+                        "resultado": "CONCEPTO ABSTRACTO GENERAL (Idea, Forma, Propiedad)"
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "resultado": "CONCEPTO NO CLASIFICADO EN EL ÁRBOL ACTUAL. Revisar premisas."
                 }
               }
             }

@@ -862,7 +862,7 @@
     
     
   {
-  "pregunta": "2.- ¿Es un objeto terrestre?",
+  "pregunta": "2.- ¿Se puede encontrar el la tierra/planeta?",
   "si": {
     "pregunta": "3.- ¿Es un producto derivado de un ser vivo?",
     "si": {
@@ -1366,8 +1366,6 @@
 
 
   },
-
-
 
 
 

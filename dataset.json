@@ -1,7 +1,7 @@
 {
   "pregunta": "1.- ¿Es un objeto/entidad tangible?",
   "si": {
-    "pregunta": "2.- ¿Es o fue un ser vivo?",
+    "pregunta": "2.- ¿Es un ser vivo?",
     "si": {
       "pregunta": "3.- ¿Es un animal?",
       "si": {
@@ -703,156 +703,103 @@
           }
         },
         "no": {
-          "pregunta": "3b.- ¿Es un hongo, protista o bacteria?",
-          "si": {
-            "pregunta": "4b.- ¿Es un hongo (Reino Fungi)?",
-            "si": {
-              "pregunta": "5b.- ¿Es visible a simple vista y grande?",
-              "si": {
-                "pregunta": "6b.- ¿Tiene forma de sombrilla o hongo clásico?",
-                "si": {
-                  "resultado": "SETAS (champiñones, porcini)"
-                },
-                "no": {
-                  "pregunta": "7b.- ¿Crece bajo la tierra?",
-                  "si": {
-                    "resultado": "TRUFAS"
-                  },
-                  "no": {
-                    "pregunta": "8b.- ¿Es parásito de plantas o animales?",
-                    "si": {
-                      "resultado": "HONGOS PARÁSITOS (caries de madera, roya)"
-                    },
-                    "no": {
-                      "resultado": "OTROS HONGOS GRANDES"
-                    }
-                  }
-                }
-              },
+  "pregunta": "3b.- ¿Es un hongo, protista o bacteria?",
+  "si": {
+    "pregunta": "4b.- ¿Es el organismo en sí (vivo o conservado), no un producto elaborado por él?",
+    "si": {
+      "pregunta": "5b.- ¿Tiene paredes celulares de quitina (Hongo) o aspecto de hongo?",
+      "si": {
+        "pregunta": "6b.- ¿Es visible a simple vista (cuerpo fructífero)?",
+        "si": {
+          "pregunta": "7b.- ¿Tiene forma de sombrilla (pie y sombrero)?",
+          "si": { "resultado": "SETAS (champiñones, shiitake, porcini)" },
+          "no": {
+            "pregunta": "8b.- ¿Tiene forma de estantería o repisa en madera?",
+            "si": { "resultado": "HONGOS DE REPISA / POLÍPOROS (reishi, cola de pavo)" },
+            "no": {
+              "pregunta": "9b.- ¿Es redondeado o esponjoso sin sombrero (grelas, puffball)?",
+              "si": { "resultado": "HONGOS BOLO / PEDO DE LOBO (puffballs)" },
               "no": {
-                "pregunta": "5c.- ¿Es microscópico?",
-                "si": {
-                  "pregunta": "6c.- ¿Se utiliza para la fermentación de alimentos?",
-                  "si": {
-                    "resultado": "LEVADURAS (fermentación de pan, cerveza, vino)"
-                  },
-                  "no": {
-                    "pregunta": "7c.- ¿Es un moho que crece en alimentos?",
-                    "si": {
-                      "resultado": "MOHOS (penicilina, moho del pan)"
-                    },
-                    "no": {
-                      "resultado": "HONGOS PATÓGENOS"
-                    }
-                  }
-                },
+                "pregunta": "10b.- ¿Tiene forma de panal o colmena en el sombrero?",
+                "si": { "resultado": "COLMENILLAS (morels)" },
+                "no": { "resultado": "OTROS MACROHONGOS (setas gelatinosas, corales, etc.)" }
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "7c.- ¿Es microscópico o forma colonias algodonosas/terrosas?",
+          "si": {
+            "pregunta": "8c.- ¿Fermenta azúcares produciendo gas o alcohol?",
+            "si": { "resultado": "LEVADURAS (Saccharomyces, etc.)" },
+            "no": {
+              "pregunta": "9c.- ¿Forma mohos visibles sobre alimentos o paredes?",
+              "si": { "resultado": "MOHOS (Penicillium, Aspergillus, Rhizopus)" },
+              "no": {
+                "pregunta": "10c.- ¿Vive asociado a raíces de plantas?",
+                "si": { "resultado": "MICORRIZAS (asociaciones hongo-raíz)" },
                 "no": {
-                  "resultado": "PRODUCTO DE HONGO (queso con moho, micorrizas)"
+                  "pregunta": "11c.- ¿Vive adherido a rocas/árboles junto con un alga (simbiosis)?",
+                  "si": { "resultado": "LÍQUENES (hongo + alga/cianobacteria)" },
+                  "no": { "resultado": "OTROS MICROHONGOS / HONGOS PARÁSITOS (royas, carbones)" }
                 }
               }
-            },
+            }
+          },
+          "no": { "resultado": "MUESTRA FÚNGICA NO IDENTIFICADA (requiere más rasgos)" }
+        }
+      },
+      "no": {
+        "pregunta": "5c.- ¿Tiene núcleo definido (eucariota) observable al microscopio?",
+        "si": {
+          "pregunta": "6d.- ¿Realiza fotosíntesis (verde/contiene cloroplastos)?",
+          "si": {
+            "pregunta": "7d.- ¿Es visible a simple vista en agua o costa?",
+            "si": { "resultado": "ALGAS MACROSCÓPICAS (algas marinas: nori, kelp, sargazo)" },
             "no": {
-              "pregunta": "4c.- ¿Es un microorganismo (protista o bacteria)?",
-              "si": {
-                "pregunta": "5d.- ¿Tiene un núcleo celular definido (eucariota)?",
-                "si": {
-                  "pregunta": "6d.- ¿Es unicelular y se mueve con pseudópodos?",
-                  "si": {
-                    "resultado": "AMEBAS (Protistas)"
-                  },
-                  "no": {
-                    "pregunta": "7d.- ¿Realiza fotosíntesis como las plantas?",
-                    "si": {
-                      "resultado": "ALGAS (Protistas)"
-                    },
-                    "no": {
-                      "pregunta": "8d.- ¿Se mueve con flagelos o cilios?",
-                      "si": {
-                        "resultado": "CILIADOS Y FLAGELADOS (Protistas)"
-                      },
-                      "no": {
-                        "resultado": "PROTOZOOS PARÁSITOS (Protistas)"
-                      }
-                    }
-                  }
-                },
+              "pregunta": "8d.- ¿Presenta frústulas de sílice o brilla en el mar?",
+              "si": { "resultado": "DIATOMEAS / DINOFLAGELADOS (mareas rojas/bioluminiscencia)" },
+              "no": { "resultado": "MICROALGAS (Chlorella, Spirulina, Euglena)" }
+            }
+          },
+          "no": {
+            "pregunta": "7e.- ¿Se mueve con pseudópodos de forma cambiante?",
+            "si": { "resultado": "AMEBAS (Protozoos)" },
+            "no": {
+              "pregunta": "8e.- ¿Se desplaza con cilios visibles al microscopio?",
+              "si": { "resultado": "CILIADOS (Paramecium, etc.)" },
+              "no": {
+                "pregunta": "9e.- ¿Se mueve con uno o dos flagelos?",
+                "si": { "resultado": "FLAGELADOS (Trypanosoma, Giardia, etc.)" },
                 "no": {
-                  "pregunta": "5e.- ¿Es unicelular y no tiene un núcleo definido (procariota)?",
-                  "si": {
-                    "pregunta": "6e.- ¿Vive en ambientes extremos (sal, calor)?",
-                    "si": {
-                      "resultado": "ARQUEAS (Reino Monera)"
-                    },
-                    "no": {
-                      "pregunta": "7e.- ¿Realiza fotosíntesis con clorofila?",
-                      "si": {
-                        "resultado": "CIANOBACTERIAS (Reino Monera)"
-                      },
-                      "no": {
-                        "pregunta": "8e.- ¿Vive en nuestro cuerpo o en el suelo?",
-                        "si": {
-                          "resultado": "BACTERIAS COMUNES (Reino Monera)"
-                        },
-                        "no": {
-                          "resultado": "BACTERIAS PATÓGENAS (Reino Monera)"
-                        }
-                      }
-                    }
-                  },
+                  "pregunta": "10e.- ¿Forma masas viscosas que se arrastran en madera/hojarasca?",
+                  "si": { "resultado": "MOHOS DE LIMO (Mixomicetes)" },
                   "no": {
-                    "resultado": "VIRUS"
+                    "pregunta": "11e.- ¿Infecta plantas causando podredumbres o mildiu?",
+                    "si": { "resultado": "OOMICETOS / MILDÍUS (tizón tardío, Phytophthora)" },
+                    "no": { "resultado": "OTROS PROTISTAS (parásitos/comedores libres)" }
                   }
                 }
-              },
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "6f.- ¿Carece de célula funcional propia (no tiene metabolismo autónomo)?",
+          "si": { "resultado": "VIRUS (partículas no celulares)" },
+          "no": {
+            "pregunta": "7f.- ¿Vive en ambientes extremos (alta sal, calor, acidez)?",
+            "si": { "resultado": "ARQUEAS (extremófilas)" },
+            "no": {
+              "pregunta": "8f.- ¿Realiza fotosíntesis oxigénica (laminas verdosas/azules en agua)?",
+              "si": { "resultado": "CIANOBACTERIAS (algas verde-azules)" },
               "no": {
-                "pregunta": "4d.- ¿Es un producto derivado de un ser vivo?",
-                "si": {
-                  "pregunta": "5f.- ¿Proviene de un animal?",
-                  "si": {
-                    "resultado": "PRODUCTO ANIMAL (cuero, lana, leche, huevos)"
-                  },
-                  "no": {
-                    "pregunta": "6f.- ¿Proviene de una planta?",
-                    "si": {
-                      "pregunta": "7f.- ¿Es una bebida alcohólica?",
-                      "si": {
-                        "pregunta": "8f.- ¿Proviene de la fermentación de frutas?",
-                        "si": {
-                          "resultado": "VINO"
-                        },
-                        "no": {
-                          "pregunta": "9f.- ¿Proviene de la fermentación de granos o cereales?",
-                          "si": {
-                            "resultado": "CERVEZA O WHISKY"
-                          },
-                          "no": {
-                            "resultado": "OTROS PRODUCTOS FERMENTADOS"
-                          }
-                        }
-                      },
-                      "no": {
-                        "resultado": "PRODUCTO VEGETAL (aceite, harina, papel)"
-                      }
-                    },
-                    "no": {
-                      "resultado": "OTRO PRODUCTO NATURAL"
-                    }
-                  }
-                },
+                "pregunta": "9f.- ¿Se usa comúnmente en fermentación de alimentos?",
+                "si": { "resultado": "BACTERIAS LÁCTICAS / ACÉTICAS (yogur*, kéfir*, vinagre)" },
                 "no": {
-                  "pregunta": "3.- ¿Es un objeto creado por humanos?",
-                  "si": {
-                    "pregunta": "4.- ¿Funciona con electricidad?",
-                    "si": {
-                      "resultado": "APARATO ELECTRÓNICO"
-                    },
-                    "no": {
-                      "resultado": "HERRAMIENTA U OBJETO HECHO A MANO"
-                    }
-                  },
-                  "no": {
-                    "resultado": "OBJETO NATURAL (roca, río, montaña)"
-                  }
+                  "pregunta": "10f.- ¿Fija nitrógeno o es bioluminiscente/ambiental?",
+                  "si": { "resultado": "BACTERIAS BENÉFICAS (rizobios, bioluminiscentes)" },
+                  "no": { "resultado": "BACTERIAS PATÓGENAS U OTRAS (E. coli pat., Salmonella, etc.)" }
                 }
               }
             }
@@ -861,292 +808,234 @@
       }
     },
     "no": {
-      "pregunta": "2.- ¿Es un objeto terrestre?",
+      "pregunta": "5g.- ¿Es un producto elaborado usando hongos/microorganismos?",
       "si": {
-        "pregunta": "3.- ¿Es un producto derivado de un ser vivo?",
+        "pregunta": "6g.- ¿Es un alimento o bebida fermentada?",
         "si": {
-          "pregunta": "4.- ¿Proviene de un animal?",
-          "si": {
-            "pregunta": "5.- ¿Es comestible?",
-            "si": {
-              "pregunta": "6.- ¿Es un producto lácteo?",
-              "si": {
-                "pregunta": "7.- ¿Es sólido?",
-                "si": {
-                  "pregunta": "8.- ¿Se madura con el tiempo?",
-                  "si": {
-                    "resultado": "QUESO CURADO"
-                  },
-                  "no": {
-                    "resultado": "QUESO FRESCO"
-                  }
-                },
-                "no": {
-                  "pregunta": "8.- ¿Está fermentado?",
-                  "si": {
-                    "resultado": "YOGURT / KEFIR"
-                  },
-                  "no": {
-                    "resultado": "LECHE"
-                  }
-                }
-              },
-              "no": {
-                "pregunta": "7.- ¿Proviene de un insecto?",
-                "si": {
-                  "pregunta": "8.- ¿Se produce en colmenas?",
-                  "si": {
-                    "resultado": "MIEL"
-                  },
-                  "no": {
-                    "resultado": "JALEA REAL / PROPÓLEO"
-                  }
-                },
-                "no": {
-                  "pregunta": "8.- ¿Es un huevo?",
-                  "si": {
-                    "pregunta": "9.- ¿Proviene de ave de corral?",
-                    "si": {
-                      "resultado": "HUEVO DE GALLINA"
-                    },
-                    "no": {
-                      "resultado": "HUEVO DE CODORNIZ / PATO"
-                    }
-                  },
-                  "no": {
-                    "resultado": "OTRO PRODUCTO ANIMAL COMESTIBLE"
-                  }
-                }
-              }
-            },
-            "no": {
-              "pregunta": "6.- ¿Se usa como material?",
-              "si": {
-                "pregunta": "7.- ¿Es una fibra o piel?",
-                "si": {
-                  "pregunta": "8.- ¿Proviene de un mamífero?",
-                  "si": {
-                    "pregunta": "9.- ¿Es textil?",
-                    "si": {
-                      "resultado": "LANA / PELO (alpaca, camello)"
-                    },
-                    "no": {
-                      "resultado": "CUERO / PIEL"
-                    }
-                  },
-                  "no": {
-                    "pregunta": "9.- ¿Proviene de insecto?",
-                    "si": {
-                      "resultado": "SEDA"
-                    },
-                    "no": {
-                      "resultado": "OTRO MATERIAL ANIMAL"
-                    }
-                  }
-                },
-                "no": {
-                  "pregunta": "8.- ¿Es usado como medicina o cosmético?",
-                  "si": {
-                    "resultado": "ACEITE DE PESCADO / JALEA REAL"
-                  },
-                  "no": {
-                    "resultado": "OTRO PRODUCTO MATERIAL ANIMAL"
-                  }
-                }
-              },
-              "no": {
-                "resultado": "PRODUCTO ANIMAL VARIADO"
-              }
-            }
-          },
+          "pregunta": "7g.- ¿Es principalmente lácteo fermentado?",
+          "si": { "resultado": "YOGUR / KÉFIR / QUESOS MADURADOS (Penicillium, etc.)" },
           "no": {
-            "pregunta": "5.- ¿Proviene de una planta?",
-            "si": {
-              "pregunta": "6.- ¿Es comestible?",
-              "si": {
-                "pregunta": "7.- ¿Es una bebida?",
-                "si": {
-                  "pregunta": "8.- ¿Es alcohólica?",
-                  "si": {
-                    "pregunta": "9.- ¿Proviene de frutas?",
-                    "si": {
-                      "resultado": "VINO"
-                    },
-                    "no": {
-                      "pregunta": "10.- ¿Proviene de cereales o granos?",
-                      "si": {
-                        "pregunta": "11.- ¿Es destilado?",
-                        "si": {
-                          "resultado": "WHISKY / RON / TEQUILA"
-                        },
-                        "no": {
-                          "resultado": "CERVEZA"
-                        }
-                      },
-                      "no": {
-                        "resultado": "OTRAS BEBIDAS FERMENTADAS"
-                      }
-                    }
-                  },
-                  "no": {
-                    "pregunta": "9.- ¿Se obtiene por infusión?",
-                    "si": {
-                      "pregunta": "10.- ¿Proviene de hojas?",
-                      "si": {
-                        "resultado": "TÉ"
-                      },
-                      "no": {
-                        "resultado": "CAFÉ / CACAO"
-                      }
-                    },
-                    "no": {
-                      "resultado": "JUGO NATURAL"
-                    }
-                  }
-                },
-                "no": {
-                  "pregunta": "8.- ¿Es sólido o procesado?",
-                  "si": {
-                    "pregunta": "9.- ¿Se usa como endulzante?",
-                    "si": {
-                      "resultado": "AZÚCAR / MIEL DE AGAVE"
-                    },
-                    "no": {
-                      "resultado": "HARINA / ACEITE VEGETAL"
-                    }
-                  },
-                  "no": {
-                    "resultado": "OTRO PRODUCTO VEGETAL COMESTIBLE"
-                  }
-                }
-              },
-              "no": {
-                "pregunta": "7.- ¿Se usa como material o fibra?",
-                "si": {
-                  "pregunta": "8.- ¿Sirve para fabricar ropa?",
-                  "si": {
-                    "resultado": "ALGODÓN / LINO / CÁÑAMO"
-                  },
-                  "no": {
-                    "resultado": "MADERA / PAPEL"
-                  }
-                },
-                "no": {
-                  "pregunta": "8.- ¿Se usa con fines medicinales o aromáticos?",
-                  "si": {
-                    "pregunta": "9.- ¿Es especia culinaria?",
-                    "si": {
-                      "resultado": "CANELA / CLAVO / PIMIENTA"
-                    },
-                    "no": {
-                      "resultado": "HIERBAS MEDICINALES (menta, manzanilla)"
-                    }
-                  },
-                  "no": {
-                    "resultado": "OTRO PRODUCTO VEGETAL"
-                  }
-                }
-              }
-            },
+            "pregunta": "8g.- ¿Es a base de cereales o legumbres?",
+            "si": { "resultado": "PAN / MASA MADRE / MISO / TEMPEH / SALSA DE SOYA" },
             "no": {
-              "resultado": "OTRO PRODUCTO NATURAL"
+              "pregunta": "9g.- ¿Es a base de frutas/plantas?",
+              "si": { "resultado": "VINO / SIDRA / KOMBUCHA / CHUCRUT / KIMCHI / VINAGRE" },
+              "no": { "resultado": "OTROS FERMENTADOS (encurtidos, natto, etc.)" }
             }
           }
         },
         "no": {
-          "pregunta": "3.- ¿Es un objeto creado por humanos?",
+          "pregunta": "7h.- ¿Es un compuesto o insumo industrial/biotecnológico?",
           "si": {
-            "pregunta": "4.- ¿Funciona con electricidad?",
+            "pregunta": "8h.- ¿Es antibiótico, enzima o ácido orgánico producido por microbios?",
+            "si": { "resultado": "PENICILINA / ESTREPTOMICINA / AMILASA / CITRATO / ÁCIDO LÁCTICO" },
+            "no": {
+              "pregunta": "9h.- ¿Es un hidrocoloide o polisacárido de algas/microbios?",
+              "si": { "resultado": "AGAR / CARRAGENINA / ALGINATO / XANTANA" },
+              "no": { "resultado": "OTROS PRODUCTOS MICROBIANOS (bioplásticos, biogás, etc.)" }
+            }
+          },
+          "no": { "resultado": "PRODUCTO RELACIONADO CON MICROORGANISMOS (cosmético, probiótico, etc.)" }
+        }
+      },
+      "no": {
+        "pregunta": "6i.- ¿Proviene indirectamente de hongos/algas (p. ej., cultivo, bioinsumo)?",
+        "si": { "resultado": "INSUMO AGRÍCOLA O BIORREMEDIACIÓN (micorrizas, biofertilizantes, algas)" },
+        "no": { "resultado": "NO ES PRODUCTO DE HONGO/PROTISTA/BACTERIA" }
+      }
+    }
+  },
+  "no": {
+    "resultado": "NO CORRESPONDE A HONGO/PROTISTA/BACTERIA (continúa por otras ramas)"
+  }
+}
+
+      }
+    },
+    "no": 
+    
+    
+    
+    
+    
+    
+    
+    
+  {
+  "pregunta": "2.- ¿Es un objeto terrestre?",
+  "si": {
+    "pregunta": "3.- ¿Es un producto derivado de un ser vivo?",
+    "si": {
+      "pregunta": "4.- ¿Proviene de un animal?",
+      "si": {
+        "pregunta": "5.- ¿Es comestible?",
+        "si": {
+          "pregunta": "6.- ¿Es un producto lácteo?",
+          "si": {
+            "pregunta": "7.- ¿Es sólido?",
             "si": {
-              "pregunta": "5.- ¿Es un dispositivo de comunicación?",
+              "pregunta": "8.- ¿Se madura con el tiempo?",
+              "si": { "resultado": "QUESO CURADO" },
+              "no": { "resultado": "QUESO FRESCO" }
+            },
+            "no": {
+              "pregunta": "8.- ¿Está fermentado?",
+              "si": { "resultado": "YOGURT / KEFIR" },
+              "no": { "resultado": "LECHE" }
+            }
+          },
+          "no": {
+            "pregunta": "7.- ¿Proviene de insecto?",
+            "si": {
+              "pregunta": "8.- ¿Se produce en colmenas?",
+              "si": { "resultado": "MIEL" },
+              "no": { "resultado": "JALEA REAL / PROPÓLEO / CERA DE ABEJA" }
+            },
+            "no": {
+              "pregunta": "8.- ¿Es un huevo?",
               "si": {
-                "pregunta": "6.- ¿Es portátil?",
+                "pregunta": "9.- ¿Proviene de ave de corral?",
+                "si": { "resultado": "HUEVO DE GALLINA" },
+                "no": { "resultado": "HUEVO DE CODORNIZ / PATO / AVESTRUZ" }
+              },
+              "no": {
+                "pregunta": "9.- ¿Es carne o procesado de carne?",
+                "si": { "resultado": "CARNE / EMBUTIDOS / JAMÓN / CHARCUTERÍA" },
+                "no": { "resultado": "OTRO PRODUCTO ANIMAL COMESTIBLE" }
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "6.- ¿Se usa como material/herramienta?",
+          "si": {
+            "pregunta": "7.- ¿Es fibra, piel o pluma?",
+            "si": {
+              "pregunta": "8.- ¿Proviene de mamífero?",
+              "si": {
+                "pregunta": "9.- ¿Es textil?",
+                "si": { "resultado": "LANA / PELO (alpaca, camello, oveja, cabra de angora)" },
+                "no": { "resultado": "CUERO / PIEL (ropa, muebles, accesorios)" }
+              },
+              "no": {
+                "pregunta": "9.- ¿Proviene de ave o insecto?",
                 "si": {
-                  "pregunta": "7.- ¿Es un teléfono inteligente?",
-                  "si": {
-                    "resultado": "TELÉFONO MÓVIL"
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Se usa para leer o ver contenido?",
-                    "si": {
-                      "resultado": "TABLETA"
-                    },
-                    "no": {
-                      "resultado": "TELÉFONO MÓVIL BÁSICO"
-                    }
-                  }
+                  "pregunta": "10.- ¿Es seda?",
+                  "si": { "resultado": "SEDA (gusano de seda, textiles)" },
+                  "no": { "resultado": "PLUMAS / PLUMÓN (edredones, almohadas, decoración)" }
                 },
+                "no": { "resultado": "OTRO MATERIAL ANIMAL (marfil, asta, hueso, concha)" }
+              }
+            },
+            "no": {
+              "pregunta": "8.- ¿Es usado en medicina/cosmética?",
+              "si": { "resultado": "ACEITE DE PESCADO / COLÁGENO / GELATINA / JALEA REAL" },
+              "no": { "resultado": "OTRO DERIVADO MATERIAL ANIMAL" }
+            }
+          },
+          "no": { "resultado": "PRODUCTO ANIMAL VARIADO" }
+        }
+      },
+      "no": {
+        "pregunta": "5.- ¿Proviene de una planta?",
+        "si": {
+          "pregunta": "6.- ¿Es comestible?",
+          "si": {
+            "pregunta": "7.- ¿Es una bebida?",
+            "si": {
+              "pregunta": "8.- ¿Es alcohólica?",
+              "si": {
+                "pregunta": "9.- ¿Proviene de frutas?",
+                "si": { "resultado": "VINO / SIDRA" },
                 "no": {
-                  "pregunta": "7.- ¿Permite hacer videollamadas?",
+                  "pregunta": "10.- ¿Proviene de cereales o granos?",
                   "si": {
-                    "resultado": "COMPUTADORA CON CÁMARA"
+                    "pregunta": "11.- ¿Es destilado?",
+                    "si": { "resultado": "WHISKY / RON / TEQUILA / VODKA" },
+                    "no": { "resultado": "CERVEZA / SAKE" }
                   },
-                  "no": {
-                    "resultado": "TELÉFONO FIJO"
-                  }
+                  "no": { "resultado": "OTRAS BEBIDAS FERMENTADAS (hidromiel, kombucha)" }
                 }
               },
               "no": {
-                "pregunta": "6.- ¿Se usa principalmente para entretenimiento?",
+                "pregunta": "9.- ¿Es jugo/infusión?",
                 "si": {
-                  "pregunta": "7.- ¿Proyecta imágenes?",
-                  "si": {
-                    "pregunta": "8.- ¿Es un televisor tradicional?",
-                    "si": {
-                      "resultado": "TELEVISOR"
-                    },
-                    "no": {
-                      "resultado": "PROYECTOR"
-                    }
-                  },
+                  "pregunta": "10.- ¿Proviene de fruta fresca?",
+                  "si": { "resultado": "JUGO / NÉCTAR / LICUADO" },
                   "no": {
-                    "pregunta": "8.- ¿Se utiliza para videojuegos?",
-                    "si": {
-                      "resultado": "CONSOLA DE VIDEOJUEGOS"
-                    },
+                    "pregunta": "11.- ¿Proviene de hojas o semillas?",
+                    "si": { "resultado": "TÉ / CAFÉ / CACAO BEBIBLE" },
+                    "no": { "resultado": "LECHES VEGETALES (soya, almendra, avena, coco)" }
+                  }
+                },
+                "no": { "resultado": "OTRA BEBIDA VEGETAL" }
+              }
+            },
+            "no": {
+              "pregunta": "8.- ¿Es sólido o procesado?",
+              "si": {
+                "pregunta": "9.- ¿Es parte fresca de la planta?",
+                "si": {
+                  "pregunta": "10.- ¿Es pulpa o cáscara/piel?",
+                  "si": { "resultado": "FRUTA / VERDURA / PULPA / CÁSCARA COMESTIBLE / RALLADURA" },
+                  "no": {
+                    "pregunta": "11.- ¿Es semilla o grano?",
+                    "si": { "resultado": "SEMILLAS / CEREALES / LEGUMBRES / NUECES" },
                     "no": {
-                      "resultado": "RADIO / EQUIPO DE SONIDO"
+                      "pregunta": "12.- ¿Es fermentado o encurtido?",
+                      "si": { "resultado": "CHUCRUT / KIMCHI / ENCURTIDOS / TOFU / TEMPEH" },
+                      "no": {
+                        "pregunta": "13.- ¿Es procesado dulce o energético?",
+                        "si": { "resultado": "AZÚCAR / PANELA / MELAZA / JARABE (AGAVE/MAÍZ)" },
+                        "no": {
+                          "pregunta": "14.- ¿Es harina, aceite o grasa?",
+                          "si": { "resultado": "HARINA / ACEITE VEGETAL / MANTECA DE CACAO" },
+                          "no": {
+                            "pregunta": "15.- ¿Es chocolate o cacao?",
+                            "si": { "resultado": "CHOCOLATE / CACAO EN POLVO / NIBS / PASTA DE CACAO" },
+                            "no": { "resultado": "OTRO PROCESADO VEGETAL COMESTIBLE" }
+                          }
+                        }
+                      }
                     }
                   }
                 },
+                "no": { "resultado": "OTRO PRODUCTO VEGETAL COMESTIBLE" }
+              },
+              "no": { "resultado": "OTRO PRODUCTO VEGETAL" }
+            }
+          },
+          "no": {
+            "pregunta": "7.- ¿Se usa como material?",
+            "si": {
+              "pregunta": "8.- ¿Es madera o derivado maderero?",
+              "si": {
+                "pregunta": "9.- ¿Es mobiliario?",
+                "si": { "resultado": "MUEBLES / PUERTAS / ESCRITORIOS / SILLAS / CAJONES" },
                 "no": {
-                  "pregunta": "7.- ¿Se usa principalmente para trabajar o estudiar?",
-                  "si": {
-                    "pregunta": "8.- ¿Es portátil?",
-                    "si": {
-                      "resultado": "LAPTOP"
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Se usa en oficinas?",
-                      "si": {
-                        "resultado": "COMPUTADORA DE ESCRITORIO"
-                      },
-                      "no": {
-                        "resultado": "IMPRESORA / ESCÁNER"
-                      }
-                    }
-                  },
+                  "pregunta": "10.- ¿Es pequeño objeto de madera?",
+                  "si": { "resultado": "LÁPIZ / PALILLOS / TABLA DE CORTAR / MARCOS" },
+                  "no": { "resultado": "OTRO OBJETO DE MADERA" }
+                }
+              },
+              "no": {
+                "pregunta": "9.- ¿Es papel o cartón?",
+                "si": { "resultado": "HOJAS / CUADERNOS / LIBROS / CAJAS DE CARTÓN" },
+                "no": {
+                  "pregunta": "10.- ¿Es fibra textil?",
+                  "si": { "resultado": "ALGODÓN / LINO / CÁÑAMO / BAMBÚ (ROPA, SÁBANAS, TOALLAS)" },
                   "no": {
-                    "pregunta": "8.- ¿Se utiliza para cocinar?",
-                    "si": {
-                      "pregunta": "9.- ¿Sirve para calentar comida?",
-                      "si": {
-                        "resultado": "HORNO MICROONDAS"
-                      },
-                      "no": {
-                        "resultado": "LICUADORA / BATIDORA ELÉCTRICA"
-                      }
-                    },
-                    "no": {
-                      "resultado": "OTRO ELECTRODOMÉSTICO"
-                    }
+                    "pregunta": "11.- ¿Es látex, corcho o resina?",
+                    "si": { "resultado": "LÁTEX (GUANTES, GLOBOS) / CORCHO (TAPONES, PANELES) / RESINAS Y ACEITES ESENCIALES" },
+                    "no": { "resultado": "OTRO DERIVADO VEGETAL NO ALIMENTARIO" }
                   }
                 }
               }
             },
             "no": {
-              "pregunta": "5.- ¿Es una herramienta o utensilio?",
+              "pregunta": "8.- ¿Se usa con fines medicinales o aromáticos?",
               "si": {
+<<<<<<< HEAD
                 "pregunta": "6.- ¿Se usa para construcción o reparación?",
                 "si": {
                   "pregunta": "7.- ¿Se utiliza para golpear?",
@@ -1192,508 +1081,319 @@
                     "resultado": "OTRO UTENSILIO"
                   }
                 }
+=======
+                "pregunta": "9.- ¿Es especia culinaria?",
+                "si": { "resultado": "CANELA / CLAVO / PIMIENTA / JENGIBRE" },
+                "no": { "resultado": "HIERBAS MEDICINALES Y AROMÁTICAS (menta, manzanilla, albahaca)" }
+>>>>>>> 69c0719 (mejoras tangible)
               },
+              "no": { "resultado": "OTRO PRODUCTO VEGETAL" }
+            }
+          }
+        },
+        "no": { "resultado": "OTRO PRODUCTO NATURAL" }
+      }
+    },
+   "no": {
+  "pregunta": "4.- ¿Es una SUSTANCIA NATURAL (agua, aire, fuego, suelo, polvo)?",
+  "si": {
+    "pregunta": "5.- ¿Es agua o está basada en agua?",
+    "si": {
+      "pregunta": "6.- ¿Está en estado líquido?",
+      "si": {
+        "pregunta": "7.- ¿Es salada por disolución de sales?",
+        "si": { "resultado": "AGUA DE MAR" },
+        "no": { "resultado": "AGUA DULCE" }
+      },
+      "no": {
+        "pregunta": "7.- ¿Está congelada?",
+        "si": { "resultado": "HIELO" },
+        "no": {
+          "pregunta": "8.- ¿Está en el aire como vapor o gotitas?",
+          "si": { "resultado": "VAPOR / NIEBLA / NUBE BAJA" },
+          "no": { "resultado": "NIEVE / GRANIZO" }
+        }
+      }
+    },
+    "no": {
+      "pregunta": "5.- ¿Es un gas?",
+      "si": {
+        "pregunta": "6.- ¿Es la mezcla natural de gases de la atmósfera?",
+        "si": { "resultado": "AIRE" },
+        "no": { "resultado": "GAS NATURAL (METANO/CO₂/OTROS)" }
+      },
+      "no": {
+        "pregunta": "6.- ¿Emite luz y calor por combustión?",
+        "si": { "resultado": "FUEGO / LLAMA / BRASA" },
+        "no": {
+          "pregunta": "7.- ¿Es material granular del suelo?",
+          "si": {
+            "pregunta": "8.- ¿Es muy fino y se levanta con facilidad?",
+            "si": { "resultado": "POLVO" },
+            "no": {
+              "pregunta": "9.- ¿Se compacta al humedecerse?",
+              "si": { "resultado": "ARCILLA" },
               "no": {
-                "pregunta": "6.- ¿Es un objeto de uso personal?",
-                "si": {
-                  "pregunta": "7.- ¿Es ropa?",
-                  "si": {
-                    "pregunta": "8.- ¿Se usa en el torso?",
-                    "si": {
-                      "resultado": "CAMISA / CAMISETA"
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Se usa en las piernas?",
-                      "si": {
-                        "resultado": "PANTALÓN / FALDA"
-                      },
-                      "no": {
-                        "resultado": "ZAPATOS / BOTAS"
-                      }
-                    }
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Es un accesorio?",
-                    "si": {
-                      "pregunta": "9.- ¿Se usa en la cabeza?",
-                      "si": {
-                        "resultado": "GORRA / SOMBRERO"
-                      },
-                      "no": {
-                        "resultado": "JOYERÍA / RELOJ"
-                      }
-                    },
-                    "no": {
-                      "resultado": "OTRO OBJETO PERSONAL"
-                    }
-                  }
-                },
+                "pregunta": "10.- ¿Está húmedo y pastoso?",
+                "si": { "resultado": "BARRO / LODO" },
                 "no": {
-                  "pregunta": "7.- ¿Es un objeto de transporte?",
-                  "si": {
-                    "pregunta": "8.- ¿Funciona con motor?",
-                    "si": {
-                      "pregunta": "9.- ¿Vuela?",
-                      "si": {
-                        "resultado": "AVIÓN / DRON"
-                      },
-                      "no": {
-                        "resultado": "AUTOMÓVIL / MOTOCICLETA"
-                      }
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Se impulsa con pedales?",
-                      "si": {
-                        "resultado": "BICICLETA"
-                      },
-                      "no": {
-                        "resultado": "CARRETA / PATINETA"
-                      }
-                    }
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Es un objeto del hogar?",
-                    "si": {
-                      "pregunta": "9.- ¿Sirve para descansar?",
-                      "si": {
-                        "resultado": "SILLA / CAMA"
-                      },
-                      "no": {
-                        "resultado": "MESA / ARMARIO"
-                      }
-                    },
-                    "no": {
-                      "resultado": "OTRO OBJETO HECHO POR HUMANOS"
-                    }
-                  }
+                  "pregunta": "11.- ¿Contiene materia orgánica y es oscuro?",
+                  "si": { "resultado": "TIERRA / SUELO" },
+                  "no": { "resultado": "ARENA / GRAVA" }
                 }
               }
             }
           },
           "no": {
-            "pregunta": "4.- ¿Es un mineral o roca?",
-            "si": {
-              "pregunta": "5.- ¿Es un MINERAL (sustancia pura/cristal) más que una ROCA (mezcla)?",
-              "si": {
-                "pregunta": "6.- ¿Es transparente o traslúcido?",
-                "si": {
-                  "pregunta": "7.- ¿Se usa como gema?",
-                  "si": {
-                    "resultado": "GEMA (CUARZO/AMATISTA/DIAMANTE)"
-                  },
-                  "no": {
-                    "resultado": "CRISTAL DE ROCA / HALITA / YESO"
-                  }
-                },
-                "no": {
-                  "pregunta": "7.- ¿Tiene brillo metálico?",
-                  "si": {
-                    "resultado": "METALES NATIVOS (ORO/PLATA/COBRE)"
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Reacciona con ácido (efervescencia)?",
-                    "si": {
-                      "resultado": "CALCITA (MINERAL CARBONATADO)"
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Es fuertemente magnético?",
-                      "si": {
-                        "resultado": "MAGNETITA / HEMATITA"
-                      },
-                      "no": {
-                        "resultado": "OTRO MINERAL (FELDESPATO/MICA/OLIVINO)"
-                      }
-                    }
-                  }
-                }
-              },
-              "no": {
-                "pregunta": "6.- ¿Se formó por enfriamiento del magma (ÍGNEA)?",
-                "si": {
-                  "pregunta": "7.- ¿Presenta cristales/grano grueso visibles a simple vista?",
-                  "si": {
-                    "resultado": "GRANITO / DIORITA (ÍGNEA INTRUSIVA)"
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Es muy densa u oscura?",
-                    "si": {
-                      "resultado": "BASALTO / ANDESITA (ÍGNEA EXTRUSIVA)"
-                    },
-                    "no": {
-                      "resultado": "OBSIDIANA / PÓMEZ (VIDRIO VOLCÁNICO)"
-                    }
-                  }
-                },
-                "no": {
-                  "pregunta": "7.- ¿Se formó por compactación/cementación de sedimentos (SEDIMENTARIA)?",
-                  "si": {
-                    "pregunta": "8.- ¿Es principalmente carbonatada (reacciona con ácido)?",
-                    "si": {
-                      "resultado": "CALIZA / DOLOMÍA (SEDIMENTARIA)"
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Tiene granos de arena visibles?",
-                      "si": {
-                        "resultado": "ARENISCA (SEDIMENTARIA)"
-                      },
-                      "no": {
-                        "pregunta": "10.- ¿Contiene capas finas o partículas muy finas?",
-                        "si": {
-                          "resultado": "LUTITA / LIMOLITA (SEDIMENTARIA)"
-                        },
-                        "no": {
-                          "resultado": "CONGLOMERADO / BRECHA (SEDIMENTARIA)"
-                        }
-                      }
-                    }
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Muestra foliación o bandas por metamorfismo (METAMÓRFICA)?",
-                    "si": {
-                      "pregunta": "9.- ¿Tiene láminas finas fácilmente separables?",
-                      "si": {
-                        "resultado": "PIZARRA / ESQUISTO (METAMÓRFICA)"
-                      },
-                      "no": {
-                        "resultado": "GNEIS (METAMÓRFICA)"
-                      }
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Proviene de caliza metamorfizada?",
-                      "si": {
-                        "resultado": "MÁRMOL (METAMÓRFICA)"
-                      },
-                      "no": {
-                        "resultado": "CUARCITA / ANFIBOLITA (METAMÓRFICA)"
-                      }
-                    }
-                  }
-                }
-              }
-            },
+            "pregunta": "8.- ¿Es un sólido cristalino y homogéneo?",
+            "si": { "resultado": "MINERAL (ver rama de MINERAL/ROCA abajo)" },
+            "no": { "resultado": "OTRA SUSTANCIA NATURAL (RESINA/ÁMBAR/ETC.)" }
+          }
+        }
+      }
+    }
+  },
+  "no": {
+    "pregunta": "4b.- ¿Es un MINERAL o una ROCA?",
+    "si": {
+      "pregunta": "5.- ¿Es un MINERAL (sustancia pura/cristal) más que una ROCA (mezcla)?",
+      "si": {
+        "pregunta": "6.- ¿Es transparente o traslúcido?",
+        "si": {
+          "pregunta": "7.- ¿Se usa como gema?",
+          "si": { "resultado": "GEMA (CUARZO/AMATISTA/DIAMANTE)" },
+          "no": { "resultado": "CRISTAL DE ROCA / HALITA / YESO" }
+        },
+        "no": {
+          "pregunta": "7.- ¿Tiene brillo metálico?",
+          "si": { "resultado": "METALES NATIVOS (ORO/PLATA/COBRE)" },
+          "no": {
+            "pregunta": "8.- ¿Reacciona con ácido (efervescencia)?",
+            "si": { "resultado": "CALCITA (CARBONATO)" },
             "no": {
-              "pregunta": "5.- ¿Es un cuerpo de agua?",
-              "si": {
-                "pregunta": "6.- ¿Es de agua salada?",
-                "si": {
-                  "pregunta": "7.- ¿Es muy grande y abierto?",
-                  "si": {
-                    "resultado": "OCÉANO / MAR"
-                  },
-                  "no": {
-                    "resultado": "GOLFO / BAHÍA / ESTUARIO"
-                  }
-                },
-                "no": {
-                  "pregunta": "7.- ¿El agua fluye?",
-                  "si": {
-                    "pregunta": "8.- ¿Forma una caída pronunciada?",
-                    "si": {
-                      "resultado": "CASCADA"
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Es un cauce grande y continuo?",
-                      "si": {
-                        "resultado": "RÍO"
-                      },
-                      "no": {
-                        "resultado": "ARROYO / RIACHUELO"
-                      }
-                    }
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Está parcialmente cerrado o subterráneo?",
-                    "si": {
-                      "pregunta": "9.- ¿Es un sumidero/pozo con agua?",
-                      "si": {
-                        "resultado": "CENOTE"
-                      },
-                      "no": {
-                        "resultado": "MANANTIAL / ACUÍFERO"
-                      }
-                    },
-                    "no": {
-                      "resultado": "LAGO / LAGUNA / ESTANQUE"
-                    }
-                  }
-                }
-              },
+              "pregunta": "9.- ¿Es fuertemente magnético?",
+              "si": { "resultado": "MAGNETITA / HEMATITA" },
               "no": {
-                "pregunta": "6.- ¿Es una formación geológica?",
-                "si": {
-                  "pregunta": "7.- ¿Es una elevación del terreno?",
-                  "si": {
-                    "pregunta": "8.- ¿Tiene cráter y origen volcánico?",
-                    "si": {
-                      "pregunta": "9.- ¿Presenta actividad reciente?",
-                      "si": {
-                        "resultado": "VOLCÁN ACTIVO"
-                      },
-                      "no": {
-                        "resultado": "VOLCÁN INACTIVO / DORMIDO"
-                      }
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Tiene gran altura y pendiente pronunciada?",
-                      "si": {
-                        "resultado": "MONTAÑA"
-                      },
-                      "no": {
-                        "resultado": "CERRO / COLINA"
-                      }
-                    }
-                  },
-                  "no": {
-                    "pregunta": "8.- ¿Es una depresión o cavidad?",
-                    "si": {
-                      "pregunta": "9.- ¿Se formó por disolución de roca caliza?",
-                      "si": {
-                        "resultado": "CUEVA / CAVERNA KÁRSTICA"
-                      },
-                      "no": {
-                        "resultado": "TUBO DE LAVA / CAVIDAD VOLCÁNICA"
-                      }
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Es una gran extensión plana o una abertura del relieve?",
-                      "si": {
-                        "resultado": "MESETA / LLANURA / VALLE"
-                      },
-                      "no": {
-                        "pregunta": "10.- ¿Es un relieve moldeado por viento o agua?",
-                        "si": {
-                          "resultado": "DUNA / DELTA / ARCO ROCOSO"
-                        },
-                        "no": {
-                          "resultado": "CAÑÓN / GARGANTA"
-                        }
-                      }
-                    }
-                  }
-                },
-                "no": {
-                  "pregunta": "7.- ¿Es un fenómeno natural?",
-                  "si": {
-                    "pregunta": "8.- ¿Ocurre principalmente en la atmósfera?",
-                    "si": {
-                      "pregunta": "9.- ¿Implica precipitación o vientos extremos?",
-                      "si": {
-                        "resultado": "TORMENTA / HURACÁN"
-                      },
-                      "no": {
-                        "pregunta": "10.- ¿Es un remolino de aire?",
-                        "si": {
-                          "resultado": "TORNADO"
-                        },
-                        "no": {
-                          "resultado": "ARCOÍRIS / AURORA / VIENTO"
-                        }
-                      }
-                    },
-                    "no": {
-                      "pregunta": "9.- ¿Proviene del interior de la Tierra?",
-                      "si": {
-                        "resultado": "TERREMOTO / GEISER / ERUPCIÓN"
-                      },
-                      "no": {
-                        "pregunta": "10.- ¿Proviene del espacio?",
-                        "si": {
-                          "resultado": "METEORO / ECLIPSE"
-                        },
-                        "no": {
-                          "pregunta": "11.- ¿Es descarga eléctrica o combustión?",
-                          "si": {
-                            "resultado": "RAYO / FUEGO"
-                          },
-                          "no": {
-                            "resultado": "OTRO FENÓMENO NATURAL"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "no": {
-                    "resultado": "OTRO OBJETO NATURAL"
-                  }
-                }
+                "pregunta": "10.- ¿Puede rayar el vidrio (dureza > 5.5)?",
+                "si": { "resultado": "CUARZO / OLIVINO / OTRO MINERAL DURO" },
+                "no": { "resultado": "MICA / TALCO / YESO / FELDESPATO" }
               }
             }
           }
         }
       },
       "no": {
-        "pregunta": "4.- ¿Es un cuerpo celeste?",
+        "pregunta": "6.- ¿Se formó por enfriamiento del magma (ÍGNEA)?",
         "si": {
-          "pregunta": "5.- ¿Es una estrella?",
+          "pregunta": "7.- ¿Presenta cristales visibles/grano grueso?",
+          "si": { "resultado": "GRANITO / DIORITA (INTRUSIVA)" },
+          "no": {
+            "pregunta": "8.- ¿Es muy oscura o muy densa?",
+            "si": { "resultado": "BASALTO / ANDESITA (EXTRUSIVA)" },
+            "no": { "resultado": "OBSIDIANA / PÓMEZ (VIDRIO VOLCÁNICO)" }
+          }
+        },
+        "no": {
+          "pregunta": "7.- ¿Se formó por compactación/cementación de sedimentos (SEDIMENTARIA)?",
           "si": {
-            "pregunta": "6.- ¿Está sola (no es parte de sistema binario ni cúmulo)?",
-            "si": {
-              "pregunta": "7.- ¿Es la más cercana a la Tierra?",
-              "si": {
-                "resultado": "SOL"
-              },
-              "no": {
-                "pregunta": "8.- ¿Es una gigante o supergigante?",
-                "si": {
-                  "resultado": "GIGANTE ROJA / SUPERGIGANTE"
-                },
-                "no": {
-                  "pregunta": "9.- ¿Es una estrella enana?",
-                  "si": {
-                    "resultado": "ENANA ROJA / ENANA BLANCA"
-                  },
-                  "no": {
-                    "resultado": "ESTRELLA DE SECUENCIA PRINCIPAL"
-                  }
-                }
-              }
-            },
+            "pregunta": "8.- ¿Es carbonatada (reacciona con ácido)?",
+            "si": { "resultado": "CALIZA / DOLOMÍA" },
             "no": {
-              "pregunta": "7.- ¿Es un sistema de dos estrellas?",
-              "si": {
-                "resultado": "SISTEMA BINARIO"
-              },
+              "pregunta": "9.- ¿Tiene granos de arena visibles?",
+              "si": { "resultado": "ARENISCA" },
               "no": {
-                "resultado": "CÚMULO ESTELAR"
+                "pregunta": "10.- ¿Muestra capas finas o partículas muy finas?",
+                "si": { "resultado": "LUTITA / LIMOLITA" },
+                "no": { "resultado": "CONGLOMERADO / BRECHA" }
               }
             }
           },
           "no": {
-            "pregunta": "6.- ¿Es un planeta?",
+            "pregunta": "8.- ¿Muestra foliación o bandas (METAMÓRFICA)?",
             "si": {
-              "pregunta": "7.- ¿Es un planeta rocoso?",
-              "si": {
-                "pregunta": "8.- ¿Tiene atmósfera densa?",
-                "si": {
-                  "pregunta": "9.- ¿Tiene vida conocida?",
-                  "si": {
-                    "resultado": "TIERRA"
-                  },
-                  "no": {
-                    "resultado": "VENUS"
-                  }
-                },
-                "no": {
-                  "pregunta": "9.- ¿Presenta casquetes polares visibles?",
-                  "si": {
-                    "resultado": "MARTE"
-                  },
-                  "no": {
-                    "resultado": "MERCURIO"
-                  }
-                }
-              },
-              "no": {
-                "pregunta": "8.- ¿Tiene anillos prominentes?",
-                "si": {
-                  "resultado": "SATURNO"
-                },
-                "no": {
-                  "pregunta": "9.- ¿Es el más grande del sistema solar?",
-                  "si": {
-                    "resultado": "JÚPITER"
-                  },
-                  "no": {
-                    "resultado": "URANO / NEPTUNO"
-                  }
-                }
-              }
+              "pregunta": "9.- ¿Tiene láminas finas separables?",
+              "si": { "resultado": "PIZARRA / ESQUISTO" },
+              "no": { "resultado": "GNEIS" }
             },
             "no": {
-              "pregunta": "7.- ¿Es un satélite natural?",
-              "si": {
-                "pregunta": "8.- ¿Orbita la Tierra?",
-                "si": {
-                  "resultado": "LUNA"
-                },
-                "no": {
-                  "resultado": "LUNA DE OTRO PLANETA (p. ej., EUROPA, TITÁN)"
-                }
-              },
-              "no": {
-                "pregunta": "8.- ¿Es un cuerpo pequeño del sistema solar?",
-                "si": {
-                  "pregunta": "9.- ¿Es de roca y metal?",
-                  "si": {
-                    "resultado": "ASTEROIDE / METEORITO"
-                  },
-                  "no": {
-                    "resultado": "COMETA"
-                  }
-                },
-                "no": {
-                  "resultado": "GALAXIA / NEBULOSA / ESTRELLA DE NEUTRONES"
-                }
-              }
+              "pregunta": "9.- ¿Proviene de caliza metamorfizada?",
+              "si": { "resultado": "MÁRMOL" },
+              "no": { "resultado": "CUARCITA / ANFIBOLITA" }
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "resultado": "OBJETO TERRESTRE (otro) — continúa por ramas de CUERPO DE AGUA / GEOLOGÍA / FENÓMENOS / OBJETO HUMANO según tu árbol."
+    }
+  }
+}
+
+  },
+  "no": {
+    "pregunta": "4.- ¿Es un cuerpo celeste?",
+    "si": {
+      "pregunta": "5.- ¿Es una estrella?",
+      "si": {
+        "pregunta": "6.- ¿Está sola (no es parte de sistema binario ni cúmulo)?",
+        "si": {
+          "pregunta": "7.- ¿Es la más cercana a la Tierra?",
+          "si": { "resultado": "SOL" },
+          "no": {
+            "pregunta": "8.- ¿Es una gigante o supergigante?",
+            "si": { "resultado": "GIGANTE ROJA / SUPERGIGANTE" },
+            "no": {
+              "pregunta": "9.- ¿Es una estrella enana?",
+              "si": { "resultado": "ENANA ROJA / ENANA BLANCA" },
+              "no": { "resultado": "ESTRELLA DE SECUENCIA PRINCIPAL" }
             }
           }
         },
         "no": {
-          "pregunta": "5.- ¿Es un fenómeno astronómico?",
+          "pregunta": "7.- ¿Es un sistema de dos estrellas?",
+          "si": { "resultado": "SISTEMA BINARIO" },
+          "no": { "resultado": "CÚMULO ESTELAR" }
+        }
+      },
+      "no": {
+        "pregunta": "6.- ¿Es un planeta?",
+        "si": {
+          "pregunta": "7.- ¿Es un planeta rocoso?",
           "si": {
-            "pregunta": "6.- ¿Ocurre en la atmósfera terrestre?",
+            "pregunta": "8.- ¿Tiene atmósfera densa?",
             "si": {
-              "pregunta": "7.- ¿Se manifiesta con luz?",
-              "si": {
-                "pregunta": "8.- ¿Es causado por partículas solares?",
-                "si": {
-                  "resultado": "AURORA BOREAL / AUSTRAL"
-                },
-                "no": {
-                  "pregunta": "9.- ¿Se ve como un arco en el cielo?",
-                  "si": {
-                    "resultado": "ARCOÍRIS"
-                  },
-                  "no": {
-                    "resultado": "HALO SOLAR / LUNAR"
-                  }
-                }
-              },
-              "no": {
-                "pregunta": "8.- ¿Implica precipitaciones?",
-                "si": {
-                  "resultado": "LLUVIA / GRANIZO / NIEVE"
-                },
-                "no": {
-                  "resultado": "VIENTO / TORNADO"
-                }
-              }
+              "pregunta": "9.- ¿Tiene vida conocida?",
+              "si": { "resultado": "TIERRA" },
+              "no": { "resultado": "VENUS" }
             },
             "no": {
-              "pregunta": "7.- ¿Es un evento cósmico?",
-              "si": {
-                "pregunta": "8.- ¿Implica colisión o impacto?",
-                "si": {
-                  "resultado": "IMPACTO DE METEORITO"
-                },
-                "no": {
-                  "pregunta": "9.- ¿Es un oscurecimiento de astros?",
-                  "si": {
-                    "resultado": "ECLIPSE"
-                  },
-                  "no": {
-                    "pregunta": "10.- ¿Es explosión estelar?",
-                    "si": {
-                      "resultado": "SUPERNOVA"
-                    },
-                    "no": {
-                      "resultado": "OTRO FENÓMENO CÓSMICO"
-                    }
-                  }
-                }
-              },
-              "no": {
-                "resultado": "OTRO FENÓMENO NATURAL"
-              }
+              "pregunta": "9.- ¿Presenta casquetes polares visibles?",
+              "si": { "resultado": "MARTE" },
+              "no": { "resultado": "MERCURIO" }
             }
           },
           "no": {
-            "resultado": "OTRO OBJETO DEL UNIVERSO"
+            "pregunta": "8.- ¿Tiene anillos prominentes?",
+            "si": { "resultado": "SATURNO" },
+            "no": {
+              "pregunta": "9.- ¿Es el más grande del sistema solar?",
+              "si": { "resultado": "JÚPITER" },
+              "no": { "resultado": "URANO / NEPTUNO" }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "7.- ¿Es un satélite natural?",
+          "si": {
+            "pregunta": "8.- ¿Orbita la Tierra?",
+            "si": { "resultado": "LUNA" },
+            "no": { "resultado": "LUNA DE OTRO PLANETA (p. ej., EUROPA, TITÁN)" }
+          },
+          "no": {
+            "pregunta": "8.- ¿Es un cuerpo pequeño del sistema solar?",
+            "si": {
+              "pregunta": "9.- ¿Es de roca y metal?",
+              "si": { "resultado": "ASTEROIDE / METEORITO" },
+              "no": { "resultado": "COMETA" }
+            },
+            "no": { "resultado": "GALAXIA / NEBULOSA / ESTRELLA DE NEUTRONES" }
           }
         }
       }
+    },
+    "no": {
+      "pregunta": "5.- ¿Es un fenómeno astronómico?",
+      "si": {
+        "pregunta": "6.- ¿Ocurre en la atmósfera terrestre?",
+        "si": {
+          "pregunta": "7.- ¿Se manifiesta con luz?",
+          "si": {
+            "pregunta": "8.- ¿Es causado por partículas solares?",
+            "si": { "resultado": "AURORA BOREAL / AUSTRAL" },
+            "no": {
+              "pregunta": "9.- ¿Se ve como un arco en el cielo?",
+              "si": { "resultado": "ARCOÍRIS" },
+              "no": { "resultado": "HALO SOLAR / LUNAR" }
+            }
+          },
+          "no": {
+            "pregunta": "8.- ¿Implica precipitaciones?",
+            "si": { "resultado": "LLUVIA / GRANIZO / NIEVE" },
+            "no": { "resultado": "VIENTO / TORNADO" }
+          }
+        },
+        "no": {
+          "pregunta": "7.- ¿Es un evento cósmico?",
+          "si": {
+            "pregunta": "8.- ¿Implica colisión o impacto?",
+            "si": { "resultado": "IMPACTO DE METEORITO" },
+            "no": {
+              "pregunta": "9.- ¿Es un oscurecimiento de astros?",
+              "si": { "resultado": "ECLIPSE" },
+              "no": {
+                "pregunta": "10.- ¿Es explosión estelar?",
+                "si": { "resultado": "SUPERNOVA" },
+                "no": { "resultado": "OTRO FENÓMENO CÓSMICO" }
+              }
+            }
+          },
+          "no": { "resultado": "OTRO FENÓMENO NATURAL" }
+        }
+      },
+      "no": { "resultado": "OTRO OBJETO DEL UNIVERSO" }
     }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   "no": {
     "pregunta": "2.- ¿Se relaciona con experiencias, emociones o procesos mentales humanos?",
     "si": {

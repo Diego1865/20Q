@@ -1001,18 +1001,67 @@
       }
     },
     "no": {
-      "pregunta": "8.- ¿Es PAPELERÍA u OFICINA?",
+  "pregunta": "8.- ¿Es PAPELERÍA u OFICINA?",
+  "si": {
+    "pregunta": "9.- ¿Sirve para escribir, dibujar o organizar?",
+    "si": {
+      "pregunta": "10.- ¿Usa grafito o carbón (no tinta)?",
       "si": {
-        "pregunta": "9.- ¿Sirve para escribir u organizar?",
-        "si": { "resultado": "LÁPIZ / PLUMA / MARCADOR / CUADERNO / LIBRETA / CARPETA" },
-        "no": { "resultado": "PAPEL / POST-ITS / SOBRES / GRAPAS / CLIPS" }
+        "pregunta": "11.- ¿Es de madera o portaminas?",
+        "si": { "resultado": "LÁPIZ (HB/2B/…) / LÁPIZ DE COLORES" },
+        "no": { "resultado": "PORTAMINAS / MINAS / CARBÓN DE DIBUJO" }
       },
       "no": {
-        "pregunta": "9.- ¿Es CONTENEDOR o ALMACENAMIENTO?",
-        "si": { "resultado": "CAJA / CONTENEDOR / TUPPER / BOTELLA / TARRO / CESTA" },
-        "no": { "resultado": "LIMPIEZA (ESCOBA / TRAPEADOR / ESPONJA / PAÑO)" }
+        "pregunta": "11.- ¿Usa tinta (bolígrafo, gel, pluma fuente, marcador)?",
+        "si": { "resultado": "PLUMA / BOLÍGRAFO / MARCADOR / PLUMA FUENTE / ROTULADOR" },
+        "no": {
+          "pregunta": "12.- ¿Corrige, mide o corta papel?",
+          "si": { "resultado": "BORRADOR / CORRECTOR / REGLA / ESCUADRA / CUTTER / TIJERAS" },
+          "no": {
+            "pregunta": "13.- ¿Sujeta u organiza documentos?",
+            "si": { "resultado": "GRAPADORA / PERFORADORA / CLIPS / GRAPAS / SEPARADORES" },
+            "no": { "resultado": "OTRA PAPELERÍA (POST-ITS / NOTAS / CARTULINA / COMPÁS)" }
+          }
+        }
       }
+    },
+    "no": {
+      "pregunta": "10.- ¿Es material de lectura/impreso (se usa para leer)?",
+      "si": {
+        "pregunta": "11.- ¿Está encuadernado (tiene lomo/cubiertas)?",
+        "si": {
+          "pregunta": "12.- ¿Tiene tapa dura?",
+          "si": { "resultado": "LIBRO (TAPA DURA)" },
+          "no": {
+            "pregunta": "13.- ¿Es de hojas blancas para notas?",
+            "si": { "resultado": "CUADERNO / LIBRETA / AGENDA (ESPIRAL/ENCUADERNADA)" },
+            "no": { "resultado": "LIBRO (TAPA BLANDA)" }
+          }
+        },
+        "no": {
+          "pregunta": "12.- ¿Se publica periódicamente?",
+          "si": {
+            "pregunta": "13.- ¿Es un diario de noticias?",
+            "si": { "resultado": "PERIÓDICO" },
+            "no": { "resultado": "REVISTA" }
+          },
+          "no": {
+            "pregunta": "13.- ¿Es breve/plegable o de pocas páginas?",
+            "si": { "resultado": "FOLLETO / TRÍPTICO / VOLANTE" },
+            "no": { "resultado": "MANUAL / CATÁLOGO / INFORME / DOSSIER" }
+          }
+        }
+      },
+      "no": { "resultado": "PAPEL / POST-ITS / SOBRES / GRAPAS / CLIPS" }
     }
+  },
+  "no": {
+    "pregunta": "9.- ¿Es CONTENEDOR o ALMACENAMIENTO?",
+    "si": { "resultado": "CAJA / CONTENEDOR / TUPPER / BOTELLA / TARRO / CESTA" },
+    "no": { "resultado": "LIMPIEZA (ESCOBA / TRAPEADOR / ESPONJA / PAÑO)" }
+  }
+}
+
   }
 }
 

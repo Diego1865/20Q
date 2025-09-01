@@ -1911,7 +1911,7 @@
           }
         },
         "no": {
-          "pregunta": "4.- ¿Se relaciona principalmente con lo que una persona sabe o piensa? (cognición)",
+          "pregunta": "4.- ¿Se relaciona con lo que una persona sabe o piensa? (procesos mental)",
           "si": {
             "pregunta": "5.- ¿Es algo que la mente *hace* (una acción) en lugar de algo que *tiene* (un contenido)?",
             "si": {
@@ -1958,7 +1958,13 @@
             }
           },
           "no": {
-            "resultado": "FALTA"
+            "pregunta": "6.- ¿Se relaciona con percepciones sensoriales?",
+            "si": {
+              "resultado": "SENSACIÓN (Frío, Calor, Dolor, Placer, Hambre, Sed)"
+            },
+            "no": {
+              "resultado": "COMPORTAMIENTO (Acción, Hábito, Expresión, Reacción)"
+            }
           }
         }
       }
@@ -3473,33 +3479,7 @@
                         "si": {
                           "resultado": "EL SER, ENTE, EXISTENCIA"
                         },
-                        "no": {
-                          "pregunta": "13. ¿Se refiere a la ausencia total de existencia, ser o realidad? (Concepto metafísico)",
-                          "si": {
-                            "resultado": "LA NADA (Nada absoluta, no-existencia)"
-                          },
-                          "no": {
-                            "pregunta": "14. ¿Se refiere a una sensación de falta de propósito, significado o vacío en la vida humana?",
-                            "si": {
-                              "resultado": "VACÍO EXISTENCIAL"
-                            },
-                            "no": {
-                              "pregunta": "15. ¿Se refiere a un espacio desprovisto de materia o contenido?",
-                              "si": {
-                                "resultado": "VACÍO"
-                              },
-                              "no": {
-                                "pregunta": "15. ¿Se refiere a los límites o el fin de la existencia?",
-                                "si": {
-                                  "resultado": "LA MUERTE, FINITUD"
-                                },
-                                "no": {
-                                  "resultado": "EXISTENCIALISMO, ESENCIA"
-                                }
-                              }
-                            }
-                          }
-                        }
+                        "no": {}
                       },
                       "no": {
                         "pregunta": "12. ¿Se refiere a conceptos de totalidad, magnitud o escala?",
@@ -3573,7 +3553,19 @@
         }
       },
       "no": {
-        "resultado": "NADA"
+        "pregunta": "4. ¿Se refiere a una sensación de falta de propósito, significado o vacío en la vida humana?",
+        "si": {
+          "resultado": "VACÍO EXISTENCIAL"
+        },
+        "no": {
+          "pregunta": "5. ¿Se refiere a un espacio desprovisto de materia o contenido?",
+          "si": {
+            "resultado": "VACÍO"
+          },
+          "no": {
+            "resultado": "LA NADA (Nada absoluta, no-existencia)"
+          }
+        }
       }
     }
   }

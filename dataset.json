@@ -852,15 +852,7 @@
 
       }
     },
-    "no": 
-    
-    
-    
-    
-    
-    
-    
-  {
+    "no": {
   "pregunta": "2.- ¿Se puede encontrar el la tierra/planeta?",
   "si": {
     "pregunta": "3.- ¿Es un objeto creado por humanos (artefacto)?",
@@ -948,9 +940,55 @@
               }
             },
             "no": {
-              "pregunta": "8.- ¿Es un accesorio?",
-              "si": { "resultado": "CINTURÓN / BOLSA / MOCHILA / CARTERA / GORRA / SOMBRERO / BUFANDA / GUANTES" },
-              "no": { "resultado": "JOYERÍA / RELOJ / LENTES" }
+              "pregunta": "8.- ¿Es un accesorio que se lleva en el cuerpo?",
+                "si": {
+                  "pregunta": "9.- ¿Su función es práctica (sujetar, cargar, cubrir)?",
+                  "si": {
+                    "pregunta": "10.- ¿Sirve para llevar pertenencias?",
+                    "si": {
+                      "resultado": "PORTADOR DE PERTENENCIAS (Bolsa, Mochila, Cartera, Morral, Riñonera)"
+                    },
+                    "no": {
+                      "pregunta": "11.- ¿Es para sujetar la ropa?",
+                      "si": {
+                        "resultado": "SUJETADOR (Cinturón, Tirantes, Broche, Alfiler)"
+                      },
+                      "no": {
+                        "pregunta": "12.- ¿Es un accesorio para cubrir una parte del cuerpo?",
+                        "si": {
+                          "resultado": "PRENDAS ACCESORIAS (Gorra, Sombrero, Bufanda, Pañuelo, Guantes, Mitones)"
+                        },
+                        "no": {
+                          "resultado": "ACCESORIO FUNCIONAL (Lentes, Gafas de sol, Audífonos, Paraguas plegable)"
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Su función es principalmente decorativa?",
+                    "si": {
+                      "pregunta": "11.- ¿Está hecho con metales preciosos o piedras valiosas?",
+                      "si": {
+                        "resultado": "JOYERÍA FINA (Anillo de oro, Collar de diamantes, Pulsera de plata)"
+                      },
+                      "no": {
+                        "pregunta": "12.- ¿Se lleva en la muñeca?",
+                        "si": {
+                          "resultado": "RELOJ (Analógico, Digital, De pulsera, De bolsillo)"
+                        },
+                        "no": {
+                          "resultado": "BISUTERÍA y ACCESORIOS DECORATIVOS (Collar de fantasía, Pulseras, Aretes, Piercings)"
+                        }
+                      }
+                    },
+                    "no": {
+                      "resultado": "ACCESORIO MIXTO (Reloj elegante, Gafas de diseño, Cinturón de lujo)"
+                    }
+                  }
+                },
+                "no": {
+                  "resultado": "OBJETO PERSONAL DIVERSo (Llaves, Encendedor, Navaja multiusos, Abrebotellas)"
+                }
             }
           }
         },
@@ -990,85 +1028,175 @@
     }
   },
   "no": {
-    "pregunta": "7.- ¿Es OBJETO del HOGAR o MUEBLE?",
+    "pregunta": "7.- ¿Es para transporte o movilidad?",
     "si": {
-      "pregunta": "8.- ¿Sirve para sentarse/dormir/guardar?",
-      "si": { "resultado": "SILLA / SILLÓN / CAMA / COLCHÓN / ARMARIO / CÓMODA" },
-      "no": {
-        "pregunta": "9.- ¿Es mesa, superficie o iluminación no eléctrica?",
-        "si": { "resultado": "MESA / ESCRITORIO / BANCA / LÁMPARA DE ACEITE / CANDELABRO" },
-        "no": { "resultado": "DECORACIÓN / CUADRO / MARCO / CORTINAS / ALFOMBRA" }
-      }
-    },
-    "no": {
-  "pregunta": "8.- ¿Es PAPELERÍA u OFICINA?",
-  "si": {
-    "pregunta": "9.- ¿Sirve para escribir, dibujar o organizar?",
-    "si": {
-      "pregunta": "10.- ¿Usa grafito o carbón (no tinta)?",
+      "pregunta": "8.- ¿Transporta personas?",
       "si": {
-        "pregunta": "11.- ¿Es de madera o portaminas?",
-        "si": { "resultado": "LÁPIZ (HB/2B/…) / LÁPIZ DE COLORES" },
-        "no": { "resultado": "PORTAMINAS / MINAS / CARBÓN DE DIBUJO" }
-      },
-      "no": {
-        "pregunta": "11.- ¿Usa tinta (bolígrafo, gel, pluma fuente, marcador)?",
-        "si": { "resultado": "PLUMA / BOLÍGRAFO / MARCADOR / PLUMA FUENTE / ROTULADOR" },
-        "no": {
-          "pregunta": "12.- ¿Corrige, mide o corta papel?",
-          "si": { "resultado": "BORRADOR / CORRECTOR / REGLA / ESCUADRA / CUTTER / TIJERAS" },
-          "no": {
-            "pregunta": "13.- ¿Sujeta u organiza documentos?",
-            "si": { "resultado": "GRAPADORA / PERFORADORA / CLIPS / GRAPAS / SEPARADORES" },
-            "no": { "resultado": "OTRA PAPELERÍA (POST-ITS / NOTAS / CARTULINA / COMPÁS)" }
-          }
-        }
-      }
-    },
-    "no": {
-      "pregunta": "10.- ¿Es material de lectura/impreso (se usa para leer)?",
-      "si": {
-        "pregunta": "11.- ¿Está encuadernado (tiene lomo/cubiertas)?",
+        "pregunta": "9.- ¿Es para transporte individual?",
         "si": {
-          "pregunta": "12.- ¿Tiene tapa dura?",
-          "si": { "resultado": "LIBRO (TAPA DURA)" },
+          "pregunta": "10.- ¿Tiene motor?",
+          "si": {
+            "resultado": "VEHÍCULO MOTORIZADO INDIVIDUAL (Moto, Scooter, Patinete eléctrico)"
+          },
           "no": {
-            "pregunta": "13.- ¿Es de hojas blancas para notas?",
-            "si": { "resultado": "CUADERNO / LIBRETA / AGENDA (ESPIRAL/ENCUADERNADA)" },
-            "no": { "resultado": "LIBRO (TAPA BLANDA)" }
+            "resultado": "VEHÍCULO NO MOTORIZADO (Bicicleta, Patines, Monopatín, Patineta)"
           }
         },
         "no": {
-          "pregunta": "12.- ¿Se publica periódicamente?",
+          "pregunta": "10.- ¿Es terrestre?",
           "si": {
-            "pregunta": "13.- ¿Es un diario de noticias?",
-            "si": { "resultado": "PERIÓDICO" },
-            "no": { "resultado": "REVISTA" }
+            "pregunta": "11.- ¿Transporta pocas personas (2-8)?",
+            "si": {
+              "resultado": "AUTOMÓVIL / VEHÍCULO PEQUEÑO (Coche, Auto, Furgoneta)"
+            },
+            "no": {
+              "resultado": "VEHÍCULO DE TRANSPORTE COLECTIVO (Autobús, Camión, Tren)"
+            }
           },
           "no": {
-            "pregunta": "13.- ¿Es breve/plegable o de pocas páginas?",
-            "si": { "resultado": "FOLLETO / TRÍPTICO / VOLANTE" },
-            "no": { "resultado": "MANUAL / CATÁLOGO / INFORME / DOSSIER" }
+            "pregunta": "11.- ¿Es aéreo?",
+            "si": {
+              "resultado": "AERONAVE (Avión, Helicóptero, Globo aerostático)"
+            },
+            "no": {
+              "pregunta": "12.- ¿Es acuático?",
+              "si": {
+                "resultado": "EMBARCACIÓN (Barco, Velero, Lancha, Submarino)"
+              },
+              "no": {
+                "resultado": "VEHÍCULO ESPACIAL (Cohete, Transbordador, Satélite)"
+              }
+            }
           }
         }
       },
-      "no": { "resultado": "PAPEL / POST-ITS / SOBRES / GRAPAS / CLIPS" }
-    }
-  },
-  "no": {
-    "pregunta": "9.- ¿Es CONTENEDOR o ALMACENAMIENTO?",
-    "si": { "resultado": "CAJA / CONTENEDOR / TUPPER / BOTELLA / TARRO / CESTA" },
-    "no": { "resultado": "LIMPIEZA (ESCOBA / TRAPEADOR / ESPONJA / PAÑO)" }
-  }
-}
-
-  }
-}
-
+      "no": {
+        "pregunta": "9.- ¿Transporta mercancías?",
+        "si": {
+          "resultado": "VEHÍCULO DE CARGA (Camión de carga, Vagón de tren, Carguero)"
+        },
+        "no": {
+          "resultado": "EQUIPO DE MOVILIDAD ASISTIDA (Silla de ruedas, Andadera, Muletas)"
+        }
       }
     },
     "no": {
-      "pregunta": "3b.- ¿Es un producto derivado de un ser vivo?",
+      "pregunta": "8.- ¿Es OBJETO del HOGAR o MUEBLE?",
+      "si": {
+        "pregunta": "9.- ¿Sirve para sentarse/dormir/guardar?",
+        "si": {
+          "resultado": "SILLA / SILLÓN / CAMA / COLCHÓN / ARMARIO / CÓMODA"
+        },
+        "no": {
+          "pregunta": "10.- ¿Es mesa, superficie o iluminación no eléctrica?",
+          "si": {
+            "resultado": "MESA / ESCRITORIO / BANCA / LÁMPARA DE ACEITE / CANDELABRO"
+          },
+          "no": {
+            "resultado": "DECORACIÓN / CUADRO / MARCO / CORTINAS / ALFOMBRA"
+          }
+        }
+      },
+      "no": {
+        "pregunta": "9.- ¿Es PAPELERÍA u OFICINA?",
+        "si": {
+          "pregunta": "10.- ¿Sirve para escribir, dibujar o organizar?",
+          "si": {
+            "pregunta": "11.- ¿Usa grafito o carbón (no tinta)?",
+            "si": {
+              "pregunta": "12.- ¿Es de madera o portaminas?",
+              "si": {
+                "resultado": "LÁPIZ (HB/2B/…) / LÁPIZ DE COLORES"
+              },
+              "no": {
+                "resultado": "PORTAMINAS / MINAS / CARBÓN DE DIBUJO"
+              }
+            },
+            "no": {
+              "pregunta": "12.- ¿Usa tinta (bolígrafo, gel, pluma fuente, marcador)?",
+              "si": {
+                "resultado": "PLUMA / BOLÍGRAFO / MARCADOR / PLUMA FUENTE / ROTULADOR"
+              },
+              "no": {
+                "pregunta": "13.- ¿Corrige, mide o corta papel?",
+                "si": {
+                  "resultado": "BORRADOR / CORRECTOR / REGLA / ESCUADRA / CUTTER / TIJERAS"
+                },
+                "no": {
+                  "pregunta": "14.- ¿Sujeta u organiza documentos?",
+                  "si": {
+                    "resultado": "GRAPADORA / PERFORADORA / CLIPS / GRAPAS / SEPARADORES"
+                  },
+                  "no": {
+                    "resultado": "OTRA PAPELERÍA (POST-ITS / NOTAS / CARTULINA / COMPÁS)"
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "11.- ¿Es material de lectura/impreso (se usa para leer)?",
+            "si": {
+              "pregunta": "12.- ¿Está encuadernado (tiene lomo/cubiertas)?",
+              "si": {
+                "pregunta": "13.- ¿Tiene tapa dura?",
+                "si": {
+                  "resultado": "LIBRO (TAPA DURA)"
+                },
+                "no": {
+                  "pregunta": "14.- ¿Es de hojas blancas para notas?",
+                  "si": {
+                    "resultado": "CUADERNO / LIBRETA / AGENDA (ESPIRAL/ENCUADERNADA)"
+                  },
+                  "no": {
+                    "resultado": "LIBRO (TAPA BLANDA)"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "13.- ¿Se publica periódicamente?",
+                "si": {
+                  "pregunta": "14.- ¿Es un diario de noticias?",
+                  "si": {
+                    "resultado": "PERIÓDICO"
+                  },
+                  "no": {
+                    "resultado": "REVISTA"
+                  }
+                },
+                "no": {
+                  "pregunta": "15.- ¿Es breve/plegable o de pocas páginas?",
+                  "si": {
+                    "resultado": "FOLLETO / TRÍPTICO / VOLANTE"
+                  },
+                  "no": {
+                    "resultado": "MANUAL / CATÁLOGO / INFORME / DOSSIER"
+                  }
+                }
+              }
+            },
+            "no": {
+              "resultado": "PAPEL / POST-ITS / SOBRES / GRAPAS / CLIPS"
+            }
+          }
+        },
+        "no": {
+          "pregunta": "10.- ¿Es CONTENEDOR o ALMACENAMIENTO?",
+          "si": {
+            "resultado": "CAJA / CONTENEDOR / TUPPER / BOTELLA / TARRO / CESTA"
+          },
+          "no": {
+            "resultado": "LIMPIEZA (ESCOBA / TRAPEADOR / ESPONJA / PAÑO)"
+          }
+        }
+      }
+    }
+  }
+}
+      }
+    },
+    "no": {
+      "pregunta": "3b.- ¿Es un producto utilizado como materia prima?",
       "si": {
         "pregunta": "4.- ¿Proviene de un animal?",
         "si": {
@@ -1464,7 +1592,151 @@
               }
             },
             "no": {
-              "resultado": "OBJETO TERRESTRE (otro) — continúa por ramas de CUERPO DE AGUA / GEOLOGÍA / FENÓMENOS / OBJETO HUMANO según tu árbol."
+                            "pregunta": "5.- ¿Es un cuerpo de agua?",
+              "si": {
+                "pregunta": "6.- ¿Es de agua salada?",
+                "si": {
+                  "pregunta": "7.- ¿Es muy grande y abierto?",
+                  "si": {
+                    "resultado": "OCÉANO / MAR"
+                  },
+                  "no": {
+                    "resultado": "GOLFO / BAHÍA / ESTUARIO"
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿El agua fluye?",
+                  "si": {
+                    "pregunta": "8.- ¿Forma una caída pronunciada?",
+                    "si": {
+                      "resultado": "CASCADA"
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Es un cauce grande y continuo?",
+                      "si": {
+                        "resultado": "RÍO"
+                      },
+                      "no": {
+                        "resultado": "ARROYO / RIACHUELO"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Está parcialmente cerrado o subterráneo?",
+                    "si": {
+                      "pregunta": "9.- ¿Es un sumidero/pozo con agua?",
+                      "si": {
+                        "resultado": "CENOTE"
+                      },
+                      "no": {
+                        "resultado": "MANANTIAL / ACUÍFERO"
+                      }
+                    },
+                    "no": {
+                      "resultado": "LAGO / LAGUNA / ESTANQUE"
+                    }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6.- ¿Es una formación geológica?",
+                "si": {
+                  "pregunta": "7.- ¿Es una elevación del terreno?",
+                  "si": {
+                    "pregunta": "8.- ¿Tiene cráter y origen volcánico?",
+                    "si": {
+                      "pregunta": "9.- ¿Presenta actividad reciente?",
+                      "si": {
+                        "resultado": "VOLCÁN ACTIVO"
+                      },
+                      "no": {
+                        "resultado": "VOLCÁN INACTIVO / DORMIDO"
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Tiene gran altura y pendiente pronunciada?",
+                      "si": {
+                        "resultado": "MONTAÑA"
+                      },
+                      "no": {
+                        "resultado": "CERRO / COLINA"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Es una depresión o cavidad?",
+                    "si": {
+                      "pregunta": "9.- ¿Se formó por disolución de roca caliza?",
+                      "si": {
+                        "resultado": "CUEVA / CAVERNA KÁRSTICA"
+                      },
+                      "no": {
+                        "resultado": "TUBO DE LAVA / CAVIDAD VOLCÁNICA"
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Es una gran extensión plana o una abertura del relieve?",
+                      "si": {
+                        "resultado": "MESETA / LLANURA / VALLE"
+                      },
+                      "no": {
+                        "pregunta": "10.- ¿Es un relieve moldeado por viento o agua?",
+                        "si": {
+                          "resultado": "DUNA / DELTA / ARCO ROCOSO"
+                        },
+                        "no": {
+                          "resultado": "CAÑÓN / GARGANTA"
+                        }
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Es un fenómeno natural?",
+                  "si": {
+                    "pregunta": "8.- ¿Ocurre principalmente en la atmósfera?",
+                    "si": {
+                      "pregunta": "9.- ¿Implica precipitación o vientos extremos?",
+                      "si": {
+                        "resultado": "TORMENTA / HURACÁN"
+                      },
+                      "no": {
+                        "pregunta": "10.- ¿Es un remolino de aire?",
+                        "si": {
+                          "resultado": "TORNADO"
+                        },
+                        "no": {
+                          "resultado": "ARCOÍRIS / AURORA / VIENTO"
+                        }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Proviene del interior de la Tierra?",
+                      "si": {
+                        "resultado": "TERREMOTO / GEISER / ERUPCIÓN"
+                      },
+                      "no": {
+                        "pregunta": "10.- ¿Proviene del espacio?",
+                        "si": {
+                          "resultado": "METEORO / ECLIPSE"
+                        },
+                        "no": {
+                          "pregunta": "11.- ¿Es descarga eléctrica o combustión?",
+                          "si": {
+                            "resultado": "RAYO / FUEGO"
+                          },
+                          "no": {
+                            "resultado": "OTRO FENÓMENO NATURAL"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRO OBJETO NATURAL"
+                  }
+                }
+              }
             }
           }
         }
@@ -1585,54 +1857,10 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   "no": {
-    "pregunta": "2.- ¿Se relaciona con experiencias, emociones o procesos mentales humanos?",
+    "pregunta": "2.- ¿Se relaciona con experiencias, emociones o comportamientos humanos?",
     "si": {
       "pregunta": "3.- ¿Es una emoción?",
       "si": {
@@ -1848,16 +2076,16 @@
           }
         },
         "no": {
-          "pregunta": "4.- ¿Se relaciona con lo que una persona sabe o piensa? (procesos mental)",
+          "pregunta": "5.- ¿Se relaciona con lo que una persona sabe o piensa? (procesos mental)",
           "si": {
-            "pregunta": "5.- ¿Es algo que la mente *hace* (una acción) en lugar de algo que *tiene* (un contenido)?",
+            "pregunta": "6.- ¿Es algo que la mente *hace* (una acción) en lugar de algo que *tiene* (un contenido)?",
             "si": {
-              "pregunta": "6.- ¿Implica principalmente razonamiento lógico?",
+              "pregunta": "7.- ¿Implica principalmente razonamiento lógico?",
               "si": {
                 "resultado": "RAZONAMIENTO (Analizar, Resolver problemas, Deducir, Planificar)"
               },
               "no": {
-                "pregunta": "7.- ¿Se vincula con la generación de ideas o experiencias internas?",
+                "pregunta": "8.- ¿Se vincula con la generación de ideas o experiencias internas?",
                 "si": {
                   "resultado": "IMAGINACIÓN o CREACIÓN (Soñar, Imaginar, Fantasear)"
                 },
@@ -1895,12 +2123,30 @@
             }
           },
           "no": {
-            "pregunta": "6.- ¿Se relaciona con percepciones sensoriales?",
+            "pregunta": "6.- ¿Es una acción o comportamiento?",
             "si": {
-              "resultado": "SENSACIÓN (Frío, Calor, Dolor, Placer, Hambre, Sed)"
+              "pregunta": "7.- ¿Es una acción biológica básica?",
+              "si": {
+                "resultado": "ACCIÓN BIOLÓGICA (Dormir, Comer, Beber, Respirar)"
+              },
+              "no": {
+                "pregunta": "8.- ¿Es voluntaria?",
+                "si": {
+                  "resultado": "CONDUCTA VOLUNTARIA (Trabajar, Estudiar, Socializar)"
+                },
+                "no": {
+                  "resultado": "ACTO INVOLUNTARIO (Reflejo, Tic, Reacción automática)"
+                }
+              }
             },
             "no": {
-              "resultado": "COMPORTAMIENTO (Acción, Hábito, Expresión, Reacción)"
+              "pregunta": "7.- ¿Se relaciona con percepciones sensoriales?",
+              "si": {
+                "resultado": "SENSACIÓN (Frío, Calor, Dolor, Placer, Hambre, Sed)"
+              },
+              "no": {
+                "resultado": "COMPORTAMIENTO (Acción, Hábito, Expresión, Reacción)"
+              }
             }
           }
         }

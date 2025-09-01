@@ -1687,35 +1687,35 @@
     }
   },
   "no": {
-    "pregunta": "2.- ¿Pertenece al ámbito humano?",
+    "pregunta": "2.- ¿Se relaciona con experiencias, emociones o procesos mentales humanos?",
     "si": {
       "pregunta": "3.- ¿Es una emoción?",
       "si": {
         "pregunta": "4.- ¿Es una emoción positiva?",
         "si": {
-          "pregunta": "5.- ¿Está relacionado hacia otros?",
+          "pregunta": "5.- ¿Está relacionada hacia otros?",
           "si": {
             "pregunta": "6.- ¿Implica una conexión emocional profunda?",
             "si": {
-              "resultado": "AMOR, TERNURA, TERNURA"
+              "resultado": "AMOR, TERNURA, AFECTO"
             },
             "no": {
-              "pregunta": "7.- ¿Se basa en el respeto y la valoración y cualidades?",
+              "pregunta": "7.- ¿Se basa en el respeto y la valoración de cualidades?",
               "si": {
                 "resultado": "ADMIRACIÓN, RECONOCIMIENTO"
               },
               "no": {
-                "pregunta": "8.- ¿Está relacionado con la empatía hacia el sufrimiento de otros?",
+                "pregunta": "8.- ¿Está relacionada con la empatía hacia el sufrimiento de otros?",
                 "si": {
                   "resultado": "COMPASIÓN, SOLIDARIDAD"
                 },
                 "no": {
                   "pregunta": "9.- ¿Implica un sentimiento de unión social o pertenencia?",
                   "si": {
-                    "resultado": "AFECTO, AMISTAD, CAMARADERÍA"
+                    "resultado": "AMISTAD, CAMARADERÍA, COMUNIÓN"
                   },
                   "no": {
-                    "resultado": "APRECIO GENERAL (SIMPATÍA, AGRADO)"
+                    "resultado": "APRECIO, SIMPATÍA, AGRADO"
                   }
                 }
               }
@@ -1724,94 +1724,106 @@
           "no": {
             "pregunta": "6.- ¿Está relacionada con valorar las cosas?",
             "si": {
-              "resultado": "GRATITUD, VALORACIÓN"
+              "resultado": "GRATITUD, VALORACIÓN, CONTENTAMIENTO"
             },
             "no": {
               "pregunta": "7.- ¿Implica interés o deseo por otros?",
               "si": {
-                "resultado": "ATRACCIÓN, INTERÉS"
+                "resultado": "ATRACCIÓN, INTERÉS, EXPECTATIVA"
               },
               "no": {
                 "pregunta": "8.- ¿Provoca risa?",
                 "si": {
-                  "resultado": "ALEGRÍA (Felicidad, júbilo, euforia, regocijo)"
+                  "resultado": "ALEGRÍA, FELICIDAD, JÚBILO, EUFORIA, REGOCIJO"
                 },
                 "no": {
-                  "resultado": "ENTUSIASMO (Excitación, motivación, ánimo)"
+                  "pregunta": "9.- ¿Está relacionada con energía o disposición personal?",
+                  "si": {
+                    "pregunta": "10.- ¿Implica proyección positiva hacia el futuro?",
+                    "si": {
+                      "resultado": "ESPERANZA, OPTIMISMO"
+                    },
+                    "no": {
+                      "resultado": "ENTUSIASMO, EXCITACIÓN, MOTIVACIÓN, ÁNIMO, VITALIDAD, AUTOCONFIANZA"
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRAS EMOCIONES POSITIVAS INDIVIDUALES"
+                  }
                 }
               }
             }
           }
         },
         "no": {
-          "pregunta": "5.- ¿Se relaciona con bienestar o logro personal?",
+          "pregunta": "5.- ¿Se relaciona con el enojo o la irritación?",
           "si": {
-            "pregunta": "6.- ¿Es producto de un éxito o meta alcanzada?",
+            "pregunta": "6.- ¿Es intensa y explosiva?",
             "si": {
-              "resultado": "ORGULLO, ALEGRÍA, SATISFACCIÓN"
+              "resultado": "IRA, FURIA, RABIA, INDIGNACIÓN"
             },
             "no": {
-              "pregunta": "7.- ¿Proviene de la autosuperación o resiliencia?",
+              "pregunta": "7.- ¿Es una molestia persistente?",
               "si": {
-                "resultado": "FORTALEZA, ESPERANZA, MOTIVACIÓN"
+                "resultado": "ENOJO, RESENTIMIENTO, IRRITACIÓN"
               },
               "no": {
-                "resultado": "SATISFACCIÓN"
+                "resultado": "FASTIDIO, MOLESTIA, DESAGrado"
               }
             }
           },
           "no": {
-            "pregunta": "6.- ¿Está relacionada con la curiosidad o el interés por el entorno?",
+            "pregunta": "6.- ¿Implica tristeza o decepción?",
             "si": {
-              "pregunta": "7.- ¿Es un descubrimiento o aprendizaje nuevo?",
+              "pregunta": "7.- ¿Es por una pérdida o daño?",
               "si": {
-                "resultado": "CURIOSIDAD, ASOMBRO, MARAVILLA"
+                "resultado": "TRISTEZA, DOLOR, PESAR, PENA"
               },
               "no": {
-                "resultado": "ENTUSIASMO, EXPECTATIVA"
+                "pregunta": "8.- ¿Es por expectativas no cumplidas?",
+                "si": {
+                  "resultado": "DECEPCIÓN, DESILUSIÓN"
+                },
+                "no": {
+                  "resultado": "MELANCOLÍA, NOSTALGIA"
+                }
               }
             },
             "no": {
-              "pregunta": "7.- ¿Implica calma, equilibrio o paz interior?",
+              "pregunta": "7.- ¿Se siente impotencia o bloqueo?",
               "si": {
-                "pregunta": "8.- ¿Está relacionada con el bienestar físico y mental?",
+                "pregunta": "8.- ¿Es hacia uno mismo?",
                 "si": {
-                  "resultado": "TRANQUILIDAD, RELAJACIÓN, ARMONÍA"
+                  "resultado": "FRUSTRACIÓN, IMPOTENCIA, AUTOEXIGENCIA"
                 },
                 "no": {
-                  "resultado": "SERENIDAD, SATISFACCIÓN"
+                  "resultado": "DESESPERANZA, DESÁNIMO"
                 }
               },
               "no": {
-                "pregunta": "8.- ¿Se relaciona con la confianza o la autoestima?",
+                "pregunta": "8.- ¿Está relacionada con el miedo?",
                 "si": {
-                  "pregunta": "9.- ¿Es hacia uno mismo?",
+                  "pregunta": "9.- ¿Es por un peligro real?",
                   "si": {
-                    "resultado": "AUTOESTIMA, AUTOCONFIANZA, SEGURIDAD"
+                    "resultado": "MIEDO, TEMOR, PÁNICO"
                   },
                   "no": {
-                    "pregunta": "10.- ¿Se relaciona con el enojo?",
-                    "si": {
-                      "resultado": "IRA (Enojo, furia, rabia, indignación)"
-                    },
-                    "no": {
-                      "resultado": "FRUSTRACIÓN (Descontento, fastidio, impotencia)"
-                    }
+                    "resultado": "ANSIEDAD, INQUIETUD, NERVIOSISMO"
                   }
                 },
                 "no": {
-                  "pregunta": "9.- ¿Está asociada con un estado mental elevado o inspirado?",
+                  "pregunta": "9.- ¿Implica sentimientos de inadecuación?",
                   "si": {
-                    "pregunta": "10.- ¿Implica creatividad o propósito trascendente?",
+                    "pregunta": "10.- ¿Es por una acción realizada?",
                     "si": {
-                      "resultado": "INSPIRACIÓN, MOTIVACIÓN, PROPÓSITO"
+                      "resultado": "CULPA, REMORDIMIENTO, ARREPENTIMIENTO"
                     },
                     "no": {
-                      "resultado": "ELEVACIÓN, ÉXTASIS, ESPIRITUALIDAD"
+                      "resultado": "VERGÜENZA, HUMILLACIÓN, BAJA AUTOESTIMA"
                     }
                   },
                   "no": {
-                    "resultado": "OTRA EMOCIÓN POSITIVA"
+                    "resultado": "ABURRIMIENTO, APATÍA, DESINTERÉS"
                   }
                 }
               }
@@ -1937,7 +1949,9 @@
               }
             }
           },
-          "no": {}
+          "no": {
+            "resultado": "FALTA"
+          }
         }
       }
     },
@@ -3093,7 +3107,7 @@
                                 "si": {
                                   "pregunta": "17. ¿Mide la cantidad de información?",
                                   "si": {
-                                    "resultado": "INFORMACIÓN (Bit, Entropía de Shannon)"
+                                    "resultado": "BIT, BYTE, NIBBLE, WORD"
                                   },
                                   "no": {
                                     "pregunta": "18. ¿Estudia la transmisión eficiente de información?",
@@ -3549,6 +3563,9 @@
             }
           }
         }
+      },
+      "no": {
+        "resultado": "NADA"
       }
     }
   }

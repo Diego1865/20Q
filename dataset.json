@@ -1605,33 +1605,33 @@
               }
             }
           },
-"no": {
-  "pregunta": "5.- ¿Se relaciona más con actitudes o valores personales?",
-  "si": {
-    "pregunta": "6.- ¿Implica una orientación ética o moral?",
-    "si": {
-      "resultado": "VALORES (Justicia, Honestidad, Respeto, Solidaridad)"
-    },
-    "no": {
-      "pregunta": "7.- ¿Se relaciona con la motivación para actuar?",
-      "si": {
-        "resultado": "ACTITUDES (Perseverancia, Tolerancia, Paciencia)"
-      },
-      "no": {
-        "resultado": "OTROS ESTADOS PERSONALES (Curiosidad, Apertura, Indiferencia)"
-      }
-    }
-  },
-  "no": {
-    "pregunta": "6.- ¿Es una disposición existencial o filosófica?",
-    "si": {
-      "resultado": "ESTADOS EXISTENCIALES (Esperanza, Fe, Sentido de vida)"
-    },
-    "no": {
-      "resultado": "OTROS ESTADOS HUMANOS (Indecisión, Búsqueda, Duda)"
-    }
-  }
-}
+            "no": {
+              "pregunta": "5.- ¿Se relaciona más con actitudes o valores personales?",
+              "si": {
+                "pregunta": "6.- ¿Implica una orientación ética o moral?",
+                "si": {
+                  "resultado": "VALORES (Justicia, Honestidad, Respeto, Solidaridad)"
+                },
+                "no": {
+                  "pregunta": "7.- ¿Se relaciona con la motivación para actuar?",
+                  "si": {
+                    "resultado": "ACTITUDES (Perseverancia, Tolerancia, Paciencia)"
+                  },
+                  "no": {
+                    "resultado": "OTROS ESTADOS PERSONALES (Curiosidad, Apertura, Indiferencia)"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6.- ¿Es una disposición existencial o filosófica?",
+                "si": {
+                  "resultado": "ESTADOS EXISTENCIALES (Esperanza, Fe, Sentido de vida)"
+                },
+                "no": {
+                  "resultado": "OTROS ESTADOS HUMANOS (Indecisión, Búsqueda, Duda)"
+                }
+              }
+            }
 
         }
       }

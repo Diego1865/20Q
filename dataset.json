@@ -1071,7 +1071,15 @@
                                     "no": {
                                         "pregunta": "9.- ¿Sirve para contener líquidos?",
                                         "si": { "resultado": "VASO / TAZA" },
-                                        "no": { "resultado": "CUCHARA / TENEDOR" }
+                                        "no": {
+                                          "pregunta":"10.- ¿Sirve para tomar la comida?",
+                                          "si":{
+                                            "resultado":"TENEDOR / CUCHARA"
+                                          },
+                                          "no":{
+                                            "resultado":"PLATO / TAZON"
+                                          }
+                                        }
                                     }
                                     },
                                     "no": { "resultado": "OTRO UTENSILIO" }

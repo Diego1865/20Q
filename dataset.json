@@ -955,42 +955,116 @@
           }
         },
         "no": {
-          "pregunta": "6.- ¿Es HERRAMIENTA o UTENSILIO manual?",
+  "pregunta": "6.- ¿Es HERRAMIENTA o UTENSILIO manual?",
+  "si": {
+    "pregunta": "7.- ¿Para construcción/repación?",
+    "si": { "resultado": "MARTILLO / DESTORNILLADOR / LLAVE / ALICATES / FLEXÓMETRO" },
+    "no": {
+      "pregunta": "8.- ¿Para cocina o mesa?",
+      "si": { "resultado": "CUCHILLO / CUCHARA / TENEDOR / OLLA / SARTÉN / PELADOR" },
+      "no": {
+        "pregunta": "9.- ¿Es de PAPELERÍA/ESCRITURA/DIBUJO?",
+        "si": {
+          "pregunta": "10.- ¿Usa grafito o carbón (no tinta)?",
           "si": {
-            "pregunta": "7.- ¿Para construcción/repación?",
-            "si": { "resultado": "MARTILLO / DESTORNILLADOR / LLAVE / ALICATES / FLEXÓMETRO" },
-            "no": {
-              "pregunta": "8.- ¿Para cocina o mesa?",
-              "si": { "resultado": "CUCHILLO / CUCHARA / TENEDOR / OLLA / SARTÉN / PELADOR" },
-              "no": { "resultado": "TIJERAS / CUTTER / PINCELES / CEPILLOS / OTRO UTENSILIO" }
-            }
+            "pregunta": "11.- ¿Es de madera o portaminas?",
+            "si": { "resultado": "LÁPIZ (HB/2B/…) / LÁPIZ DE COLORES" },
+            "no": { "resultado": "PORTAMINAS / MINAS / CARBÓN DE DIBUJO" }
           },
           "no": {
-            "pregunta": "7.- ¿Es OBJETO del HOGAR o MUEBLE?",
-            "si": {
-              "pregunta": "8.- ¿Sirve para sentarse/dormir/guardar?",
-              "si": { "resultado": "SILLA / SILLÓN / CAMA / COLCHÓN / ARMARIO / CÓMODA" },
-              "no": {
-                "pregunta": "9.- ¿Es mesa, superficie o iluminación no eléctrica?",
-                "si": { "resultado": "MESA / ESCRITORIO / BANCA / LÁMPARA DE ACEITE / CANDELABRO" },
-                "no": { "resultado": "DECORACIÓN / CUADRO / MARCO / CORTINAS / ALFOMBRA" }
-              }
-            },
+            "pregunta": "11.- ¿Es de tinta (boli, gel, pluma fuente, marcador)?",
+            "si": { "resultado": "PLUMA / BOLÍGRAFO / MARCADOR / PLUMA FUENTE / ROTULADOR" },
             "no": {
-              "pregunta": "8.- ¿Es PAPELERÍA u OFICINA?",
-              "si": {
-                "pregunta": "9.- ¿Sirve para escribir u organizar?",
-                "si": { "resultado": "LÁPIZ / PLUMA / MARCADOR / CUADERNO / LIBRETA / CARPETA" },
-                "no": { "resultado": "PAPEL / POST-ITS / SOBRES / GRAPAS / CLIPS" }
-              },
+              "pregunta": "12.- ¿Sirve para corregir, medir o cortar papel?",
+              "si": { "resultado": "BORRADOR / CORRECTOR / REGLA / ESCUADRA / CUTTER / TIJERAS" },
               "no": {
-                "pregunta": "9.- ¿Es CONTENEDOR o ALMACENAMIENTO?",
-                "si": { "resultado": "CAJA / CONTENEDOR / TUPPER / BOTELLA / TARRO / CESTA" },
-                "no": { "resultado": "LIMPIEZA (ESCOBA / TRAPEADOR / ESPONJA / PAÑO)" }
+                "pregunta": "13.- ¿Sirve para sujetar u organizar documentos?",
+                "si": { "resultado": "GRAPADORA / PERFORADORA / CLIPS / GRAPAS / SEPARADORES" },
+                "no": { "resultado": "OTRA PAPELERÍA (POST-ITS / NOTAS / CARTULINA / COMPÁS)" }
               }
             }
           }
+        },
+        "no": { "resultado": "OTRO UTENSILIO (PINCELES / CEPILLOS / ESPÁTULA / PINZAS)" }
+      }
+    }
+  },
+  "no": {
+    "pregunta": "7.- ¿Es OBJETO del HOGAR o MUEBLE?",
+    "si": {
+      "pregunta": "8.- ¿Sirve para sentarse/dormir/guardar?",
+      "si": { "resultado": "SILLA / SILLÓN / CAMA / COLCHÓN / ARMARIO / CÓMODA" },
+      "no": {
+        "pregunta": "9.- ¿Es mesa, superficie o iluminación no eléctrica?",
+        "si": { "resultado": "MESA / ESCRITORIO / BANCA / LÁMPARA DE ACEITE / CANDELABRO" },
+        "no": { "resultado": "DECORACIÓN / CUADRO / MARCO / CORTINAS / ALFOMBRA" }
+      }
+    },
+    "no": {
+  "pregunta": "8.- ¿Es PAPELERÍA u OFICINA?",
+  "si": {
+    "pregunta": "9.- ¿Sirve para escribir, dibujar o organizar?",
+    "si": {
+      "pregunta": "10.- ¿Usa grafito o carbón (no tinta)?",
+      "si": {
+        "pregunta": "11.- ¿Es de madera o portaminas?",
+        "si": { "resultado": "LÁPIZ (HB/2B/…) / LÁPIZ DE COLORES" },
+        "no": { "resultado": "PORTAMINAS / MINAS / CARBÓN DE DIBUJO" }
+      },
+      "no": {
+        "pregunta": "11.- ¿Usa tinta (bolígrafo, gel, pluma fuente, marcador)?",
+        "si": { "resultado": "PLUMA / BOLÍGRAFO / MARCADOR / PLUMA FUENTE / ROTULADOR" },
+        "no": {
+          "pregunta": "12.- ¿Corrige, mide o corta papel?",
+          "si": { "resultado": "BORRADOR / CORRECTOR / REGLA / ESCUADRA / CUTTER / TIJERAS" },
+          "no": {
+            "pregunta": "13.- ¿Sujeta u organiza documentos?",
+            "si": { "resultado": "GRAPADORA / PERFORADORA / CLIPS / GRAPAS / SEPARADORES" },
+            "no": { "resultado": "OTRA PAPELERÍA (POST-ITS / NOTAS / CARTULINA / COMPÁS)" }
+          }
         }
+      }
+    },
+    "no": {
+      "pregunta": "10.- ¿Es material de lectura/impreso (se usa para leer)?",
+      "si": {
+        "pregunta": "11.- ¿Está encuadernado (tiene lomo/cubiertas)?",
+        "si": {
+          "pregunta": "12.- ¿Tiene tapa dura?",
+          "si": { "resultado": "LIBRO (TAPA DURA)" },
+          "no": {
+            "pregunta": "13.- ¿Es de hojas blancas para notas?",
+            "si": { "resultado": "CUADERNO / LIBRETA / AGENDA (ESPIRAL/ENCUADERNADA)" },
+            "no": { "resultado": "LIBRO (TAPA BLANDA)" }
+          }
+        },
+        "no": {
+          "pregunta": "12.- ¿Se publica periódicamente?",
+          "si": {
+            "pregunta": "13.- ¿Es un diario de noticias?",
+            "si": { "resultado": "PERIÓDICO" },
+            "no": { "resultado": "REVISTA" }
+          },
+          "no": {
+            "pregunta": "13.- ¿Es breve/plegable o de pocas páginas?",
+            "si": { "resultado": "FOLLETO / TRÍPTICO / VOLANTE" },
+            "no": { "resultado": "MANUAL / CATÁLOGO / INFORME / DOSSIER" }
+          }
+        }
+      },
+      "no": { "resultado": "PAPEL / POST-ITS / SOBRES / GRAPAS / CLIPS" }
+    }
+  },
+  "no": {
+    "pregunta": "9.- ¿Es CONTENEDOR o ALMACENAMIENTO?",
+    "si": { "resultado": "CAJA / CONTENEDOR / TUPPER / BOTELLA / TARRO / CESTA" },
+    "no": { "resultado": "LIMPIEZA (ESCOBA / TRAPEADOR / ESPONJA / PAÑO)" }
+  }
+}
+
+  }
+}
+
       }
     },
     "no": {

@@ -1,10 +1,10 @@
 {
-    "pregunta": "1.- ¿Es un objeto/entidad tangible?",
+  "pregunta": "1.- ¿Es un objeto/entidad tangible?",
+  "si": {
+    "pregunta": "2.- ¿Es o fue un ser vivo?",
     "si": {
-        "pregunta": "2.- ¿Es o fue un ser vivo?",
-        "si": {
-        "pregunta": "3.- ¿Es un animal?",
-        "si": {
+      "pregunta": "3.- ¿Es un animal?",
+      "si": {
         "pregunta": "4.- ¿Tiene huesos (vertebrado)?",
         "si": {
           "pregunta": "5.- ¿Vive en el agua?",
@@ -227,54 +227,54 @@
                 "si": {
                   "pregunta": "9.- ¿Tiene garras?",
                   "si": {
-                    "pregunta":"10.- ¿Es felino?",
-                    "si":{
-                      "pregunta":"11.- ¿Es grande?",
-                      "si":{
-                        "pregunta":"12.- ¿Tiene melena?",
-                        "si":{
-                          "resultado":"LEON"
+                    "pregunta": "10.- ¿Es felino?",
+                    "si": {
+                      "pregunta": "11.- ¿Es grande?",
+                      "si": {
+                        "pregunta": "12.- ¿Tiene melena?",
+                        "si": {
+                          "resultado": "LEON"
                         },
-                        "no":{
-                          "pregunta":"13.- ¿Es naranja con rayas negras?",
-                          "si":{
-                            "resultado":"TIGRE"
+                        "no": {
+                          "pregunta": "13.- ¿Es naranja con rayas negras?",
+                          "si": {
+                            "resultado": "TIGRE"
                           },
-                          "no":{
-                            "pregunta":"14.- ¿Es muy agil?",
-                            "si":{
-                              "resultado":"LEOPARDO"
+                          "no": {
+                            "pregunta": "14.- ¿Es muy agil?",
+                            "si": {
+                              "resultado": "LEOPARDO"
                             },
-                            "no":{
-                              "resultado":"JAGUAR"
+                            "no": {
+                              "resultado": "JAGUAR"
                             }
                           }
                         }
                       },
-                      "no":{
-                        "resultado":"GATO DOMESTICO"
+                      "no": {
+                        "resultado": "GATO DOMESTICO"
                       }
                     },
-                    "no":{
+                    "no": {
                       "pregunta": "11.- ¿Es canino?",
                       "si": {
-                        "pregunta":"12.- ¿Es domestico?",
-                        "si":{
-                          "resultado":"PERRO DOMESTICO"
+                        "pregunta": "12.- ¿Es domestico?",
+                        "si": {
+                          "resultado": "PERRO DOMESTICO"
                         },
-                        "no":{
-                          "pregunta":"13.- ¿Es solitario?",
-                          "si":{
-                            "pregunta":"14.- ¿Es pequeño y naranja?",
-                            "si":{
-                              "resultado":"ZORRO"
+                        "no": {
+                          "pregunta": "13.- ¿Es solitario?",
+                          "si": {
+                            "pregunta": "14.- ¿Es pequeño y naranja?",
+                            "si": {
+                              "resultado": "ZORRO"
                             },
-                            "no":{
-                              "resultado":"COYOTE"
+                            "no": {
+                              "resultado": "COYOTE"
                             }
                           },
-                          "no":{
-                            "resultado":"LOBO"
+                          "no": {
+                            "resultado": "LOBO"
                           }
                         }
                       },
@@ -296,68 +296,68 @@
                     }
                   },
                   "no": {
-                    "resultado":"TOPO"
+                    "resultado": "TOPO"
                   }
                 },
                 "no": {
                   "pregunta": "9.- ¿Tiene pezuñas?",
                   "si": {
-                    "pregunta":"10.- ¿Es un bovino?",
-                    "si":{
-                      "pregunta":"11.- ¿Es de la granja?",
-                      "si":{
-                        "pregunta":"12.- ¿Usualmente tiene manchas blancas con negro?",
-                        "si":{
-                          "resultado":"VACA"
+                    "pregunta": "10.- ¿Es un bovino?",
+                    "si": {
+                      "pregunta": "11.- ¿Es de la granja?",
+                      "si": {
+                        "pregunta": "12.- ¿Usualmente tiene manchas blancas con negro?",
+                        "si": {
+                          "resultado": "VACA"
                         },
-                        "no":{
-                          "resultado":"CABRA"
+                        "no": {
+                          "resultado": "CABRA"
                         }
                       },
-                      "no":{
-                        "pregunta":"12.- ¿Es nativo de Africa?",
-                        "si":{
-                          "resultado":"BUFALO"
+                      "no": {
+                        "pregunta": "12.- ¿Es nativo de Africa?",
+                        "si": {
+                          "resultado": "BUFALO"
                         },
-                        "no":{
-                          "resultado":"BISONTE"
+                        "no": {
+                          "resultado": "BISONTE"
                         }
                       }
                     },
-                    "no":{
-                      "pregunta":"11.- ¿Es un equino?",
-                      "si":{
-                        "pregunta":"12.- ¿Tiene orejas largas?",
-                        "si":{
-                          "resultado":"BURRO"
+                    "no": {
+                      "pregunta": "11.- ¿Es un equino?",
+                      "si": {
+                        "pregunta": "12.- ¿Tiene orejas largas?",
+                        "si": {
+                          "resultado": "BURRO"
                         },
-                        "no":{
-                          "pregunta":"13.- ¿Tiene rayas blancas y negras?",
-                          "si":{
-                            "resultado":"CEBRA"
+                        "no": {
+                          "pregunta": "13.- ¿Tiene rayas blancas y negras?",
+                          "si": {
+                            "resultado": "CEBRA"
                           },
-                          "no":{
-                            "resultado":"CABALLO"
+                          "no": {
+                            "resultado": "CABALLO"
                           }
                         }
                       },
-                      "no":{
-                        "pregunta":"12.- ¿Tiene cuello largo?",
-                        "si":{
-                          "resultado":"JIRAFA"
+                      "no": {
+                        "pregunta": "12.- ¿Tiene cuello largo?",
+                        "si": {
+                          "resultado": "JIRAFA"
                         },
-                        "no":{
-                          "pregunta":"13.- ¿Es enorme?",
-                          "si":{
-                            "resultado":"ALCE"
+                        "no": {
+                          "pregunta": "13.- ¿Es enorme?",
+                          "si": {
+                            "resultado": "ALCE"
                           },
-                          "no":{
-                            "pregunta":"14.- ¿Es rosado?",
-                            "si":{
-                              "resultado":"CERDO"
+                          "no": {
+                            "pregunta": "14.- ¿Es rosado?",
+                            "si": {
+                              "resultado": "CERDO"
                             },
-                            "no":{
-                              "resultado":"VENADO"
+                            "no": {
+                              "resultado": "VENADO"
                             }
                           }
                         }
@@ -369,31 +369,31 @@
                     "si": {
                       "pregunta": "11.- ¿Tiene un par extra de dientes delanteros?",
                       "si": {
-                        "pregunta":"12.- ¿Vive en madrigueras?",
-                        "si":{
-                          "resultado":"CONEJO"
+                        "pregunta": "12.- ¿Vive en madrigueras?",
+                        "si": {
+                          "resultado": "CONEJO"
                         },
-                        "no":{
-                          "resultado":"LIEBRE"
+                        "no": {
+                          "resultado": "LIEBRE"
                         }
                       },
                       "no": {
-                        "pregunta":"12.- ¿Vive en los arboles?",
-                        "si":{
-                          "resultado":"ARDILLA"
+                        "pregunta": "12.- ¿Vive en los arboles?",
+                        "si": {
+                          "resultado": "ARDILLA"
                         },
-                        "no":{
-                          "pregunta":"12.- ¿Es traficado?",
-                          "si":{
-                            "resultado":"CAPIBARA"
+                        "no": {
+                          "pregunta": "12.- ¿Es traficado?",
+                          "si": {
+                            "resultado": "CAPIBARA"
                           },
-                          "no":{
-                            "pregunta":"13.- ¿Es pequeño?",
-                            "si":{
-                              "resultado":"RATON"
+                          "no": {
+                            "pregunta": "13.- ¿Es pequeño?",
+                            "si": {
+                              "resultado": "RATON"
                             },
-                            "no":{
-                              "resultado":"RATA"
+                            "no": {
+                              "resultado": "RATA"
                             }
                           }
                         }
@@ -407,12 +407,12 @@
                       "no": {
                         "pregunta": "12.- ¿Vive en árboles y come sobre todo hojas?",
                         "si": {
-                          "pregunta":"13.- ¿Es lento",
-                          "si":{
-                            "resultado":"PEREZOSO"
+                          "pregunta": "13.- ¿Es lento",
+                          "si": {
+                            "resultado": "PEREZOSO"
                           },
-                          "no":{
-                            "resultado":"MONO"
+                          "no": {
+                            "resultado": "MONO"
                           }
                         },
                         "no": {
@@ -421,7 +421,7 @@
                             "resultado": "CANGURO"
                           },
                           "no": {
-                            "resultado":"CHIMPANCE"
+                            "resultado": "CHIMPANCE"
                           }
                         }
                       }
@@ -432,16 +432,16 @@
               "no": {
                 "pregunta": "8.- ¿Tiene escamas?",
                 "si": {
-                  "pregunta":"9.- ¿Tiene patas?",
-                  "si":{
-                    "resultado":"LAGARTO"
+                  "pregunta": "9.- ¿Tiene patas?",
+                  "si": {
+                    "resultado": "LAGARTO"
                   },
-                  "no":{
-                    "resultado":"SERPIENTE TERRESTRE"
+                  "no": {
+                    "resultado": "SERPIENTE TERRESTRE"
                   }
                 },
                 "no": {
-                  "resultado":"AVESTRUZ"
+                  "resultado": "AVESTRUZ"
                 }
               }
             }
@@ -606,8 +606,8 @@
             }
           }
         }
-        },
-        "no": {
+      },
+      "no": {
         "pregunta": "3.- ¿Es una planta?",
         "si": {
           "pregunta": "4.- ¿Es leñosa (árbol o arbusto)?",
@@ -859,558 +859,834 @@
           }
         }
       }
-        },
-        "no": {
-            "pregunta": "2.- ¿Es un objeto terrestre?",
-            "si": {
-                "pregunta": "3.- ¿Es un producto derivado de un ser vivo?",
-                "si": {
-                    "pregunta": "4.- ¿Proviene de un animal?",
-                    "si": {
-                            "pregunta": "5.- ¿Es comestible?",
-                            "si": {
-                                "pregunta": "6.- ¿Es un producto lácteo?",
-                                "si": {
-                                    "pregunta": "7.- ¿Es sólido?",
-                                    "si": {
-                                        "pregunta": "8.- ¿Se madura con el tiempo?",
-                                        "si": { "resultado": "QUESO CURADO" },
-                                        "no": { "resultado": "QUESO FRESCO" }
-                                    },
-                                    "no": {
-                                        "pregunta": "8.- ¿Está fermentado?",
-                                        "si": { "resultado": "YOGURT / KEFIR" },
-                                        "no": { "resultado": "LECHE" }
-                                    }
-                                },
-                                "no": {
-                                "pregunta": "7.- ¿Proviene de un insecto?",
-                                "si": {
-                                    "pregunta": "8.- ¿Se produce en colmenas?",
-                                    "si": { "resultado": "MIEL" },
-                                    "no": { "resultado": "JALEA REAL / PROPÓLEO" }
-                                },
-                                "no": {
-                                    "pregunta": "8.- ¿Es un huevo?",
-                                    "si": {
-                                        "pregunta": "9.- ¿Proviene de ave de corral?",
-                                        "si": { "resultado": "HUEVO DE GALLINA" },
-                                        "no": { "resultado": "HUEVO DE CODORNIZ / PATO" }
-                                    },
-                                    "no": { "resultado": "OTRO PRODUCTO ANIMAL COMESTIBLE" }
-                                }
-                                }
-                            },
-                            "no": {
-                                "pregunta": "6.- ¿Se usa como material?",
-                                "si": {
-                                    "pregunta": "7.- ¿Es una fibra o piel?",
-                                    "si": {
-                                        "pregunta": "8.- ¿Proviene de un mamífero?",
-                                        "si": {
-                                            "pregunta": "9.- ¿Es textil?",
-                                            "si": { "resultado": "LANA / PELO (alpaca, camello)" },
-                                            "no": { "resultado": "CUERO / PIEL" }
-                                        },
-                                        "no": {
-                                            "pregunta": "9.- ¿Proviene de insecto?",
-                                            "si": { "resultado": "SEDA" },
-                                            "no": { "resultado": "OTRO MATERIAL ANIMAL" }
-                                        }
-                                    },
-                                    "no": {
-                                        "pregunta": "8.- ¿Es usado como medicina o cosmético?",
-                                        "si": { "resultado": "ACEITE DE PESCADO / JALEA REAL" },
-                                        "no": { "resultado": "OTRO PRODUCTO MATERIAL ANIMAL" }
-                                    }
-                                },
-                                "no": { "resultado": "PRODUCTO ANIMAL VARIADO" }
-                            }
-                    },
-                    "no": {
-                        "pregunta": "5.- ¿Proviene de una planta?",
-                        "si": {
-                            "pregunta": "6.- ¿Es comestible?",
-                            "si": {
-                                "pregunta": "7.- ¿Es una bebida?",
-                                "si": {
-                                        "pregunta": "8.- ¿Es alcohólica?",
-                                        "si": {
-                                            "pregunta": "9.- ¿Proviene de frutas?",
-                                            "si": { "resultado": "VINO" },
-                                            "no": {
-                                                "pregunta": "10.- ¿Proviene de cereales o granos?",
-                                                "si": {
-                                                    "pregunta": "11.- ¿Es destilado?",
-                                                    "si": { "resultado": "WHISKY / RON / TEQUILA" },
-                                                    "no": { "resultado": "CERVEZA" }
-                                                },
-                                                "no": { "resultado": "OTRAS BEBIDAS FERMENTADAS" }
-                                                }
-                                        },
-                                        "no": {
-                                            "pregunta": "9.- ¿Se obtiene por infusión?",
-                                            "si": {
-                                            "pregunta": "10.- ¿Proviene de hojas?",
-                                            "si": { "resultado": "TÉ" },
-                                            "no": { "resultado": "CAFÉ / CACAO" }
-                                            },
-                                            "no": { "resultado": "JUGO NATURAL" }
-                                        }
-                                },
-                                "no": {
-                                        "pregunta": "8.- ¿Es sólido o procesado?",
-                                        "si": {
-                                            "pregunta": "9.- ¿Se usa como endulzante?",
-                                            "si": { "resultado": "AZÚCAR / MIEL DE AGAVE" },
-                                            "no": { "resultado": "HARINA / ACEITE VEGETAL" }
-                                        },
-                                        "no": { "resultado": "OTRO PRODUCTO VEGETAL COMESTIBLE" }
-                                }
-                            },
-                        "no": {
-                                    "pregunta": "7.- ¿Se usa como material o fibra?",
-                                    "si": {
-                                    "pregunta": "8.- ¿Sirve para fabricar ropa?",
-                                    "si": { "resultado": "ALGODÓN / LINO / CÁÑAMO" },
-                                    "no": { "resultado": "MADERA / PAPEL" }
-                                    },
-                                    "no": {
-                                    "pregunta": "8.- ¿Se usa con fines medicinales o aromáticos?",
-                                    "si": {
-                                        "pregunta": "9.- ¿Es especia culinaria?",
-                                        "si": { "resultado": "CANELA / CLAVO / PIMIENTA" },
-                                        "no": { "resultado": "HIERBAS MEDICINALES (menta, manzanilla)" }
-                                    },
-                                    "no": { "resultado": "OTRO PRODUCTO VEGETAL" }
-                                    }
-                        }
-                        },
-                        "no": { "resultado": "OTRO PRODUCTO NATURAL" }
-                    }
-                },
-                "no": {
-                    "pregunta": "3.- ¿Es un objeto creado por humanos?",
-                    "si": {
-                        "pregunta": "4.- ¿Funciona con electricidad?",
-                        "si": {
-                            "pregunta": "5.- ¿Es un dispositivo de comunicación?",
-                            "si": {
-                                "pregunta": "6.- ¿Es portátil?",
-                                "si": {
-                                    "pregunta": "7.- ¿Es un teléfono inteligente?",
-                                    "si": { "resultado": "TELÉFONO MÓVIL" },
-                                    "no": {
-                                        "pregunta": "8.- ¿Se usa para leer o ver contenido?",
-                                        "si": { "resultado": "TABLETA" },
-                                        "no": { "resultado": "TELÉFONO MÓVIL BÁSICO" }
-                                    }
-                                },
-                                "no": {
-                                    "pregunta": "7.- ¿Permite hacer videollamadas?",
-                                    "si": { "resultado": "COMPUTADORA CON CÁMARA" },
-                                    "no": { "resultado": "TELÉFONO FIJO" }
-                                }
-                            },
-                            "no": {
-                            "pregunta": "6.- ¿Se usa principalmente para entretenimiento?",
-                            "si": {
-                                "pregunta": "7.- ¿Proyecta imágenes?",
-                                "si": {
-                                "pregunta": "8.- ¿Es un televisor tradicional?",
-                                "si": { "resultado": "TELEVISOR" },
-                                "no": { "resultado": "PROYECTOR" }
-                                },
-                                "no": {
-                                "pregunta": "8.- ¿Se utiliza para videojuegos?",
-                                "si": { "resultado": "CONSOLA DE VIDEOJUEGOS" },
-                                "no": { "resultado": "RADIO / EQUIPO DE SONIDO" }
-                                }
-                            },
-                            "no": {
-                                "pregunta": "7.- ¿Se usa principalmente para trabajar o estudiar?",
-                                "si": {
-                                "pregunta": "8.- ¿Es portátil?",
-                                "si": { "resultado": "LAPTOP" },
-                                "no": {
-                                    "pregunta": "9.- ¿Se usa en oficinas?",
-                                    "si": { "resultado": "COMPUTADORA DE ESCRITORIO" },
-                                    "no": { "resultado": "IMPRESORA / ESCÁNER" }
-                                }
-                                },
-                                "no": {
-                                "pregunta": "8.- ¿Se utiliza para cocinar?",
-                                "si": {
-                                    "pregunta": "9.- ¿Sirve para calentar comida?",
-                                    "si": { "resultado": "HORNO MICROONDAS" },
-                                    "no": { "resultado": "LICUADORA / BATIDORA ELÉCTRICA" }
-                                },
-                                "no": { "resultado": "OTRO ELECTRODOMÉSTICO" }
-                                }
-                            }
-                            }
-                        },
-                        "no": {
-                            "pregunta": "5.- ¿Es una herramienta o utensilio?",
-                            "si": {
-                                "pregunta": "6.- ¿Se usa para construcción o reparación?",
-                                "si": {
-                                    "pregunta": "7.- ¿Se utiliza para golpear?",
-                                    "si": { "resultado": "MARTILLO" },
-                                    "no": {
-                                        "pregunta": "8.- ¿Sirve para apretar o soltar?",
-                                        "si": { "resultado": "DESTORNILLADOR / LLAVE INGLESA" },
-                                        "no": { "resultado": "OTRA HERRAMIENTA DE MANO" }
-                                    }
-                                },
-                                "no": {
-                                    "pregunta": "7.- ¿Se usa en la cocina?",
-                                    "si": {
-                                    "pregunta": "8.- ¿Sirve para cortar?",
-                                    "si": { "resultado": "CUCHILLO" },
-                                    "no": {
-                                        "pregunta": "9.- ¿Sirve para contener líquidos?",
-                                        "si": { "resultado": "VASO / TAZA" },
-                                        "no": { "resultado": "CUCHARA / TENEDOR" }
-                                    }
-                                    },
-                                    "no": { "resultado": "OTRO UTENSILIO" }
-                                }
-                            },
-                            "no": {
-                                "pregunta": "6.- ¿Es un objeto de uso personal?",
-                                "si": {
-                                    "pregunta": "7.- ¿Es ropa?",
-                                    "si": {
-                                        "pregunta": "8.- ¿Se usa en el torso?",
-                                        "si": { "resultado": "CAMISA / CAMISETA" },
-                                        "no": {
-                                            "pregunta": "9.- ¿Se usa en las piernas?",
-                                            "si": { "resultado": "PANTALÓN / FALDA" },
-                                            "no": { "resultado": "ZAPATOS / BOTAS" }
-                                        }
-                                    },
-                                    "no": {
-                                        "pregunta": "8.- ¿Es un accesorio?",
-                                        "si": {
-                                            "pregunta": "9.- ¿Se usa en la cabeza?",
-                                            "si": { "resultado": "GORRA / SOMBRERO" },
-                                            "no": { "resultado": "JOYERÍA / RELOJ" }
-                                        },
-                                        "no": { "resultado": "OTRO OBJETO PERSONAL" }
-                                    }
-                                },
-                                "no": {
-                                    "pregunta": "7.- ¿Es un objeto de transporte?",
-                                    "si": {
-                                        "pregunta": "8.- ¿Funciona con motor?",
-                                        "si": {
-                                            "pregunta": "9.- ¿Vuela?",
-                                            "si": { "resultado": "AVIÓN / DRON" },
-                                            "no": { "resultado": "AUTOMÓVIL / MOTOCICLETA" }
-                                        },
-                                        "no": {
-                                            "pregunta": "9.- ¿Se impulsa con pedales?",
-                                            "si": { "resultado": "BICICLETA" },
-                                            "no": { "resultado": "CARRETA / PATINETA" }
-                                        }
-                                    },
-                                    "no": {
-                                    "pregunta": "8.- ¿Es un objeto del hogar?",
-                                    "si": {
-                                        "pregunta": "9.- ¿Sirve para descansar?",
-                                        "si": { "resultado": "SILLA / CAMA" },
-                                        "no": { "resultado": "MESA / ARMARIO" }
-                                    },
-                                    "no": { "resultado": "OTRO OBJETO HECHO POR HUMANOS" }
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "no": { 
-                        "pregunta": "4.- ¿Es un mineral o roca?",
-                        "si": {
-                            "pregunta": "5.- ¿Es un MINERAL (sustancia pura/cristal) más que una ROCA (mezcla)?",
-                            "si": {
-                                "pregunta": "6.- ¿Es transparente o traslúcido?",
-                                "si": {
-                                    "pregunta": "7.- ¿Se usa como gema?",
-                                    "si": { "resultado": "GEMA (CUARZO/AMATISTA/DIAMANTE)" },
-                                    "no": { "resultado": "CRISTAL DE ROCA / HALITA / YESO" }
-                                },
-                                "no": {
-                                    "pregunta": "7.- ¿Tiene brillo metálico?",
-                                    "si": { "resultado": "METALES NATIVOS (ORO/PLATA/COBRE)" },
-                                    "no": {
-                                        "pregunta": "8.- ¿Reacciona con ácido (efervescencia)?",
-                                        "si": { "resultado": "CALCITA (MINERAL CARBONATADO)" },
-                                        "no": {
-                                            "pregunta": "9.- ¿Es fuertemente magnético?",
-                                            "si": { "resultado": "MAGNETITA / HEMATITA" },
-                                            "no": { "resultado": "OTRO MINERAL (FELDESPATO/MICA/OLIVINO)" }
-                                        }
-                                    }
-                                }
-                            },
-                            "no": {
-                                "pregunta": "6.- ¿Se formó por enfriamiento del magma (ÍGNEA)?",
-                                "si": {
-                                "pregunta": "7.- ¿Presenta cristales/grano grueso visibles a simple vista?",
-                                "si": { "resultado": "GRANITO / DIORITA (ÍGNEA INTRUSIVA)" },
-                                "no": {
-                                    "pregunta": "8.- ¿Es muy densa u oscura?",
-                                    "si": { "resultado": "BASALTO / ANDESITA (ÍGNEA EXTRUSIVA)" },
-                                    "no": { "resultado": "OBSIDIANA / PÓMEZ (VIDRIO VOLCÁNICO)" }
-                                }
-                                },
-                                "no": {
-                                "pregunta": "7.- ¿Se formó por compactación/cementación de sedimentos (SEDIMENTARIA)?",
-                                "si": {
-                                    "pregunta": "8.- ¿Es principalmente carbonatada (reacciona con ácido)?",
-                                    "si": { "resultado": "CALIZA / DOLOMÍA (SEDIMENTARIA)" },
-                                    "no": {
-                                    "pregunta": "9.- ¿Tiene granos de arena visibles?",
-                                    "si": { "resultado": "ARENISCA (SEDIMENTARIA)" },
-                                    "no": {
-                                        "pregunta": "10.- ¿Contiene capas finas o partículas muy finas?",
-                                        "si": { "resultado": "LUTITA / LIMOLITA (SEDIMENTARIA)" },
-                                        "no": { "resultado": "CONGLOMERADO / BRECHA (SEDIMENTARIA)" }
-                                    }
-                                    }
-                                },
-                                "no": {
-                                    "pregunta": "8.- ¿Muestra foliación o bandas por metamorfismo (METAMÓRFICA)?",
-                                    "si": {
-                                    "pregunta": "9.- ¿Tiene láminas finas fácilmente separables?",
-                                    "si": { "resultado": "PIZARRA / ESQUISTO (METAMÓRFICA)" },
-                                    "no": { "resultado": "GNEIS (METAMÓRFICA)" }
-                                    },
-                                    "no": {
-                                    "pregunta": "9.- ¿Proviene de caliza metamorfizada?",
-                                    "si": { "resultado": "MÁRMOL (METAMÓRFICA)" },
-                                    "no": { "resultado": "CUARCITA / ANFIBOLITA (METAMÓRFICA)" }
-                                    }
-                                }
-                                }
-                            }
-                        },
-                        "no": {
-                            "pregunta": "5.- ¿Es un cuerpo de agua?",
-                            "si": {
-                                "pregunta": "6.- ¿Es de agua salada?",
-                                "si": {
-                                    "pregunta": "7.- ¿Es muy grande y abierto?",
-                                    "si": { "resultado": "OCÉANO / MAR" },
-                                    "no": { "resultado": "GOLFO / BAHÍA / ESTUARIO" }
-                                },
-                                "no": {
-                                    "pregunta": "7.- ¿El agua fluye?",
-                                    "si": {
-                                        "pregunta": "8.- ¿Forma una caída pronunciada?",
-                                        "si": { "resultado": "CASCADA" },
-                                        "no": {
-                                            "pregunta": "9.- ¿Es un cauce grande y continuo?",
-                                            "si": { "resultado": "RÍO" },
-                                            "no": { "resultado": "ARROYO / RIACHUELO" }
-                                        }
-                                    },
-                                    "no": {
-                                        "pregunta": "8.- ¿Está parcialmente cerrado o subterráneo?",
-                                        "si": {
-                                            "pregunta": "9.- ¿Es un sumidero/pozo con agua?",
-                                            "si": { "resultado": "CENOTE" },
-                                            "no": { "resultado": "MANANTIAL / ACUÍFERO" }
-                                        },
-                                        "no": { "resultado": "LAGO / LAGUNA / ESTANQUE" }
-                                    }
-                                }
-                            },
-                            "no": {
-                                "pregunta": "6.- ¿Es una formación geológica?",
-                                "si": {
-                                "pregunta": "7.- ¿Es una elevación del terreno?",
-                                "si": {
-                                    "pregunta": "8.- ¿Tiene cráter y origen volcánico?",
-                                    "si": {
-                                    "pregunta": "9.- ¿Presenta actividad reciente?",
-                                    "si": { "resultado": "VOLCÁN ACTIVO" },
-                                    "no": { "resultado": "VOLCÁN INACTIVO / DORMIDO" }
-                                    },
-                                    "no": {
-                                    "pregunta": "9.- ¿Tiene gran altura y pendiente pronunciada?",
-                                    "si": { "resultado": "MONTAÑA" },
-                                    "no": { "resultado": "CERRO / COLINA" }
-                                    }
-                                },
-                                "no": {
-                                    "pregunta": "8.- ¿Es una depresión o cavidad?",
-                                    "si": {
-                                    "pregunta": "9.- ¿Se formó por disolución de roca caliza?",
-                                    "si": { "resultado": "CUEVA / CAVERNA KÁRSTICA" },
-                                    "no": { "resultado": "TUBO DE LAVA / CAVIDAD VOLCÁNICA" }
-                                    },
-                                    "no": {
-                                    "pregunta": "9.- ¿Es una gran extensión plana o una abertura del relieve?",
-                                    "si": { "resultado": "MESETA / LLANURA / VALLE" },
-                                    "no": {
-                                        "pregunta": "10.- ¿Es un relieve moldeado por viento o agua?",
-                                        "si": { "resultado": "DUNA / DELTA / ARCO ROCOSO" },
-                                        "no": { "resultado": "CAÑÓN / GARGANTA" }
-                                    }
-                                    }
-                                }
-                                },
-                                "no": {
-                                "pregunta": "7.- ¿Es un fenómeno natural?",
-                                "si": {
-                                    "pregunta": "8.- ¿Ocurre principalmente en la atmósfera?",
-                                    "si": {
-                                    "pregunta": "9.- ¿Implica precipitación o vientos extremos?",
-                                    "si": { "resultado": "TORMENTA / HURACÁN" },
-                                    "no": {
-                                        "pregunta": "10.- ¿Es un remolino de aire?",
-                                        "si": { "resultado": "TORNADO" },
-                                        "no": { "resultado": "ARCOÍRIS / AURORA / VIENTO" }
-                                    }
-                                    },
-                                    "no": {
-                                    "pregunta": "9.- ¿Proviene del interior de la Tierra?",
-                                    "si": { "resultado": "TERREMOTO / GEISER / ERUPCIÓN" },
-                                    "no": {
-                                        "pregunta": "10.- ¿Proviene del espacio?",
-                                        "si": { "resultado": "METEORO / ECLIPSE" },
-                                        "no": {
-                                        "pregunta": "11.- ¿Es descarga eléctrica o combustión?",
-                                        "si": { "resultado": "RAYO / FUEGO" },
-                                        "no": { "resultado": "OTRO FENÓMENO NATURAL" }
-                                        }
-                                    }
-                                    }
-                                },
-                                "no": { "resultado": "OTRO OBJETO NATURAL" }
-                                }
-                            }
-                        }
-                    }
-                }
-            },
-            "no":{
-                "pregunta": "4.- ¿Es un cuerpo celeste?",
-                "si": {
-                    "pregunta": "5.- ¿Es una estrella?",
-                    "si": {
-                        "pregunta": "6.- ¿Está sola (no es parte de sistema binario ni cúmulo)?",
-                        "si": {
-                            "pregunta": "7.- ¿Es la más cercana a la Tierra?",
-                            "si": { "resultado": "SOL" },
-                            "no": {
-                                "pregunta": "8.- ¿Es una gigante o supergigante?",
-                                "si": { "resultado": "GIGANTE ROJA / SUPERGIGANTE" },
-                                "no": {
-                                    "pregunta": "9.- ¿Es una estrella enana?",
-                                    "si": { "resultado": "ENANA ROJA / ENANA BLANCA" },
-                                    "no": { "resultado": "ESTRELLA DE SECUENCIA PRINCIPAL" }
-                                }
-                            }
-                        },
-                        "no": {
-                            "pregunta": "7.- ¿Es un sistema de dos estrellas?",
-                            "si": { "resultado": "SISTEMA BINARIO" },
-                            "no": { "resultado": "CÚMULO ESTELAR" }
-                        }
-                    },
-                    "no": {
-                        "pregunta": "6.- ¿Es un planeta?",
-                        "si": {
-                            "pregunta": "7.- ¿Es un planeta rocoso?",
-                            "si": {
-                                "pregunta": "8.- ¿Tiene atmósfera densa?",
-                                "si": { 
-                                    "pregunta": "9.- ¿Tiene vida conocida?",
-                                    "si": { "resultado": "TIERRA" },
-                                    "no": { "resultado": "VENUS" }
-                                },
-                                "no": {
-                                    "pregunta": "9.- ¿Presenta casquetes polares visibles?",
-                                    "si": { "resultado": "MARTE" },
-                                    "no": { "resultado": "MERCURIO" }
-                                }
-                            },
-                            "no": {
-                                "pregunta": "8.- ¿Tiene anillos prominentes?",
-                                "si": { "resultado": "SATURNO" },
-                                "no": {
-                                    "pregunta": "9.- ¿Es el más grande del sistema solar?",
-                                    "si": { "resultado": "JÚPITER" },
-                                    "no": { "resultado": "URANO / NEPTUNO" }
-                                }
-                            }
-                        },
-                        "no": {
-                            "pregunta": "7.- ¿Es un satélite natural?",
-                            "si": {
-                            "pregunta": "8.- ¿Orbita la Tierra?",
-                            "si": { "resultado": "LUNA" },
-                            "no": { "resultado": "LUNA DE OTRO PLANETA (p. ej., EUROPA, TITÁN)" }
-                            },
-                            "no": {
-                            "pregunta": "8.- ¿Es un cuerpo pequeño del sistema solar?",
-                            "si": {
-                                "pregunta": "9.- ¿Es de roca y metal?",
-                                "si": { "resultado": "ASTEROIDE / METEORITO" },
-                                "no": { "resultado": "COMETA" }
-                            },
-                            "no": { "resultado": "GALAXIA / NEBULOSA / ESTRELLA DE NEUTRONES" }
-                            }
-                        }
-                    }
-                },
-                "no": {
-                        "pregunta": "5.- ¿Es un fenómeno astronómico?",
-                        "si": {
-                            "pregunta": "6.- ¿Ocurre en la atmósfera terrestre?",
-                            "si": {
-                                "pregunta": "7.- ¿Se manifiesta con luz?",
-                                "si": {
-                                    "pregunta": "8.- ¿Es causado por partículas solares?",
-                                    "si": { "resultado": "AURORA BOREAL / AUSTRAL" },
-                                    "no": {
-                                        "pregunta": "9.- ¿Se ve como un arco en el cielo?",
-                                        "si": { "resultado": "ARCOÍRIS" },
-                                        "no": { "resultado": "HALO SOLAR / LUNAR" }
-                                    }
-                                },
-                                "no": {
-                                    "pregunta": "8.- ¿Implica precipitaciones?",
-                                    "si": { "resultado": "LLUVIA / GRANIZO / NIEVE" },
-                                    "no": { "resultado": "VIENTO / TORNADO" }
-                                }
-                            },
-                            "no": {
-                                "pregunta": "7.- ¿Es un evento cósmico?",
-                                "si": {
-                                "pregunta": "8.- ¿Implica colisión o impacto?",
-                                "si": { "resultado": "IMPACTO DE METEORITO" },
-                                "no": {
-                                    "pregunta": "9.- ¿Es un oscurecimiento de astros?",
-                                    "si": { "resultado": "ECLIPSE" },
-                                    "no": {
-                                    "pregunta": "10.- ¿Es explosión estelar?",
-                                    "si": { "resultado": "SUPERNOVA" },
-                                    "no": { "resultado": "OTRO FENÓMENO CÓSMICO" }
-                                    }
-                                }
-                                },
-                                "no": { "resultado": "OTRO FENÓMENO NATURAL" }
-                            }
-                        },
-                        "no": { "resultado": "OTRO OBJETO DEL UNIVERSO" }
-                }
-            }
-        }
     },
     "no": {
+      "pregunta": "2.- ¿Es un objeto terrestre?",
+      "si": {
+        "pregunta": "3.- ¿Es un producto derivado de un ser vivo?",
+        "si": {
+          "pregunta": "4.- ¿Proviene de un animal?",
+          "si": {
+            "pregunta": "5.- ¿Es comestible?",
+            "si": {
+              "pregunta": "6.- ¿Es un producto lácteo?",
+              "si": {
+                "pregunta": "7.- ¿Es sólido?",
+                "si": {
+                  "pregunta": "8.- ¿Se madura con el tiempo?",
+                  "si": {
+                    "resultado": "QUESO CURADO"
+                  },
+                  "no": {
+                    "resultado": "QUESO FRESCO"
+                  }
+                },
+                "no": {
+                  "pregunta": "8.- ¿Está fermentado?",
+                  "si": {
+                    "resultado": "YOGURT / KEFIR"
+                  },
+                  "no": {
+                    "resultado": "LECHE"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "7.- ¿Proviene de un insecto?",
+                "si": {
+                  "pregunta": "8.- ¿Se produce en colmenas?",
+                  "si": {
+                    "resultado": "MIEL"
+                  },
+                  "no": {
+                    "resultado": "JALEA REAL / PROPÓLEO"
+                  }
+                },
+                "no": {
+                  "pregunta": "8.- ¿Es un huevo?",
+                  "si": {
+                    "pregunta": "9.- ¿Proviene de ave de corral?",
+                    "si": {
+                      "resultado": "HUEVO DE GALLINA"
+                    },
+                    "no": {
+                      "resultado": "HUEVO DE CODORNIZ / PATO"
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRO PRODUCTO ANIMAL COMESTIBLE"
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "6.- ¿Se usa como material?",
+              "si": {
+                "pregunta": "7.- ¿Es una fibra o piel?",
+                "si": {
+                  "pregunta": "8.- ¿Proviene de un mamífero?",
+                  "si": {
+                    "pregunta": "9.- ¿Es textil?",
+                    "si": {
+                      "resultado": "LANA / PELO (alpaca, camello)"
+                    },
+                    "no": {
+                      "resultado": "CUERO / PIEL"
+                    }
+                  },
+                  "no": {
+                    "pregunta": "9.- ¿Proviene de insecto?",
+                    "si": {
+                      "resultado": "SEDA"
+                    },
+                    "no": {
+                      "resultado": "OTRO MATERIAL ANIMAL"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "8.- ¿Es usado como medicina o cosmético?",
+                  "si": {
+                    "resultado": "ACEITE DE PESCADO / JALEA REAL"
+                  },
+                  "no": {
+                    "resultado": "OTRO PRODUCTO MATERIAL ANIMAL"
+                  }
+                }
+              },
+              "no": {
+                "resultado": "PRODUCTO ANIMAL VARIADO"
+              }
+            }
+          },
+          "no": {
+            "pregunta": "5.- ¿Proviene de una planta?",
+            "si": {
+              "pregunta": "6.- ¿Es comestible?",
+              "si": {
+                "pregunta": "7.- ¿Es una bebida?",
+                "si": {
+                  "pregunta": "8.- ¿Es alcohólica?",
+                  "si": {
+                    "pregunta": "9.- ¿Proviene de frutas?",
+                    "si": {
+                      "resultado": "VINO"
+                    },
+                    "no": {
+                      "pregunta": "10.- ¿Proviene de cereales o granos?",
+                      "si": {
+                        "pregunta": "11.- ¿Es destilado?",
+                        "si": {
+                          "resultado": "WHISKY / RON / TEQUILA"
+                        },
+                        "no": {
+                          "resultado": "CERVEZA"
+                        }
+                      },
+                      "no": {
+                        "resultado": "OTRAS BEBIDAS FERMENTADAS"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "9.- ¿Se obtiene por infusión?",
+                    "si": {
+                      "pregunta": "10.- ¿Proviene de hojas?",
+                      "si": {
+                        "resultado": "TÉ"
+                      },
+                      "no": {
+                        "resultado": "CAFÉ / CACAO"
+                      }
+                    },
+                    "no": {
+                      "resultado": "JUGO NATURAL"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "8.- ¿Es sólido o procesado?",
+                  "si": {
+                    "pregunta": "9.- ¿Se usa como endulzante?",
+                    "si": {
+                      "resultado": "AZÚCAR / MIEL DE AGAVE"
+                    },
+                    "no": {
+                      "resultado": "HARINA / ACEITE VEGETAL"
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRO PRODUCTO VEGETAL COMESTIBLE"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "7.- ¿Se usa como material o fibra?",
+                "si": {
+                  "pregunta": "8.- ¿Sirve para fabricar ropa?",
+                  "si": {
+                    "resultado": "ALGODÓN / LINO / CÁÑAMO"
+                  },
+                  "no": {
+                    "resultado": "MADERA / PAPEL"
+                  }
+                },
+                "no": {
+                  "pregunta": "8.- ¿Se usa con fines medicinales o aromáticos?",
+                  "si": {
+                    "pregunta": "9.- ¿Es especia culinaria?",
+                    "si": {
+                      "resultado": "CANELA / CLAVO / PIMIENTA"
+                    },
+                    "no": {
+                      "resultado": "HIERBAS MEDICINALES (menta, manzanilla)"
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRO PRODUCTO VEGETAL"
+                  }
+                }
+              }
+            },
+            "no": {
+              "resultado": "OTRO PRODUCTO NATURAL"
+            }
+          }
+        },
+        "no": {
+          "pregunta": "3.- ¿Es un objeto creado por humanos?",
+          "si": {
+            "pregunta": "4.- ¿Funciona con electricidad?",
+            "si": {
+              "pregunta": "5.- ¿Es un dispositivo de comunicación?",
+              "si": {
+                "pregunta": "6.- ¿Es portátil?",
+                "si": {
+                  "pregunta": "7.- ¿Es un teléfono inteligente?",
+                  "si": {
+                    "resultado": "TELÉFONO MÓVIL"
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Se usa para leer o ver contenido?",
+                    "si": {
+                      "resultado": "TABLETA"
+                    },
+                    "no": {
+                      "resultado": "TELÉFONO MÓVIL BÁSICO"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Permite hacer videollamadas?",
+                  "si": {
+                    "resultado": "COMPUTADORA CON CÁMARA"
+                  },
+                  "no": {
+                    "resultado": "TELÉFONO FIJO"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6.- ¿Se usa principalmente para entretenimiento?",
+                "si": {
+                  "pregunta": "7.- ¿Proyecta imágenes?",
+                  "si": {
+                    "pregunta": "8.- ¿Es un televisor tradicional?",
+                    "si": {
+                      "resultado": "TELEVISOR"
+                    },
+                    "no": {
+                      "resultado": "PROYECTOR"
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Se utiliza para videojuegos?",
+                    "si": {
+                      "resultado": "CONSOLA DE VIDEOJUEGOS"
+                    },
+                    "no": {
+                      "resultado": "RADIO / EQUIPO DE SONIDO"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Se usa principalmente para trabajar o estudiar?",
+                  "si": {
+                    "pregunta": "8.- ¿Es portátil?",
+                    "si": {
+                      "resultado": "LAPTOP"
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Se usa en oficinas?",
+                      "si": {
+                        "resultado": "COMPUTADORA DE ESCRITORIO"
+                      },
+                      "no": {
+                        "resultado": "IMPRESORA / ESCÁNER"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Se utiliza para cocinar?",
+                    "si": {
+                      "pregunta": "9.- ¿Sirve para calentar comida?",
+                      "si": {
+                        "resultado": "HORNO MICROONDAS"
+                      },
+                      "no": {
+                        "resultado": "LICUADORA / BATIDORA ELÉCTRICA"
+                      }
+                    },
+                    "no": {
+                      "resultado": "OTRO ELECTRODOMÉSTICO"
+                    }
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "5.- ¿Es una herramienta o utensilio?",
+              "si": {
+                "pregunta": "6.- ¿Se usa para construcción o reparación?",
+                "si": {
+                  "pregunta": "7.- ¿Se utiliza para golpear?",
+                  "si": {
+                    "resultado": "MARTILLO"
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Sirve para apretar o soltar?",
+                    "si": {
+                      "resultado": "DESTORNILLADOR / LLAVE INGLESA"
+                    },
+                    "no": {
+                      "resultado": "OTRA HERRAMIENTA DE MANO"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Se usa en la cocina?",
+                  "si": {
+                    "pregunta": "8.- ¿Sirve para cortar?",
+                    "si": {
+                      "resultado": "CUCHILLO"
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Sirve para contener líquidos?",
+                      "si": {
+                        "resultado": "VASO / TAZA"
+                      },
+                      "no": {
+                        "resultado": "CUCHARA / TENEDOR"
+                      }
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRO UTENSILIO"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6.- ¿Es un objeto de uso personal?",
+                "si": {
+                  "pregunta": "7.- ¿Es ropa?",
+                  "si": {
+                    "pregunta": "8.- ¿Se usa en el torso?",
+                    "si": {
+                      "resultado": "CAMISA / CAMISETA"
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Se usa en las piernas?",
+                      "si": {
+                        "resultado": "PANTALÓN / FALDA"
+                      },
+                      "no": {
+                        "resultado": "ZAPATOS / BOTAS"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Es un accesorio?",
+                    "si": {
+                      "pregunta": "9.- ¿Se usa en la cabeza?",
+                      "si": {
+                        "resultado": "GORRA / SOMBRERO"
+                      },
+                      "no": {
+                        "resultado": "JOYERÍA / RELOJ"
+                      }
+                    },
+                    "no": {
+                      "resultado": "OTRO OBJETO PERSONAL"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Es un objeto de transporte?",
+                  "si": {
+                    "pregunta": "8.- ¿Funciona con motor?",
+                    "si": {
+                      "pregunta": "9.- ¿Vuela?",
+                      "si": {
+                        "resultado": "AVIÓN / DRON"
+                      },
+                      "no": {
+                        "resultado": "AUTOMÓVIL / MOTOCICLETA"
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Se impulsa con pedales?",
+                      "si": {
+                        "resultado": "BICICLETA"
+                      },
+                      "no": {
+                        "resultado": "CARRETA / PATINETA"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Es un objeto del hogar?",
+                    "si": {
+                      "pregunta": "9.- ¿Sirve para descansar?",
+                      "si": {
+                        "resultado": "SILLA / CAMA"
+                      },
+                      "no": {
+                        "resultado": "MESA / ARMARIO"
+                      }
+                    },
+                    "no": {
+                      "resultado": "OTRO OBJETO HECHO POR HUMANOS"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "no": {
+            "pregunta": "4.- ¿Es un mineral o roca?",
+            "si": {
+              "pregunta": "5.- ¿Es un MINERAL (sustancia pura/cristal) más que una ROCA (mezcla)?",
+              "si": {
+                "pregunta": "6.- ¿Es transparente o traslúcido?",
+                "si": {
+                  "pregunta": "7.- ¿Se usa como gema?",
+                  "si": {
+                    "resultado": "GEMA (CUARZO/AMATISTA/DIAMANTE)"
+                  },
+                  "no": {
+                    "resultado": "CRISTAL DE ROCA / HALITA / YESO"
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Tiene brillo metálico?",
+                  "si": {
+                    "resultado": "METALES NATIVOS (ORO/PLATA/COBRE)"
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Reacciona con ácido (efervescencia)?",
+                    "si": {
+                      "resultado": "CALCITA (MINERAL CARBONATADO)"
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Es fuertemente magnético?",
+                      "si": {
+                        "resultado": "MAGNETITA / HEMATITA"
+                      },
+                      "no": {
+                        "resultado": "OTRO MINERAL (FELDESPATO/MICA/OLIVINO)"
+                      }
+                    }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6.- ¿Se formó por enfriamiento del magma (ÍGNEA)?",
+                "si": {
+                  "pregunta": "7.- ¿Presenta cristales/grano grueso visibles a simple vista?",
+                  "si": {
+                    "resultado": "GRANITO / DIORITA (ÍGNEA INTRUSIVA)"
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Es muy densa u oscura?",
+                    "si": {
+                      "resultado": "BASALTO / ANDESITA (ÍGNEA EXTRUSIVA)"
+                    },
+                    "no": {
+                      "resultado": "OBSIDIANA / PÓMEZ (VIDRIO VOLCÁNICO)"
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Se formó por compactación/cementación de sedimentos (SEDIMENTARIA)?",
+                  "si": {
+                    "pregunta": "8.- ¿Es principalmente carbonatada (reacciona con ácido)?",
+                    "si": {
+                      "resultado": "CALIZA / DOLOMÍA (SEDIMENTARIA)"
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Tiene granos de arena visibles?",
+                      "si": {
+                        "resultado": "ARENISCA (SEDIMENTARIA)"
+                      },
+                      "no": {
+                        "pregunta": "10.- ¿Contiene capas finas o partículas muy finas?",
+                        "si": {
+                          "resultado": "LUTITA / LIMOLITA (SEDIMENTARIA)"
+                        },
+                        "no": {
+                          "resultado": "CONGLOMERADO / BRECHA (SEDIMENTARIA)"
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Muestra foliación o bandas por metamorfismo (METAMÓRFICA)?",
+                    "si": {
+                      "pregunta": "9.- ¿Tiene láminas finas fácilmente separables?",
+                      "si": {
+                        "resultado": "PIZARRA / ESQUISTO (METAMÓRFICA)"
+                      },
+                      "no": {
+                        "resultado": "GNEIS (METAMÓRFICA)"
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Proviene de caliza metamorfizada?",
+                      "si": {
+                        "resultado": "MÁRMOL (METAMÓRFICA)"
+                      },
+                      "no": {
+                        "resultado": "CUARCITA / ANFIBOLITA (METAMÓRFICA)"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "5.- ¿Es un cuerpo de agua?",
+              "si": {
+                "pregunta": "6.- ¿Es de agua salada?",
+                "si": {
+                  "pregunta": "7.- ¿Es muy grande y abierto?",
+                  "si": {
+                    "resultado": "OCÉANO / MAR"
+                  },
+                  "no": {
+                    "resultado": "GOLFO / BAHÍA / ESTUARIO"
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿El agua fluye?",
+                  "si": {
+                    "pregunta": "8.- ¿Forma una caída pronunciada?",
+                    "si": {
+                      "resultado": "CASCADA"
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Es un cauce grande y continuo?",
+                      "si": {
+                        "resultado": "RÍO"
+                      },
+                      "no": {
+                        "resultado": "ARROYO / RIACHUELO"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Está parcialmente cerrado o subterráneo?",
+                    "si": {
+                      "pregunta": "9.- ¿Es un sumidero/pozo con agua?",
+                      "si": {
+                        "resultado": "CENOTE"
+                      },
+                      "no": {
+                        "resultado": "MANANTIAL / ACUÍFERO"
+                      }
+                    },
+                    "no": {
+                      "resultado": "LAGO / LAGUNA / ESTANQUE"
+                    }
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "6.- ¿Es una formación geológica?",
+                "si": {
+                  "pregunta": "7.- ¿Es una elevación del terreno?",
+                  "si": {
+                    "pregunta": "8.- ¿Tiene cráter y origen volcánico?",
+                    "si": {
+                      "pregunta": "9.- ¿Presenta actividad reciente?",
+                      "si": {
+                        "resultado": "VOLCÁN ACTIVO"
+                      },
+                      "no": {
+                        "resultado": "VOLCÁN INACTIVO / DORMIDO"
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Tiene gran altura y pendiente pronunciada?",
+                      "si": {
+                        "resultado": "MONTAÑA"
+                      },
+                      "no": {
+                        "resultado": "CERRO / COLINA"
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "8.- ¿Es una depresión o cavidad?",
+                    "si": {
+                      "pregunta": "9.- ¿Se formó por disolución de roca caliza?",
+                      "si": {
+                        "resultado": "CUEVA / CAVERNA KÁRSTICA"
+                      },
+                      "no": {
+                        "resultado": "TUBO DE LAVA / CAVIDAD VOLCÁNICA"
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Es una gran extensión plana o una abertura del relieve?",
+                      "si": {
+                        "resultado": "MESETA / LLANURA / VALLE"
+                      },
+                      "no": {
+                        "pregunta": "10.- ¿Es un relieve moldeado por viento o agua?",
+                        "si": {
+                          "resultado": "DUNA / DELTA / ARCO ROCOSO"
+                        },
+                        "no": {
+                          "resultado": "CAÑÓN / GARGANTA"
+                        }
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "7.- ¿Es un fenómeno natural?",
+                  "si": {
+                    "pregunta": "8.- ¿Ocurre principalmente en la atmósfera?",
+                    "si": {
+                      "pregunta": "9.- ¿Implica precipitación o vientos extremos?",
+                      "si": {
+                        "resultado": "TORMENTA / HURACÁN"
+                      },
+                      "no": {
+                        "pregunta": "10.- ¿Es un remolino de aire?",
+                        "si": {
+                          "resultado": "TORNADO"
+                        },
+                        "no": {
+                          "resultado": "ARCOÍRIS / AURORA / VIENTO"
+                        }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "9.- ¿Proviene del interior de la Tierra?",
+                      "si": {
+                        "resultado": "TERREMOTO / GEISER / ERUPCIÓN"
+                      },
+                      "no": {
+                        "pregunta": "10.- ¿Proviene del espacio?",
+                        "si": {
+                          "resultado": "METEORO / ECLIPSE"
+                        },
+                        "no": {
+                          "pregunta": "11.- ¿Es descarga eléctrica o combustión?",
+                          "si": {
+                            "resultado": "RAYO / FUEGO"
+                          },
+                          "no": {
+                            "resultado": "OTRO FENÓMENO NATURAL"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "resultado": "OTRO OBJETO NATURAL"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "no": {
+        "pregunta": "4.- ¿Es un cuerpo celeste?",
+        "si": {
+          "pregunta": "5.- ¿Es una estrella?",
+          "si": {
+            "pregunta": "6.- ¿Está sola (no es parte de sistema binario ni cúmulo)?",
+            "si": {
+              "pregunta": "7.- ¿Es la más cercana a la Tierra?",
+              "si": {
+                "resultado": "SOL"
+              },
+              "no": {
+                "pregunta": "8.- ¿Es una gigante o supergigante?",
+                "si": {
+                  "resultado": "GIGANTE ROJA / SUPERGIGANTE"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Es una estrella enana?",
+                  "si": {
+                    "resultado": "ENANA ROJA / ENANA BLANCA"
+                  },
+                  "no": {
+                    "resultado": "ESTRELLA DE SECUENCIA PRINCIPAL"
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "7.- ¿Es un sistema de dos estrellas?",
+              "si": {
+                "resultado": "SISTEMA BINARIO"
+              },
+              "no": {
+                "resultado": "CÚMULO ESTELAR"
+              }
+            }
+          },
+          "no": {
+            "pregunta": "6.- ¿Es un planeta?",
+            "si": {
+              "pregunta": "7.- ¿Es un planeta rocoso?",
+              "si": {
+                "pregunta": "8.- ¿Tiene atmósfera densa?",
+                "si": {
+                  "pregunta": "9.- ¿Tiene vida conocida?",
+                  "si": {
+                    "resultado": "TIERRA"
+                  },
+                  "no": {
+                    "resultado": "VENUS"
+                  }
+                },
+                "no": {
+                  "pregunta": "9.- ¿Presenta casquetes polares visibles?",
+                  "si": {
+                    "resultado": "MARTE"
+                  },
+                  "no": {
+                    "resultado": "MERCURIO"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "8.- ¿Tiene anillos prominentes?",
+                "si": {
+                  "resultado": "SATURNO"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Es el más grande del sistema solar?",
+                  "si": {
+                    "resultado": "JÚPITER"
+                  },
+                  "no": {
+                    "resultado": "URANO / NEPTUNO"
+                  }
+                }
+              }
+            },
+            "no": {
+              "pregunta": "7.- ¿Es un satélite natural?",
+              "si": {
+                "pregunta": "8.- ¿Orbita la Tierra?",
+                "si": {
+                  "resultado": "LUNA"
+                },
+                "no": {
+                  "resultado": "LUNA DE OTRO PLANETA (p. ej., EUROPA, TITÁN)"
+                }
+              },
+              "no": {
+                "pregunta": "8.- ¿Es un cuerpo pequeño del sistema solar?",
+                "si": {
+                  "pregunta": "9.- ¿Es de roca y metal?",
+                  "si": {
+                    "resultado": "ASTEROIDE / METEORITO"
+                  },
+                  "no": {
+                    "resultado": "COMETA"
+                  }
+                },
+                "no": {
+                  "resultado": "GALAXIA / NEBULOSA / ESTRELLA DE NEUTRONES"
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "pregunta": "5.- ¿Es un fenómeno astronómico?",
+          "si": {
+            "pregunta": "6.- ¿Ocurre en la atmósfera terrestre?",
+            "si": {
+              "pregunta": "7.- ¿Se manifiesta con luz?",
+              "si": {
+                "pregunta": "8.- ¿Es causado por partículas solares?",
+                "si": {
+                  "resultado": "AURORA BOREAL / AUSTRAL"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Se ve como un arco en el cielo?",
+                  "si": {
+                    "resultado": "ARCOÍRIS"
+                  },
+                  "no": {
+                    "resultado": "HALO SOLAR / LUNAR"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "8.- ¿Implica precipitaciones?",
+                "si": {
+                  "resultado": "LLUVIA / GRANIZO / NIEVE"
+                },
+                "no": {
+                  "resultado": "VIENTO / TORNADO"
+                }
+              }
+            },
+            "no": {
+              "pregunta": "7.- ¿Es un evento cósmico?",
+              "si": {
+                "pregunta": "8.- ¿Implica colisión o impacto?",
+                "si": {
+                  "resultado": "IMPACTO DE METEORITO"
+                },
+                "no": {
+                  "pregunta": "9.- ¿Es un oscurecimiento de astros?",
+                  "si": {
+                    "resultado": "ECLIPSE"
+                  },
+                  "no": {
+                    "pregunta": "10.- ¿Es explosión estelar?",
+                    "si": {
+                      "resultado": "SUPERNOVA"
+                    },
+                    "no": {
+                      "resultado": "OTRO FENÓMENO CÓSMICO"
+                    }
+                  }
+                }
+              },
+              "no": {
+                "resultado": "OTRO FENÓMENO NATURAL"
+              }
+            }
+          },
+          "no": {
+            "resultado": "OTRO OBJETO DEL UNIVERSO"
+          }
+        }
+      }
+    }
+  },
+  "no": {
     "pregunta": "2.- ¿Pertenece al ámbito humano?",
     "si": {
       "pregunta": "3.- ¿Es una emoción?",
@@ -2150,9 +2426,745 @@
             }
           },
           "no": {
-            "pregunta": "6.- ¿Es un concepto científico abstracto?",
+            "pregunta": "6. ¿Es un concepto científico abstracto?",
             "si": {
-              "resultado": "CONCEPTO CIENTÍFICO ABSTRACTO (Energía, Entropía, Gravedad, Fuerza, Evolución, Información, Materia/Antimateria)"
+              "pregunta": "7. ¿Pertenece al dominio de las leyes y principios fundamentales?",
+              "si": {
+                "pregunta": "8. ¿Es una ley de la física?",
+                "si": {
+                  "pregunta": "9. ¿Gobierna la atracción entre masas?",
+                  "si": {
+                    "resultado": "LEY DE LA GRAVEDAD"
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Describe la relación entre fuerza, masa y aceleración?",
+                    "si": {
+                      "resultado": "LEYES DE NEWTON"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Establece la conservación de la energía?",
+                      "si": {
+                        "resultado": "LEYES DE LA TERMODINÁMICA"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Describe la invariancia de las leyes físicas para todos los observadores?",
+                        "si": {
+                          "resultado": "TEORÍA DE LA RELATIVIDAD"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Rige el comportamiento de lo muy pequeño (átomos, partículas)?",
+                          "si": {
+                            "resultado": "PRINCIPIOS DE LA MECÁNICA CUÁNTICA"
+                          },
+                          "no": {
+                            "resultado": "OTRA LEY FÍSICA FUNDAMENTAL"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "9. ¿Es un principio de otra ciencia?",
+                  "si": {
+                    "pregunta": "10. ¿Explica la diversidad de la vida?",
+                    "si": {
+                      "resultado": "SELECCIÓN NATURAL (Principio de la evolución)"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Describe la tendencia de los sistemas al desorden?",
+                      "si": {
+                        "resultado": "ENTROPÍA"
+                      },
+                      "no": {
+                        "resultado": "OTRO PRINCIPIO CIENTÍFICO"
+                      }
+                    }
+                  },
+                  "no": {
+                    "resultado": "PRINCIPIO CIENTÍFICO GENERAL"
+                  }
+                }
+              },
+              "no": {
+                "pregunta": "8. ¿Se refiere a una propiedad, magnitud o relación abstracta?",
+                "si": {
+                  "pregunta": "9. ¿Es una magnitud física fundamental?",
+                  "si": {
+                    "pregunta": "10. ¿Mide la cantidad de materia o la inercia de un cuerpo?",
+                    "si": {
+                      "resultado": "MASA (kg)"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Mide la duración de los eventos?",
+                      "si": {
+                        "resultado": "TIEMPO (s)"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Mide la extensión en una, dos o tres dimensiones?",
+                        "si": {
+                          "resultado": "LONGITUD (m) / ÁREA (m²) / VOLUMEN (m³)"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Mide la intensidad de una corriente eléctrica?",
+                          "si": {
+                            "resultado": "INTENSIDAD DE CORRIENTE ELÉCTRICA (A)"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Mide la cantidad de sustancia a nivel molecular?",
+                            "si": {
+                              "resultado": "CANTIDAD DE SUSTANCIA (mol)"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Mide la intensidad de la luz percibida?",
+                              "si": {
+                                "resultado": "INTENSIDAD LUMINOSA (cd)"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Mide el grado de calor o frío de un cuerpo?",
+                                "si": {
+                                  "resultado": "TEMPERATURA TERMODINÁMICA (K)"
+                                },
+                                "no": {
+                                  "resultado": "OTRA MAGNITUD FUNDAMENTAL (Ej: Ángulo plano - radianes)"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Es una magnitud física derivada?",
+                    "si": {
+                      "pregunta": "11. ¿Mide la capacidad para realizar trabajo o transferir calor?",
+                      "si": {
+                        "resultado": "ENERGÍA (J) / TRABAJO (J) / CALOR (J)"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Mide la rapidez con la que se realiza un trabajo?",
+                        "si": {
+                          "resultado": "POTENCIA (W)"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Mide la interacción que puede cambiar el movimiento de un cuerpo?",
+                          "si": {
+                            "resultado": "FUERZA (N)"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Mide la rapidez de cambio de la velocidad?",
+                            "si": {
+                              "resultado": "ACELERACIÓN (m/s²)"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Mide la rapidez de movimiento?",
+                              "si": {
+                                "resultado": "VELOCIDAD (m/s)"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Mide la fuerza aplicada por unidad de área?",
+                                "si": {
+                                  "resultado": "PRESIÓN (Pa)"
+                                },
+                                "no": {
+                                  "pregunta": "17. ¿Mide la cantidad de carga eléctrica que fluye por unidad de tiempo?",
+                                  "si": {
+                                    "resultado": "CORRIENTE ELÉCTRICA (A) - (aunque fundamental, también es derivable conceptualmente)"
+                                  },
+                                  "no": {
+                                    "pregunta": "18. ¿Mide la oposición que presenta un material al flujo de corriente?",
+                                    "si": {
+                                      "resultado": "RESISTENCIA ELÉCTRICA (Ω)"
+                                    },
+                                    "no": {
+                                      "pregunta": "19. ¿Mide la capacidad de un sistema para almacenar carga eléctrica?",
+                                      "si": {
+                                        "resultado": "CAPACITANCIA (F)"
+                                      },
+                                      "no": {
+                                        "pregunta": "20. ¿Mide el flujo de campo magnético?",
+                                        "si": {
+                                          "resultado": "FLUJO MAGNÉTICO (Wb)"
+                                        },
+                                        "no": {
+                                          "resultado": "OTRA MAGNITUD DERIVADA (Frecuencia - Hz, Carga eléctrica - C, Densidad - kg/m³)"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Es una propiedad de los materiales?",
+                      "si": {
+                        "pregunta": "12. ¿Mide la resistencia de un material a fluir?",
+                        "si": {
+                          "pregunta": "12. ¿Es una propiedad intrínseca (intensiva, no depende de la cantidad)?",
+                          "si": {
+                            "pregunta": "13. ¿Está relacionada con las propiedades mecánicas?",
+                            "si": {
+                              "pregunta": "14. ¿Mide la resistencia a la deformación permanente?",
+                              "si": {
+                                "resultado": "DUREZA"
+                              },
+                              "no": {
+                                "pregunta": "15. ¿Mide la resistencia a la fractura?",
+                                "si": {
+                                  "resultado": "TENACIDAD"
+                                },
+                                "no": {
+                                  "pregunta": "16. ¿Mide la capacidad de deformarse sin romperse?",
+                                  "si": {
+                                    "resultado": "DUCTILIDAD / MALEABILIDAD"
+                                  },
+                                  "no": {
+                                    "pregunta": "17. ¿Mide la capacidad de recuperar la forma original tras una deformación?",
+                                    "si": {
+                                      "resultado": "ELASTICIDAD / MÓDULO DE YOUNG"
+                                    },
+                                    "no": {
+                                      "pregunta": "18. ¿Mide la resistencia al flujo bajo tensión?",
+                                      "si": {
+                                        "resultado": "VISCOSIDAD"
+                                      },
+                                      "no": {
+                                        "pregunta": "19. ¿Mide la resistencia al desgaste por fricción?",
+                                        "si": {
+                                          "resultado": "RESISTENCIA A LA ABRASIÓN"
+                                        },
+                                        "no": {
+                                          "resultado": "OTRA PROPIEDAD MECÁNICA (Fatiga, Fluencia, Límite elástico)"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "no": {
+                              "pregunta": "14. ¿Está relacionada con las propiedades térmicas?",
+                              "si": {
+                                "pregunta": "15. ¿Mide la capacidad de conducir el calor?",
+                                "si": {
+                                  "resultado": "CONDUCTIVIDAD TÉRMICA"
+                                },
+                                "no": {
+                                  "pregunta": "16. ¿Mide la capacidad de expandirse con el calor?",
+                                  "si": {
+                                    "resultado": "COEFICIENTE DE EXPANSIÓN TÉRMICA"
+                                  },
+                                  "no": {
+                                    "pregunta": "17. ¿Mide la capacidad de almacenar energía térmica?",
+                                    "si": {
+                                      "resultado": "CAPACIDAD CALORÍFICA / CALOR ESPECÍFICO"
+                                    },
+                                    "no": {
+                                      "pregunta": "18. ¿Mide la temperatura a la que cambia de estado?",
+                                      "si": {
+                                        "resultado": "PUNTO DE FUSIÓN / PUNTO DE EBULLICIÓN"
+                                      },
+                                      "no": {
+                                        "resultado": "OTRA PROPIEDAD TÉRMICA (Resistencia al choque térmico)"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "no": {
+                                "pregunta": "15. ¿Está relacionada con las propiedades eléctricas y magnéticas?",
+                                "si": {
+                                  "pregunta": "16. ¿Mide la capacidad de conducir la electricidad?",
+                                  "si": {
+                                    "resultado": "CONDUCTIVIDAD ELÉCTRICA"
+                                  },
+                                  "no": {
+                                    "pregunta": "17. ¿Mide la oposición al flujo de corriente eléctrica?",
+                                    "si": {
+                                      "resultado": "RESISTIVIDAD ELÉCTRICA"
+                                    },
+                                    "no": {
+                                      "pregunta": "18. ¿Mide la respuesta a un campo magnético?",
+                                      "si": {
+                                        "pregunta": "19. ¿Se magnetiza permanentemente?",
+                                        "si": {
+                                          "resultado": "FERROMAGNETISMO"
+                                        },
+                                        "no": {
+                                          "pregunta": "20. ¿Se debilita un campo magnético aplicado?",
+                                          "si": {
+                                            "resultado": "DIAMAGNETISMO"
+                                          },
+                                          "no": {
+                                            "resultado": "PARAMAGNETISMO / PERMEABILIDAD MAGNÉTICA"
+                                          }
+                                        }
+                                      },
+                                      "no": {
+                                        "pregunta": "19. ¿Mide la capacidad de almacenar energía en un campo eléctrico?",
+                                        "si": {
+                                          "resultado": "CONSTANTE DIELÉCTRICA / PERMITIVIDAD"
+                                        },
+                                        "no": {
+                                          "resultado": "OTRA PROPIEDAD ELÉCTRICA (Superconductividad, Semiconductor)"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "no": {
+                                  "pregunta": "16. ¿Está relacionada con las propiedades ópticas?",
+                                  "si": {
+                                    "pregunta": "17. ¿Mide cómo se desvía la luz al pasar de un medio a otro?",
+                                    "si": {
+                                      "resultado": "ÍNDICE DE REFRACCIÓN"
+                                    },
+                                    "no": {
+                                      "pregunta": "18. ¿Mide la capacidad de absorber luz?",
+                                      "si": {
+                                        "resultado": "ABSORTANCIA / COEFICIENTE DE ABSORCIÓN"
+                                      },
+                                      "no": {
+                                        "pregunta": "19. ¿Mide la capacidad de reflejar luz?",
+                                        "si": {
+                                          "resultado": "REFLECTANCIA / BRILLO"
+                                        },
+                                        "no": {
+                                          "pregunta": "20. ¿Mide la capacidad de transmitir luz?",
+                                          "si": {
+                                            "resultado": "TRANSMITANCIA / OPACIDAD"
+                                          },
+                                          "no": {
+                                            "resultado": "OTRA PROPIEDAD ÓPTICA (Fotosensibilidad, Luminescencia)"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "no": {
+                                    "pregunta": "17. ¿Es una propiedad química o de superficie?",
+                                    "si": {
+                                      "pregunta": "18. ¿Mide la resistencia a la corrosión o oxidación?",
+                                      "si": {
+                                        "resultado": "RESISTENCIA A LA CORROSIÓN"
+                                      },
+                                      "no": {
+                                        "pregunta": "19. ¿Mide la energía de la superficie de un material?",
+                                        "si": {
+                                          "resultado": "TENSIÓN SUPERFICIAL"
+                                        },
+                                        "no": {
+                                          "pregunta": "20. ¿Mide la capacidad de adsorber moléculas en su superficie?",
+                                          "si": {
+                                            "resultado": "ADSORCIÓN / POROSIDAD"
+                                          },
+                                          "no": {
+                                            "resultado": "OTRA PROPIEDAD QUÍMICA/SUPERFICIE (Reactividad, Hidrofilicidad/Hidrofobicidad)"
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "no": {
+                                      "pregunta": "18. ¿Es una propiedad general inherente?",
+                                      "si": {
+                                        "pregunta": "19. ¿Mide la masa contenida en una unidad de volumen?",
+                                        "si": {
+                                          "resultado": "DENSIDAD"
+                                        },
+                                        "no": {
+                                          "pregunta": "20. ¿Mide la relación entre la densidad de una sustancia y la del agua?",
+                                          "si": {
+                                            "resultado": "PESO ESPECÍFICO / GRAVEDAD ESPECÍFICA"
+                                          },
+                                          "no": {
+                                            "resultado": "OTRA PROPIEDAD INTRÍNSECA GENERAL (Color, Sabor, Olor)"
+                                          }
+                                        }
+                                      },
+                                      "no": {
+                                        "resultado": "OTRA PROPIEDAD INTRÍNSECA ESPECÍFICA"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "no": {
+                            "pregunta": "13. ¿Es una propiedad extrínseca (extensiva, depende de la cantidad)?",
+                            "si": {
+                              "pregunta": "14. ¿Mide la cantidad de materia presente?",
+                              "si": {
+                                "resultado": "MASA"
+                              },
+                              "no": {
+                                "pregunta": "15. ¿Mide el espacio que ocupa la materia?",
+                                "si": {
+                                  "resultado": "VOLUMEN"
+                                },
+                                "no": {
+                                  "pregunta": "16. ¿Mide la fuerza de atracción gravitacional sobre la materia?",
+                                  "si": {
+                                    "resultado": "PESO"
+                                  },
+                                  "no": {
+                                    "pregunta": "17. ¿Mide la cantidad de energía en un sistema?",
+                                    "si": {
+                                      "resultado": "ENERGÍA / CALOR (contentivo)"
+                                    },
+                                    "no": {
+                                      "pregunta": "18. ¿Mide la capacidad para realizar trabajo en un contexto específico?",
+                                      "si": {
+                                        "resultado": "TRABAJO (realizado)"
+                                      },
+                                      "no": {
+                                        "pregunta": "19. ¿Mide la inercia o resistencia al cambio de movimiento?",
+                                        "si": {
+                                          "resultado": "INERCIA"
+                                        },
+                                        "no": {
+                                          "resultado": "OTRA PROPIEDAD EXTENSIVA (Carga eléctrica total, Entropía de sistema)"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "no": {}
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Mide la capacidad de un material para conducir calor?",
+                          "si": {
+                            "resultado": "CONDUCTIVIDAD TÉRMICA"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Mide la capacidad de un material para conducir electricidad?",
+                            "si": {
+                              "resultado": "CONDUCTIVIDAD ELÉCTRICA / RESISTIVIDAD"
+                            },
+                            "no": {
+                              "resultado": "OTRA PROPIEDAD MATERIAL (Elasticidad, Densidad, Dureza)"
+                            }
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Es una magnitud adimensional?",
+                        "si": {
+                          "pregunta": "13. ¿Expresa una relación de dos longitudes?",
+                          "si": {
+                            "resultado": "ÁNGULO PLANO (radianes)"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Expresa una relación de dos magnitudes iguales?",
+                            "si": {
+                              "resultado": "PORCENTAJE"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Es un número que caracteriza flujos en fluidos?",
+                              "si": {
+                                "resultado": "NÚMERO DE REYNOLDS"
+                              },
+                              "no": {
+                                "resultado": "OTRA MAGNITUD ADIMENSIONAL"
+                              }
+                            }
+                          }
+                        },
+                        "no": {
+                          "resultado": "OTRO TIPO DE MAGNITUD FÍSICA"
+                        }
+                      }
+                    }
+                  }
+                },
+                "no": {
+                  "pregunta": "9. ¿Se refiere a una teoría, modelo o marco conceptual?",
+                  "si": {
+                    "pregunta": "10. ¿Explica el origen del universo?",
+                    "si": {
+                      "resultado": "TEORÍA DEL BIG BANG"
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Explica la herencia y variación de los seres vivos?",
+                      "si": {
+                        "resultado": "TEORÍA DE LA EVOLUCIÓN"
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Es un modelo atómico o de partículas?",
+                        "si": {
+                          "resultado": "MODELO ESTÁNDAR DE FÍSICA"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Describe sistemas complejos y comportamiento impredecible?",
+                          "si": {
+                            "resultado": "TEORÍA DEL CAOS"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Es una teoría de la computación?",
+                            "si": {
+                              "resultado": "TEORÍA DE LA INFORMACIÓN, COMPLEJIDAD COMPUTACIONAL"
+                            },
+                            "no": {
+                              "resultado": "OTRA TEORÍA"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "no": {
+                    "pregunta": "10. ¿Es un concepto matemático puro?",
+                    "si": {
+                      "pregunta": "11. ¿Es un número o concepto numérico abstracto?",
+                      "si": {
+                        "pregunta": "12. ¿Representa la nada o el valor nulo?",
+                        "si": {
+                          "resultado": "CERO"
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Representa la unidad o la identidad multiplicativa?",
+                          "si": {
+                            "resultado": "UNO"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Es un número irracional fundamental?",
+                            "si": {
+                              "pregunta": "15. ¿Relaciona la circunferencia con su diámetro?",
+                              "si": {
+                                "resultado": "PI"
+                              },
+                              "no": {
+                                "resultado": "NÚMERO AUREO, NÚMERO e"
+                              }
+                            },
+                            "no": {
+                              "resultado": "CONJUNTO DE NÚMEROS (Naturales, Enteros, Reales, Complejos)"
+                            }
+                          }
+                        }
+                      },
+                      "no": {
+                        "pregunta": "12. ¿Es una operación o relación?",
+                        "si": {
+                          "pregunta": "13. ¿Es una operación aritmética fundamental?",
+                          "si": {
+                            "resultado": "SUMA / RESTA / MULTIPLICACIÓN / DIVISIÓN"
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Es una operación de cálculo infinitesimal?",
+                            "si": {
+                              "resultado": "DERIVADA / INTEGRAL"
+                            },
+                            "no": {
+                              "resultado": "OTRA OPERACIÓN (Logaritmo, Potenciación, Raíz cuadrada)"
+                            }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Es una estructura o rama de las matemáticas?",
+                          "si": {
+                            "pregunta": "14. ¿Estudia las formas y el espacio?",
+                            "si": {
+                              "resultado": "GEOMETRÍA"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Estudia las estructuras abstractas y las relaciones?",
+                              "si": {
+                                "resultado": "ÁLGEBRA"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Estudia el cambio y el movimiento?",
+                                "si": {
+                                  "resultado": "CÁLCULO"
+                                },
+                                "no": {
+                                  "resultado": "OTRA RAMA (Estadística, Teoría de números, Topología)"
+                                }
+                              }
+                            }
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Se refiere a lo ilimitado o sin fin?",
+                            "si": {
+                              "resultado": "INFINITO"
+                            },
+                            "no": {
+                              "resultado": "OTRO CONCEPTO MATEMÁTICO (Ecuación, Función, Matriz, Límite)"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "no": {
+                      "pregunta": "11. ¿Es un concepto de lógica o computación teórica?",
+                      "si": {
+                        "pregunta": "12. ¿Se refiere a la estructura y validez del razonamiento?",
+                        "si": {
+                          "pregunta": "13. ¿Estudia las formas de inferencia válida?",
+                          "si": {
+                            "pregunta": "14. ¿Utiliza premisas y una conclusión?",
+                            "si": {
+                              "resultado": "SILOGISMO"
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Se basa en conectores lógicos (Y, O, NO, SI...ENTONCES)?",
+                              "si": {
+                                "resultado": "LÓGICA PROPOSICIONAL"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Involucra cuantificadores (PARA TODO, EXISTE)?",
+                                "si": {
+                                  "resultado": "PREDICADOS"
+                                },
+                                "no": {
+                                  "resultado": "OTRO SISTEMA LÓGICO (Modal, Difusa, Temporal)"
+                                }
+                              }
+                            }
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Se refiere a la consistencia de sistemas formales?",
+                            "si": {
+                              "pregunta": "15. ¿Demuestra que todo enunciado verdadero puede probarse?",
+                              "si": {
+                                "resultado": "COMPLETITUD"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Demuestra que no pueden probarse contradicciones?",
+                                "si": {
+                                  "resultado": "CONSISTENCIA"
+                                },
+                                "no": {
+                                  "resultado": "TEOREMA DE INCOMPLETUD DE GÖDEL"
+                                }
+                              }
+                            },
+                            "no": {
+                              "resultado": "TEORÍA DE MODELOS / TEORÍA DE LA DEMOSTRACIÓN"
+                            }
+                          }
+                        },
+                        "no": {
+                          "pregunta": "13. ¿Se refiere a la computación y procesamiento de información?",
+                          "si": {
+                            "pregunta": "14. ¿Define qué problemas pueden ser resueltos por algoritmos?",
+                            "si": {
+                              "pregunta": "15. ¿Establece límites fundamentales de la computación?",
+                              "si": {
+                                "resultado": "COMPUTABILIDAD (Problema de la parada, Tesis de Church-Turing)"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Define un modelo abstracto de computación?",
+                                "si": {
+                                  "resultado": "MÁQUINA DE TURING"
+                                },
+                                "no": {
+                                  "resultado": "FUNCIÓN RECURSIVA, CÁLCULO LAMBDA"
+                                }
+                              }
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Estudia los recursos necesarios para resolver problemas?",
+                              "si": {
+                                "pregunta": "16. ¿Se refiere al tiempo de ejecución?",
+                                "si": {
+                                  "resultado": "COMPLEJIDAD TEMPORAL (Clases P, NP, NP-completo)"
+                                },
+                                "no": {
+                                  "pregunta": "17. ¿Se refiere al espacio de memoria requerido?",
+                                  "si": {
+                                    "resultado": "COMPLEJIDAD ESPACIAL"
+                                  },
+                                  "no": {
+                                    "resultado": "TEORÍA DE LA COMPLEJIDAD COMPUTACIONAL"
+                                  }
+                                }
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Se refiere a la información y su codificación?",
+                                "si": {
+                                  "pregunta": "17. ¿Mide la cantidad de información?",
+                                  "si": {
+                                    "resultado": "INFORMACIÓN (Bit, Entropía de Shannon)"
+                                  },
+                                  "no": {
+                                    "pregunta": "18. ¿Estudia la transmisión eficiente de información?",
+                                    "si": {
+                                      "resultado": "CODIFICACIÓN"
+                                    },
+                                    "no": {
+                                      "resultado": "CIFRADO"
+                                    }
+                                  }
+                                },
+                                "no": {
+                                  "pregunta": "17. ¿Se refiere a la corrección de programas?",
+                                  "si": {
+                                    "resultado": "CORRECCIÓN"
+                                  },
+                                  "no": {
+                                    "resultado": "OTRO CONCEPTO DE COMPUTACIÓN (Autómata, Gramática formal)"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "no": {
+                            "pregunta": "14. ¿Se refiere a la semántica de lenguajes formales?",
+                            "si": {
+                              "pregunta": "15. ¿Estudia el significado de las expresiones?",
+                              "si": {
+                                "resultado": "SEMÁNTICA FORMAL"
+                              },
+                              "no": {
+                                "pregunta": "16. ¿Estudia la estructura de las expresiones?",
+                                "si": {
+                                  "resultado": "SINTAXIS FORMAL"
+                                },
+                                "no": {
+                                  "resultado": "LENGUAJE FORMAL"
+                                }
+                              }
+                            },
+                            "no": {
+                              "pregunta": "15. ¿Se refiere a tipos de datos y estructuras?",
+                              "si": {
+                                "pregunta": "16. ¿Clasifica datos por sus operaciones permitidas?",
+                                "si": {
+                                  "resultado": "TIPO DE DATO ABSTRACTO"
+                                },
+                                "no": {
+                                  "pregunta": "17. ¿Define estructuras de datos fundamentales?",
+                                  "si": {
+                                    "resultado": "ESTRUCTURA DE DATOS (Pila, Cola, Árbol, Grafo)"
+                                  },
+                                  "no": {
+                                    "resultado": "TIPO DE DATO ALGEBRAICO"
+                                  }
+                                }
+                              },
+                              "no": {
+                                "resultado": "OTRO CONCEPTO"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "no": {
+                        "resultado": "OTRO CONCEPTO CIENTÍFICO ABSTRACTO (Sistema, Emergencia, Modelo)"
+                      }
+                    }
+                  }
+                }
+              }
             },
             "no": {
               "pregunta": "7.- ¿Se relaciona con la percepción estética o creatividad?",
@@ -2185,5 +3197,5 @@
         }
       }
     }
-    }
+  }
 }
